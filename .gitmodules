@@ -1,0 +1,3 @@
+[submodule "ecad/lib"]
+	path = ecad/lib
+	url = git@gitlab.com:JOHNeMac36/unified-altium-library.git
