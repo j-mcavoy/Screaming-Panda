@@ -1,4 +1,0 @@
-Record=DiagramHierarchy|SourceDocument=Panda Boost.MbsDoc|Kind=Multi-board Schematic Module|Designator=2|Source=..\Effects Board\Effects Board.PrjPcb
-Record=SubProject|SourceDocument=Panda Boost.MbsDoc|ProjectPath=..\Effects Board\Effects Board.PrjPcb
-Record=DiagramHierarchy|SourceDocument=Panda Boost.MbsDoc|Kind=Multi-board Schematic Module|Designator=1|Source=..\Large Components Board\Large Components Board.PrjPcb
-Record=SubProject|SourceDocument=Panda Boost.MbsDoc|ProjectPath=..\Large Components Board\Large Components Board.PrjPcb
