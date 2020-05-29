@@ -6,7 +6,3 @@ ProjectPath=IOBoard\IOBoard.PrjPcb
 ProjectPath=EffectsBoard\EffectsBoard.PrjPcb
 [Project3]
 ProjectPath=Screaming Panda\ScreamingPanda.PrjMbd
-[Project4]
-ProjectPath=Effects Board\Effects Board.PrjPcb
-[Project5]
-ProjectPath=Large Components Board\Large Components Board.PrjPcb
