@@ -69,7 +69,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=c7275fa4-e066-4db7-88b7-d9ac540c7113
+DocumentUniqueId=16f85473-c08e-447f-878d-c1d33b584857
 
 [Document3]
 DocumentPath=..\IOBoard\IOBoard.PrjPcb
