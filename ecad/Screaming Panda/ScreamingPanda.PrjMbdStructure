@@ -1,4 +1,0 @@
-Record=DiagramHierarchy|SourceDocument=ScreamingPanda.MbsDoc|Kind=Multi-board Schematic Module|Designator=2|Source=..\EffectsBoard\EffectsBoard.PrjPcb
-Record=SubProject|SourceDocument=ScreamingPanda.MbsDoc|ProjectPath=..\EffectsBoard\EffectsBoard.PrjPcb
-Record=DiagramHierarchy|SourceDocument=ScreamingPanda.MbsDoc|Kind=Multi-board Schematic Module|Designator=1|Source=..\IOBoard\IOBoard.PrjPcb
-Record=SubProject|SourceDocument=ScreamingPanda.MbsDoc|ProjectPath=..\IOBoard\IOBoard.PrjPcb
