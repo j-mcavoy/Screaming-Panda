@@ -1,0 +1,142 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Screaming Panda I/O Board"
+Date "2021-01-16"
+Rev "0.1"
+Comp "Panda Pals"
+Comment1 "John McAvoy"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Barrel_Jack_Switch J?
+U 1 1 60040F6B
+P 10250 3350
+F 0 "J?" H 10020 3392 50  0000 R CNN
+F 1 "Barrel_Jack_Switch" H 10020 3301 50  0000 R CNN
+F 2 "" H 10300 3310 50  0001 C CNN
+F 3 "~" H 10300 3310 50  0001 C CNN
+	1    10250 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1250 1850 1450 1850
+Wire Wire Line
+	1250 1650 1450 1650
+Wire Wire Line
+	1450 1400 1450 1650
+$Comp
+L Connector:Barrel_Jack_Switch J?
+U 1 1 60045A33
+P 950 2800
+F 0 "J?" H 1007 3117 50  0000 C CNN
+F 1 "Input" H 1007 3026 50  0000 C CNN
+F 2 "" H 1000 2760 50  0001 C CNN
+F 3 "~" H 1000 2760 50  0001 C CNN
+	1    950  2800
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Barrel_Jack J?
+U 1 1 60046B30
+P 950 1750
+F 0 "J?" H 1007 2075 50  0000 C CNN
+F 1 "9VDC" H 1007 1984 50  0000 C CNN
+F 2 "" H 1000 1710 50  0001 C CNN
+F 3 "~" H 1000 1710 50  0001 C CNN
+	1    950  1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery BT?
+U 1 1 6004A125
+P 1450 2250
+F 0 "BT?" H 1558 2296 50  0000 L CNN
+F 1 "9V Bat" H 1558 2205 50  0000 L CNN
+F 2 "" V 1450 2310 50  0001 C CNN
+F 3 "~" V 1450 2310 50  0001 C CNN
+	1    1450 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 2700 1250 2700
+Wire Wire Line
+	1450 1850 1450 2050
+Wire Wire Line
+	1450 2450 1450 2700
+$Comp
+L power:GND #PWR?
+U 1 1 6004C157
+P 1400 2950
+F 0 "#PWR?" H 1400 2700 50  0001 C CNN
+F 1 "GND" H 1405 2777 50  0000 C CNN
+F 2 "" H 1400 2950 50  0001 C CNN
+F 3 "" H 1400 2950 50  0001 C CNN
+	1    1400 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 2900 1400 2900
+Wire Wire Line
+	1400 2900 1400 2950
+$Comp
+L power:+9V #PWR?
+U 1 1 6004CE7F
+P 1450 1400
+F 0 "#PWR?" H 1450 1250 50  0001 C CNN
+F 1 "+9V" H 1465 1573 50  0000 C CNN
+F 2 "" H 1450 1400 50  0001 C CNN
+F 3 "" H 1450 1400 50  0001 C CNN
+	1    1450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_3PST U?
+U 1 1 6003F5F8
+P 2350 2750
+F 0 "U?" H 2400 3075 50  0000 C CNN
+F 1 "SW_3PST" H 2400 2984 50  0000 C CNN
+F 2 "" H 2400 2900 50  0001 C CNN
+F 3 "" H 2400 2900 50  0001 C CNN
+	1    2350 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_3PST U?
+U 2 1 6003FC0A
+P 9650 3350
+F 0 "U?" H 9700 3675 50  0000 C CNN
+F 1 "SW_3PST" H 9700 3584 50  0000 C CNN
+F 2 "" H 9700 3500 50  0001 C CNN
+F 3 "" H 9700 3500 50  0001 C CNN
+	2    9650 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_3PST U?
+U 3 1 600403AC
+P 2100 3450
+F 0 "U?" H 2150 3775 50  0000 C CNN
+F 1 "SW_3PST" H 2150 3684 50  0000 C CNN
+F 2 "" H 2150 3600 50  0001 C CNN
+F 3 "" H 2150 3600 50  0001 C CNN
+	3    2100 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60041845
+P 2300 3550
+F 0 "#PWR?" H 2300 3300 50  0001 C CNN
+F 1 "GND" H 2305 3377 50  0000 C CNN
+F 2 "" H 2300 3550 50  0001 C CNN
+F 3 "" H 2300 3550 50  0001 C CNN
+	1    2300 3550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
