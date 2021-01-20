@@ -19,7 +19,7 @@ U 1 1 60049812
 P 700 1650
 F 0 "J1" H 732 1975 50  0000 C CNN
 F 1 "SN37A12A" H 732 1884 50  0000 C CNN
-F 2 "" H 700 1650 50  0001 C CNN
+F 2 "screaming-panda:SN37A" H 700 1650 50  0001 C CNN
 F 3 "https://www.switchcraft.com/Documents/Jack_Schematics.pdf" H 700 1650 50  0001 C CNN
 F 4 "J" H 700 1650 50  0001 C CNN "Spice_Primitive"
 F 5 "SN37A12A" H 700 1650 50  0001 C CNN "Spice_Model"
@@ -79,7 +79,7 @@ U 1 1 6004FDA1
 P 5400 1750
 F 0 "J4" H 5220 1718 50  0000 R CNN
 F 1 "SN37A12A" H 5220 1627 50  0000 R CNN
-F 2 "" H 5400 1750 50  0001 C CNN
+F 2 "screaming-panda:SN37A" H 5400 1750 50  0001 C CNN
 F 3 "https://www.switchcraft.com/Documents/Jack_Schematics.pdf" H 5400 1750 50  0001 C CNN
 	1    5400 1750
 	-1   0    0    -1  
@@ -261,7 +261,7 @@ U 1 1 60060421
 P 1750 2200
 F 0 "R1" H 1820 2246 50  0000 L CNN
 F 1 "1k" H 1820 2155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1680 2200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1680 2200 50  0001 C CNN
 F 3 "~" H 1750 2200 50  0001 C CNN
 F 4 "R" H 1750 2200 50  0001 C CNN "Spice_Primitive"
 F 5 "1k" H 1750 2200 50  0001 C CNN "Spice_Model"

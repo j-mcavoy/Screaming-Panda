@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/john/dox/cad/screaming-panda/ecad/IOBoard/IOBoard.sch</source>
+    <date>Tue 19 Jan 2021 08:07:17 AM PST</date>
+    <tool>Eeschema 5.1.9</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>IO Board</title>
+        <company>Panda Pals</company>
+        <rev>1.0</rev>
+        <date>2021-01-17</date>
+        <source>IOBoard.sch</source>
+        <comment number="1" value="John McAvoy"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>SN37A12A</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">SN37A12A</field>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">J</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2_Ground_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve, Switched T Pole (Normalling)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60049812</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>PJ-102A</value>
+      <footprint>digikey-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-102A</footprint>
+      <datasheet>https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/cui-inc/PJ-102A/CP-102A-ND/275425</field>
+        <field name="Description">CONN PWR JACK 2X5.5MM SOLDER</field>
+        <field name="Digi-Key_PN">CP-102A-ND</field>
+        <field name="Family">Barrel - Power Connectors</field>
+        <field name="MPN">PJ-102A</field>
+        <field name="Manufacturer">CUI Inc.</field>
+        <field name="Spice_Model">dc 9</field>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">V</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Barrel-Power-Connectors" part="PJ-102A" description="CONN PWR JACK 2X5.5MM SOLDER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6004D058</tstamp>
+    </comp>
+    <comp ref="BAT1">
+      <value>BC9VPC</value>
+      <footprint>digikey-footprints:Battery_Holder_9V_BC9VPC-ND</footprint>
+      <datasheet>http://www.memoryprotectiondevices.com/datasheets/BC9VPC-datasheet.pdf</datasheet>
+      <fields>
+        <field name="Category">Battery Products</field>
+        <field name="DK_Datasheet_Link">http://www.memoryprotectiondevices.com/datasheets/BC9VPC-datasheet.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/mpd-memory-protection-devices/BC9VPC/BC9VPC-ND/257747</field>
+        <field name="Description">BATTERY HOLDER 9V PC PIN</field>
+        <field name="Digi-Key_PN">BC9VPC-ND</field>
+        <field name="Family">Battery Holders, Clips, Contacts</field>
+        <field name="MPN">BC9VPC</field>
+        <field name="Manufacturer">MPD (Memory Protection Devices)</field>
+        <field name="Spice_Model">dc 9</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">V</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Battery-Holders-Clips-Contacts" part="BC9VPC" description="BATTERY HOLDER 9V PC PIN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6004EA9B</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>SN37A12A</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="AudioJack2_Ground_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve, Switched T Pole (Normalling)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6004FDA1</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>toEffectsBoard</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x02_Counter_Clockwise" description="Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6005B68B</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>FS57003PLT2B2M2QE</value>
+      <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/226/FS5700.pdf</datasheet>
+      <libsource lib="screaming-panda" part="FS57003PLT2B2M2QE" description="SW_3PDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60050042</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">LED</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6005DA24</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">1k</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60060421</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100u</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6007C41E</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1u</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6007D7B6</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10n</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6007DEEA</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="AudioJack2_Ground_SwitchT">
+      <description>Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve, Switched T Pole (Normalling)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack2_Ground_SwitchT</field>
+      </fields>
+      <pins>
+        <pin num="G" name="~" type="passive"/>
+        <pin num="S" name="~" type="passive"/>
+        <pin num="T" name="~" type="passive"/>
+        <pin num="TN" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x02_Counter_Clockwise">
+      <description>Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x02_Counter_Clockwise</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Barrel-Power-Connectors" part="PJ-102A">
+      <description>CONN PWR JACK 2X5.5MM SOLDER</description>
+      <docs>https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PJ-102A</field>
+        <field name="Footprint">digikey-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-102A</field>
+        <field name="Datasheet">https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf</field>
+        <field name="Digi-Key_PN">CP-102A-ND</field>
+        <field name="MPN">PJ-102A</field>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="Family">Barrel - Power Connectors</field>
+        <field name="DK_Datasheet_Link">https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/cui-inc/PJ-102A/CP-102A-ND/275425</field>
+        <field name="Description">CONN PWR JACK 2X5.5MM SOLDER</field>
+        <field name="Manufacturer">CUI Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Battery-Holders-Clips-Contacts" part="BC9VPC">
+      <description>BATTERY HOLDER 9V PC PIN</description>
+      <docs>http://www.memoryprotectiondevices.com/datasheets/BC9VPC-datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">BAT</field>
+        <field name="Value">BC9VPC</field>
+        <field name="Footprint">digikey-footprints:Battery_Holder_9V_BC9VPC-ND</field>
+        <field name="Datasheet">http://www.memoryprotectiondevices.com/datasheets/BC9VPC-datasheet.pdf</field>
+        <field name="Digi-Key_PN">BC9VPC-ND</field>
+        <field name="MPN">BC9VPC</field>
+        <field name="Category">Battery Products</field>
+        <field name="Family">Battery Holders, Clips, Contacts</field>
+        <field name="DK_Datasheet_Link">http://www.memoryprotectiondevices.com/datasheets/BC9VPC-datasheet.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/mpd-memory-protection-devices/BC9VPC/BC9VPC-ND/257747</field>
+        <field name="Description">BATTERY HOLDER 9V PC PIN</field>
+        <field name="Manufacturer">MPD (Memory Protection Devices)</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="NEG" name="~" type="power_in"/>
+        <pin num="POS" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="screaming-panda" part="SW_3PDT">
+      <aliases>
+        <alias>FS57003PLT2B2M2QE</alias>
+      </aliases>
+      <description>SW_3PDT</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SW_3PDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="dk_Barrel-Power-Connectors">
+      <uri>/usr/share/kicad/library/dk_Barrel-Power-Connectors.lib</uri>
+    </library>
+    <library logical="dk_Battery-Holders-Clips-Contacts">
+      <uri>/usr/share/kicad/library/dk_Battery-Holders-Clips-Contacts.lib</uri>
+    </library>
+    <library logical="screaming-panda">
+      <uri>/home/john/dox/cad/screaming-panda/ecad/lib/screaming-panda.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/EFFECT_OUT">
+      <node ref="U1" pin="7"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="2" name="/SIG_IN">
+      <node ref="J3" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J1" pin="T"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="3" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="4" name="+9V">
+      <node ref="J2" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="5" name="Net-(D1-Pad1)">
+      <node ref="U1" pin="4"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="6" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="J1" pin="G"/>
+      <node ref="J1" pin="TN"/>
+      <node ref="J2" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J3" pin="3"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="J4" pin="G"/>
+      <node ref="J4" pin="S"/>
+      <node ref="J4" pin="TN"/>
+    </net>
+    <net code="8" name="/SIG_OUT">
+      <node ref="J4" pin="T"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="9" name="Net-(BAT1-PadPOS)">
+      <node ref="BAT1" pin="POS"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="10" name="Net-(BAT1-PadNEG)">
+      <node ref="J1" pin="S"/>
+      <node ref="BAT1" pin="NEG"/>
+    </net>
+  </nets>
+</export>
