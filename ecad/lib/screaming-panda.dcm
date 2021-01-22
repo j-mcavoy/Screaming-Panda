@@ -5,8 +5,27 @@ D SW_3PDT
 F https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/226/FS5700.pdf
 $ENDCMP
 #
+$CMP SN37A12A
+D Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)
+K audio jack receptacle mono headphones phone TS connector
+F https://www.switchcraft.com/Documents/Jack_Schematics.pdf
+$ENDCMP
+#
+$CMP SN37A12B
+D 3 CONDUCTOR DOUBLE OPEN CIRCUIT
+K audio jack receptacle mono headphones phone TS connector
+F https://www.switchcraft.com/Documents/Jack_Schematics.pdf
+$ENDCMP
+#
+$CMP SN37A14B
+D Audio Jack, 3 CONDUCTOR DOUBLE CLOSED CIRCUIT
+K audio jack receptacle mono headphones phone TS connector
+F https://www.switchcraft.com/Documents/Jack_Schematics.pdf
+$ENDCMP
+#
 $CMP SW_3PDT
 D SW_3PDT
+F https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/226/FS5700.pdf
 $ENDCMP
 #
 $CMP SW_Coded

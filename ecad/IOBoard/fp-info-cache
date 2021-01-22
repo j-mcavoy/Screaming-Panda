@@ -1,4 +1,4 @@
-19362063651552363
+19363944716701363
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -84168,16 +84168,23 @@ varistor SIOV
 2
 2
 screaming-panda
-SN37A
-
-
-0
-1
-1
-screaming-panda
 SW_PUSH_E-Switch_FS57003PLT_3PDT
 
 
 0
 9
 9
+screaming-panda
+Switchcraft_SN37A12A
+1/4" Audio Jack
+
+0
+6
+3
+screaming-panda
+Switchcraft_SN37A12B
+1/4" Audio Jack
+
+0
+6
+3
