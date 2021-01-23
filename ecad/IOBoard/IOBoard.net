@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/john/dox/cad/screaming-panda/ecad/IOBoard/IOBoard.sch)
-    (date "Sat Jan 23 08:06:06 2021")
+    (date "Sat 23 Jan 2021 03:38:15 PM PST")
     (tool "Eeschema 5.1.9")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref J2)
       (value PJ-102A)
-      (footprint DigiKey:Barrel_Jack_5.5mmODx2.1mmID_PJ-102A)
+      (footprint screaming-panda:Barrel_Jack_5.5mmODx2.1mmID_PJ-102A)
       (datasheet https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf)
       (fields
         (field (name Category) "Connectors, Interconnects")
