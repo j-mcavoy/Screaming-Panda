@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/john/dox/cad/screaming-panda/ecad/IOBoard/IOBoard.sch)
-    (date "Thu 21 Jan 2021 09:01:28 PM PST")
+    (date "Sat Jan 23 08:06:06 2021")
     (tool "Eeschema 5.1.9")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -37,7 +37,7 @@
       (tstamp 6004D058))
     (comp (ref BAT1)
       (value BC9VPC)
-      (footprint DigiKey:Battery_Holder_9V_BC9VPC-ND)
+      (footprint DigiKey:PinHeader_1x2_P2.54mm)
       (datasheet http://www.memoryprotectiondevices.com/datasheets/BC9VPC-datasheet.pdf)
       (fields
         (field (name Category) "Battery Products")

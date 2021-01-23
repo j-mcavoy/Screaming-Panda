@@ -42,7 +42,7 @@ U 1 1 6004EA9B
 P 1300 1200
 F 0 "BAT1" V 1247 1348 60  0000 L CNN
 F 1 "BC9VPC" V 1353 1348 60  0000 L CNN
-F 2 "DigiKey:Battery_Holder_9V_BC9VPC-ND" H 1500 1400 60  0001 L CNN
+F 2 "DigiKey:PinHeader_1x2_P2.54mm" H 1500 1400 60  0001 L CNN
 F 3 "http://www.memoryprotectiondevices.com/datasheets/BC9VPC-datasheet.pdf" H 1500 1500 60  0001 L CNN
 F 4 "BC9VPC-ND" H 1500 1600 60  0001 L CNN "Digi-Key_PN"
 F 5 "BC9VPC" H 1500 1700 60  0001 L CNN "MPN"

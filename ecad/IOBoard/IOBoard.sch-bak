@@ -375,7 +375,7 @@ U 1 1 600C0EC5
 P 5400 1750
 F 0 "J4" H 5220 1693 50  0000 R CNN
 F 1 "SN37A12A" H 5220 1602 50  0000 R CNN
-F 2 "screaming-panda:Switchcraft_SN3712A" H 5500 1850 50  0001 C CNN
+F 2 "screaming-panda:Switchcraft_SN37A12A" H 5500 1850 50  0001 C CNN
 F 3 "https://www.switchcraft.com/Documents/Jack_Schematics.pdf" H 5400 1750 50  0001 C CNN
 	1    5400 1750
 	-1   0    0    -1  
