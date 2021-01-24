@@ -19,7 +19,7 @@ U 1 1 6004D058
 P 950 950
 F 0 "J2" H 800 550 50  0000 R CNN
 F 1 "PJ-102A" H 1050 650 50  0000 R CNN
-F 2 "DigiKey:Barrel_Jack_5.5mmODx2.1mmID_PJ-102A" H 1150 1150 60  0001 L CNN
+F 2 "screaming-panda:Barrel_Jack_5.5mmODx2.1mmID_PJ-102A" H 1150 1150 60  0001 L CNN
 F 3 "https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf" H 1150 1250 60  0001 L CNN
 F 4 "CP-102A-ND" H 1150 1350 60  0001 L CNN "Digi-Key_PN"
 F 5 "PJ-102A" H 1150 1450 60  0001 L CNN "MPN"
