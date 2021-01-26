@@ -21,7 +21,7 @@ AR Path="/6033245E" Ref="C?"  Part="1"
 AR Path="/6030769F/6033245E" Ref="C8"  Part="1" 
 F 0 "C8" V 898 950 50  0000 C CNN
 F 1 "1u" V 989 950 50  0000 C CNN
-F 2 "" H 1188 800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1188 800 50  0001 C CNN
 F 3 "~" H 1150 950 50  0001 C CNN
 	1    1150 950 
 	0    1    1    0   
@@ -34,7 +34,7 @@ AR Path="/60332464" Ref="R?"  Part="1"
 AR Path="/6030769F/60332464" Ref="R13"  Part="1" 
 F 0 "R13" V 1293 950 50  0000 C CNN
 F 1 "1k" V 1384 950 50  0000 C CNN
-F 2 "" V 1430 950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1430 950 50  0001 C CNN
 F 3 "~" H 1500 950 50  0001 C CNN
 	1    1500 950 
 	0    1    1    0   
@@ -47,7 +47,7 @@ AR Path="/6033246A" Ref="RV?"  Part="1"
 AR Path="/6030769F/6033246A" Ref="RV3"  Part="1" 
 F 0 "RV3" V 1750 1050 50  0000 R CNN
 F 1 "100ka" V 1650 1050 50  0000 R CNN
-F 2 "" H 1850 950 50  0001 C CNN
+F 2 "screaming-panda:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 1850 950 50  0001 C CNN
 F 3 "~" H 1850 950 50  0001 C CNN
 	1    1850 950 
 	0    -1   -1   0   
@@ -60,7 +60,7 @@ AR Path="/60332470" Ref="C?"  Part="1"
 AR Path="/6030769F/60332470" Ref="C9"  Part="1" 
 F 0 "C9" V 1948 950 50  0000 C CNN
 F 1 "0u1" V 2039 950 50  0000 C CNN
-F 2 "" H 2238 800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2238 800 50  0001 C CNN
 F 3 "~" H 2200 950 50  0001 C CNN
 	1    2200 950 
 	0    1    1    0   
@@ -73,7 +73,7 @@ AR Path="/60332476" Ref="R?"  Part="1"
 AR Path="/6030769F/60332476" Ref="R14"  Part="1" 
 F 0 "R14" H 2470 1446 50  0000 L CNN
 F 1 "501k" H 2470 1355 50  0000 L CNN
-F 2 "" V 2330 1400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2330 1400 50  0001 C CNN
 F 3 "~" H 2400 1400 50  0001 C CNN
 	1    2400 1400
 	1    0    0    -1  
@@ -185,7 +185,7 @@ AR Path="/603324B1" Ref="R?"  Part="1"
 AR Path="/6030769F/603324B1" Ref="R15"  Part="1" 
 F 0 "R15" H 2820 1446 50  0000 L CNN
 F 1 "10k" H 2820 1355 50  0000 L CNN
-F 2 "" V 2680 1400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2680 1400 50  0001 C CNN
 F 3 "~" H 2750 1400 50  0001 C CNN
 	1    2750 1400
 	1    0    0    -1  
@@ -203,7 +203,7 @@ AR Path="/603324BA" Ref="R?"  Part="1"
 AR Path="/6030769F/603324BA" Ref="R16"  Part="1" 
 F 0 "R16" V 3243 1200 50  0000 C CNN
 F 1 "100" V 3334 1200 50  0000 C CNN
-F 2 "" V 3380 1200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3380 1200 50  0001 C CNN
 F 3 "~" H 3450 1200 50  0001 C CNN
 	1    3450 1200
 	0    1    1    0   
@@ -216,7 +216,7 @@ AR Path="/603324C0" Ref="C?"  Part="1"
 AR Path="/6030769F/603324C0" Ref="C10"  Part="1" 
 F 0 "C10" V 4055 1200 50  0000 C CNN
 F 1 "CP" V 3964 1200 50  0000 C CNN
-F 2 "" H 3838 1050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3838 1050 50  0001 C CNN
 F 3 "~" H 3800 1200 50  0001 C CNN
 	1    3800 1200
 	0    -1   -1   0   
@@ -229,7 +229,7 @@ AR Path="/603324C6" Ref="R?"  Part="1"
 AR Path="/6030769F/603324C6" Ref="R17"  Part="1" 
 F 0 "R17" H 4070 1446 50  0000 L CNN
 F 1 "10k" H 4070 1355 50  0000 L CNN
-F 2 "" V 3930 1400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3930 1400 50  0001 C CNN
 F 3 "~" H 4000 1400 50  0001 C CNN
 	1    4000 1400
 	1    0    0    -1  

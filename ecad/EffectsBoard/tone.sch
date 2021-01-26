@@ -21,7 +21,7 @@ AR Path="/60328176" Ref="U?"  Part="2"
 AR Path="/60307048/60328176" Ref="U1"  Part="2" 
 F 0 "U1" H 2200 850 50  0000 C CNN
 F 1 "RC4558" H 2250 950 50  0000 C CNN
-F 2 "" H 2200 1150 50  0001 C CNN
+F 2 "Package_SO:Texas_R-PDSO-G8_EP2.95x4.9mm_Mask2.4x3.1mm" H 2200 1150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/rc4558.pdf" H 2200 1150 50  0001 C CNN
 	2    2200 1150
 	1    0    0    1   
@@ -34,7 +34,7 @@ AR Path="/6032817E" Ref="R?"  Part="1"
 AR Path="/60307048/6032817E" Ref="R12"  Part="1" 
 F 0 "R12" V 1993 750 50  0000 C CNN
 F 1 "1k" V 2084 750 50  0000 C CNN
-F 2 "" V 2130 750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2130 750 50  0001 C CNN
 F 3 "~" H 2200 750 50  0001 C CNN
 	1    2200 750 
 	0    1    1    0   
@@ -47,7 +47,7 @@ AR Path="/60328184" Ref="RV?"  Part="1"
 AR Path="/60307048/60328184" Ref="RV2"  Part="1" 
 F 0 "RV2" V 943 1050 50  0000 C CNN
 F 1 "20k" V 1034 1050 50  0000 C CNN
-F 2 "" H 1150 1050 50  0001 C CNN
+F 2 "screaming-panda:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 1150 1050 50  0001 C CNN
 F 3 "~" H 1150 1050 50  0001 C CNN
 	1    1150 1050
 	0    -1   1    0   
@@ -60,7 +60,7 @@ AR Path="/6032818A" Ref="C?"  Part="1"
 AR Path="/60307048/6032818A" Ref="C7"  Part="1" 
 F 0 "C7" V 1098 1650 50  0000 C CNN
 F 1 "220n" V 1189 1650 50  0000 C CNN
-F 2 "" H 1388 1500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1388 1500 50  0001 C CNN
 F 3 "~" H 1350 1650 50  0001 C CNN
 	1    1350 1650
 	0    1    1    0   
@@ -73,7 +73,7 @@ AR Path="/60328190" Ref="R?"  Part="1"
 AR Path="/60307048/60328190" Ref="R11"  Part="1" 
 F 0 "R11" V 1543 1650 50  0000 C CNN
 F 1 "220" V 1634 1650 50  0000 C CNN
-F 2 "" V 1680 1650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1680 1650 50  0001 C CNN
 F 3 "~" H 1750 1650 50  0001 C CNN
 	1    1750 1650
 	0    1    1    0   
