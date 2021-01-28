@@ -1,6 +1,32 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Connector_AudioJack2_Switch
+#
+DEF Connector_AudioJack2_Switch J 0 20 Y Y 1 F N
+F0 "J" 0 450 50 H V C CNN
+F1 "Connector_AudioJack2_Switch" 0 350 50 H V C CNN
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+$FPLIST
+ Jack*
+$ENDFPLIST
+DRAW
+S -100 0 -150 -100 0 1 10 F
+S 100 250 -100 -150 0 1 10 f
+P 2 1 1 0 25 190 35 170 N
+P 2 1 1 0 70 -10 80 -30 N
+P 4 1 1 10 0 0 25 -25 50 0 100 0 N
+P 4 1 1 0 100 -100 70 -100 70 -10 60 -30 N
+P 4 1 1 0 100 100 25 100 25 190 15 170 N
+P 5 1 1 10 100 200 -25 200 -25 0 -50 -25 -75 0 N
+X ~ S 200 200 100 L 50 50 1 1 P
+X ~ SN 200 100 100 L 50 50 1 1 P
+X ~ T 200 0 100 L 50 50 1 1 P
+X ~ TN 200 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_Generic_Conn_02x02_Counter_Clockwise
 #
 DEF Connector_Generic_Conn_02x02_Counter_Clockwise J 0 40 Y N 1 F N
@@ -132,36 +158,6 @@ X ~ 3 100 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dk_Battery-Holders-Clips-Contacts_BC9VPC
-#
-DEF dk_Battery-Holders-Clips-Contacts_BC9VPC BAT 0 40 Y Y 1 F N
-F0 "BAT" 0 200 60 H V C CNN
-F1 "dk_Battery-Holders-Clips-Contacts_BC9VPC" 0 -200 60 H V C CNN
-F2 "digikey-footprints:Battery_Holder_9V_BC9VPC-ND" 200 200 60 H I L CNN
-F3 "http://www.memoryprotectiondevices.com/datasheets/BC9VPC-datasheet.pdf" 200 300 60 H I L CNN
-F4 "BC9VPC-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F5 "BC9VPC" 200 500 60 H I L CNN "MPN"
-F6 "Battery Products" 200 600 60 H I L CNN "Category"
-F7 "Battery Holders, Clips, Contacts" 200 700 60 H I L CNN "Family"
-F8 "http://www.memoryprotectiondevices.com/datasheets/BC9VPC-datasheet.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
-F9 "/product-detail/en/mpd-memory-protection-devices/BC9VPC/BC9VPC-ND/257747" 200 900 60 H I L CNN "DK_Detail_Page"
-F10 "BATTERY HOLDER 9V PC PIN" 200 1000 60 H I L CNN "Description"
-F11 "MPD (Memory Protection Devices)" 200 1100 60 H I L CNN "Manufacturer"
-F12 "Active" 200 1200 60 H I L CNN "Status"
-DRAW
-P 2 1 1 0 -110 120 -110 80 N
-P 2 1 1 0 -90 100 -130 100 N
-P 2 1 1 0 -75 0 -100 0 N
-P 2 1 1 0 -75 100 -75 -100 N
-P 2 1 1 0 -25 50 -25 -50 N
-P 2 1 1 0 25 100 25 -100 N
-P 2 1 1 0 75 50 75 -50 N
-P 2 1 1 0 100 0 75 0 N
-X ~ NEG 300 0 200 L 50 50 1 1 W
-X ~ POS -300 0 200 R 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
 # power_+9V
 #
 DEF power_+9V #PWR 0 0 Y Y 1 F P
@@ -220,50 +216,6 @@ X ~ 6 200 -100 100 L 50 50 2 1 P
 X ~ 7 200 100 100 L 50 50 3 1 P
 X ~ 8 -200 0 100 R 50 50 3 1 P
 X ~ 9 200 -100 100 L 50 50 3 1 P
-ENDDRAW
-ENDDEF
-#
-# screaming-panda_SN37A12A
-#
-DEF screaming-panda_SN37A12A J 0 20 Y Y 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "screaming-panda_SN37A12A" 0 100 50 H V C CNN
-F2 "screaming-panda:Switchcraft_SN37A12A" 100 100 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Jack*
-$ENDFPLIST
-DRAW
-S -100 0 -150 -100 0 1 10 F
-S -100 50 100 -150 0 1 0 f
-P 2 0 1 0 70 -10 80 -30 N
-P 4 0 1 0 100 -100 70 -100 70 -10 60 -30 N
-P 4 0 1 0 100 0 50 0 0 -50 -50 0 N
-X ~ S 0 -250 100 U 50 50 1 1 P
-X ~ T 200 0 100 L 50 50 1 1 P
-X ~ TB 200 -100 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# screaming-panda_SN37A12B
-#
-DEF screaming-panda_SN37A12B J 0 20 Y Y 1 F N
-F0 "J" -75 200 50 H V C CNN
-F1 "screaming-panda_SN37A12B" -75 100 50 H V C CNN
-F2 "screaming-panda:Switchcraft_SN37A12B" 100 100 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Jack*
-$ENDFPLIST
-DRAW
-S -250 -100 -350 -300 0 1 10 F
-S -250 50 100 -350 0 1 0 f
-P 2 0 1 0 0 0 100 0 N
-P 4 0 1 0 0 0 -50 0 -100 -50 -150 0 N
-P 4 1 1 0 100 -200 50 -200 0 -250 -50 -200 N
-X ~ R 200 0 100 L 50 50 1 1 P
-X ~ S 0 -450 100 U 50 50 1 1 P
-X ~ T 200 -200 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
