@@ -34,6 +34,7 @@ before_script:
 run:
   script:
     - pwd
+    - ls -la /
     - ls -la *
     - kicost -i /builds/j-mcavoy/screaming-panda/ecad/MainBoard/MainBoard.xml -o kicost.xlsx
   artifacts:
