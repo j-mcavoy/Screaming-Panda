@@ -36,7 +36,7 @@ run:
     - pwd
     - ls -la /
     - ls -la *
-    - kicost -i /builds/j-mcavoy/screaming-panda/ecad/MainBoard/MainBoard.xml -o kicost.xlsx
+    - kicost -i ./ecad/MainBoard/MainBoard.xml -o kicost.xlsx
   artifacts:
     paths:
       - ./*.xlsx
