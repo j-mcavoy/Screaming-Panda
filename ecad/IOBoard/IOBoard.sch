@@ -92,7 +92,7 @@ F 3 "" H 3200 1900 50  0001 C CNN
 	1    3200 1900
 	1    0    0    -1  
 $EndComp
-Text Label 4650 1850 0    50   ~ 0
+Text Label 4650 1750 0    50   ~ 0
 SIG_OUT
 $Comp
 L Connector_Generic:Conn_02x02_Counter_Clockwise J3
@@ -133,16 +133,16 @@ $EndComp
 $Comp
 L power:GND #PWR0105
 U 1 1 60075BCF
-P 5400 2200
-F 0 "#PWR0105" H 5400 1950 50  0001 C CNN
-F 1 "GND" H 5405 2027 50  0000 C CNN
-F 2 "" H 5400 2200 50  0001 C CNN
-F 3 "" H 5400 2200 50  0001 C CNN
-	1    5400 2200
+P 5400 2100
+F 0 "#PWR0105" H 5400 1850 50  0001 C CNN
+F 1 "GND" H 5405 1927 50  0000 C CNN
+F 2 "" H 5400 2100 50  0001 C CNN
+F 3 "" H 5400 2100 50  0001 C CNN
+	1    5400 2100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5400 2150 5400 2100
+	5400 2050 5400 2000
 Wire Wire Line
 	1100 700  1100 750 
 Wire Wire Line
@@ -161,12 +161,12 @@ $EndComp
 $Comp
 L screaming-panda:FS57003PLT2B2M2QE U1
 U 3 1 60050ED4
-P 4350 1850
-F 0 "U1" H 4300 1700 50  0000 C CNN
-F 1 "FS57003PLT2B2M2QE" H 4300 1600 50  0001 C CNN
-F 2 "screaming-panda:SW_PUSH_E-Switch_FS57003PLT_3PDT" H 4350 2000 50  0001 C CNN
-F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/226/FS5700.pdf" H 4350 2000 50  0001 C CNN
-	3    4350 1850
+P 4350 1750
+F 0 "U1" H 4300 1600 50  0000 C CNN
+F 1 "FS57003PLT2B2M2QE" H 4300 1500 50  0001 C CNN
+F 2 "screaming-panda:SW_PUSH_E-Switch_FS57003PLT_3PDT" H 4350 1900 50  0001 C CNN
+F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/226/FS5700.pdf" H 4350 1900 50  0001 C CNN
+	3    4350 1750
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -186,9 +186,9 @@ L Device:LED D1
 U 1 1 6005DA24
 P 1750 2500
 F 0 "D1" H 1743 2717 50  0000 C CNN
-F 1 "QBL8XX60D" H 1743 2626 50  0000 C CNN
+F 1 "LED" H 1743 2626 50  0000 C CNN
 F 2 "Diode_THT:D_DO-201AD_P3.81mm_Vertical_AnodeUp" H 1750 2500 50  0001 C CNN
-F 3 "http://www.qt-brightek.com/datasheet/QBL8XX60D.pdf" H 1750 2500 50  0001 C CNN
+F 3 "~" H 1750 2500 50  0001 C CNN
 F 4 "D" H 1750 2500 50  0001 C CNN "Spice_Primitive"
 F 5 "LED" H 1750 2500 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 1750 2500 50  0001 C CNN "Spice_Netlist_Enabled"
@@ -198,21 +198,21 @@ $EndComp
 $Comp
 L Device:R R1
 U 1 1 60060421
-P 2000 2300
-F 0 "R1" H 2070 2346 50  0000 L CNN
-F 1 "1k" H 2070 2255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1930 2300 50  0001 C CNN
-F 3 "~" H 2000 2300 50  0001 C CNN
-F 4 "R" H 2000 2300 50  0001 C CNN "Spice_Primitive"
-F 5 "1k" H 2000 2300 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 2000 2300 50  0001 C CNN "Spice_Netlist_Enabled"
-	1    2000 2300
+P 1950 2300
+F 0 "R1" H 2020 2346 50  0000 L CNN
+F 1 "1k" H 2020 2255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1880 2300 50  0001 C CNN
+F 3 "~" H 1950 2300 50  0001 C CNN
+F 4 "R" H 1950 2300 50  0001 C CNN "Spice_Primitive"
+F 5 "1k" H 1950 2300 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 1950 2300 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    1950 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 2500 1900 2500
+	1950 2500 1900 2500
 Wire Wire Line
-	2000 2450 2000 2500
+	1950 2450 1950 2500
 Wire Wire Line
 	1100 1750 1250 1750
 Wire Wire Line
@@ -222,12 +222,12 @@ SIG_IN
 Wire Wire Line
 	1250 2050 1250 1750
 Wire Wire Line
-	3700 1950 4150 1950
+	3700 1850 4150 1850
 Wire Wire Line
 	1250 1750 1450 1750
 Wire Wire Line
-	4150 1750 3700 1750
-Text Label 3700 1750 0    50   ~ 0
+	4150 1650 3700 1650
+Text Label 3700 1650 0    50   ~ 0
 EFFECT_OUT
 $Comp
 L Device:CP C1
@@ -342,19 +342,19 @@ Wire Wire Line
 Wire Wire Line
 	1350 2600 1400 2600
 Wire Wire Line
-	2000 2100 2000 2150
+	1950 2100 1950 2150
 $Comp
 L power:+9V #PWR0110
 U 1 1 600618E7
-P 2000 2100
-F 0 "#PWR0110" H 2000 1950 50  0001 C CNN
-F 1 "+9V" H 2015 2273 50  0000 C CNN
-F 2 "" H 2000 2100 50  0001 C CNN
-F 3 "" H 2000 2100 50  0001 C CNN
-	1    2000 2100
+P 1950 2100
+F 0 "#PWR0110" H 1950 1950 50  0001 C CNN
+F 1 "+9V" H 1965 2273 50  0000 C CNN
+F 2 "" H 1950 2100 50  0001 C CNN
+F 3 "" H 1950 2100 50  0001 C CNN
+	1    1950 2100
 	1    0    0    -1  
 $EndComp
-Text Label 3700 1950 0    50   ~ 0
+Text Label 3700 1850 0    50   ~ 0
 SIG_IN
 $Comp
 L power:GND #PWR0107
@@ -372,25 +372,25 @@ Wire Wire Line
 $Comp
 L screaming-panda:SN37A12A J4
 U 1 1 600C0EC5
-P 5400 1850
-F 0 "J4" H 5220 1793 50  0000 R CNN
-F 1 "SN37A12A" H 5220 1702 50  0000 R CNN
-F 2 "screaming-panda:Switchcraft_SN37A12A" H 5500 1950 50  0001 C CNN
-F 3 "https://www.switchcraft.com/Documents/Jack_Schematics.pdf" H 5400 1850 50  0001 C CNN
-	1    5400 1850
+P 5400 1750
+F 0 "J4" H 5220 1693 50  0000 R CNN
+F 1 "SN37A12A" H 5220 1602 50  0000 R CNN
+F 2 "screaming-panda:Switchcraft_SN37A12A" H 5500 1850 50  0001 C CNN
+F 3 "https://www.switchcraft.com/Documents/Jack_Schematics.pdf" H 5400 1750 50  0001 C CNN
+	1    5400 1750
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4550 1850 5200 1850
+	4550 1750 5200 1750
 Wire Wire Line
-	5200 1950 5150 1950
+	5200 1850 5150 1850
 Wire Wire Line
-	5150 1950 5150 2150
+	5150 1850 5150 2050
 Wire Wire Line
-	5150 2150 5400 2150
-Connection ~ 5400 2150
+	5150 2050 5400 2050
+Connection ~ 5400 2050
 Wire Wire Line
-	5400 2200 5400 2150
+	5400 2100 5400 2050
 $Comp
 L screaming-panda:SN37A12B J1
 U 1 1 600A9C33

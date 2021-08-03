@@ -1,0 +1,49 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>/home/john/dox/cad/screaming-panda/ecad/MainBoard/MainBoard.sch</h1>
+    <p>Tue 03 Aug 2021 10:55:26 AM PDT</p>
+    <p>Eeschema 5.1.10</p>
+    <p><b>Component Count:</b>46</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>C1</td><td>1</td><td>20n</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C2</td><td>1</td><td>1u</td><td>Device:CP</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</td><td>Polarized capacitor</td><td></td></tr>
+    <tr><td>C3</td><td>1</td><td>47p</td><td>Device:C</td><td></td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C4</td><td>1</td><td>51p</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C5</td><td>1</td><td>0u22</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C7</td><td>1</td><td>47u</td><td>Device:CP</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</td><td>Polarized capacitor</td><td></td></tr>
+    <tr><td>C8</td><td>1</td><td>1u</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C9</td><td>1</td><td>220n</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C10</td><td>1</td><td>0u1</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C11</td><td>1</td><td>10u</td><td>Device:CP</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</td><td>Polarized capacitor</td><td></td></tr>
+    <tr><td>C12</td><td>1</td><td>100u</td><td>Device:CP</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</td><td>Polarized capacitor</td><td></td></tr>
+    <tr><td>D1, D2, D5</td><td>3</td><td>1N914</td><td>Diode:1N914</td><td>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp</td><td>100V 0.3A Small Signal Fast Switching Diode, DO-35</td><td></td></tr>
+    <tr><td>D4</td><td>1</td><td>QBL8XX60D</td><td>Device:LED</td><td>digikey-footprints:LED_5mm_Radial</td><td>Light emitting diode</td><td></td></tr>
+    <tr><td>IC1</td><td>1</td><td>RC4558</td><td>Amplifier_Operational:RC4558</td><td>Package_SO:Texas_R-PDSO-G8_EP2.95x4.9mm_Mask2.4x3.1mm</td><td>Dual General Purpose, Operational Amplifier, DIP-8/SOIC-8/SSOP-8</td><td></td></tr>
+    <tr><td>J1, J2</td><td>2</td><td>ACJM-HHDR</td><td>Connector:AudioJack2_Switch</td><td>screaming-panda:ACJM-HHDR</td><td>Audio Jack, 2 Poles (Mono / TS), Switched Pole (Normalling)</td><td></td></tr>
+    <tr><td>J3</td><td>1</td><td>PJ-102A</td><td>dk_Barrel-Power-Connectors:PJ-102A</td><td>screaming-panda:Barrel_Jack_5.5mmODx2.1mmID_PJ-102A</td><td>CONN PWR JACK 2X5.5MM SOLDER</td><td></td></tr>
+    <tr><td>Q1, Q2</td><td>2</td><td>2N4401BU</td><td>dk_Transistors-Bipolar-BJT-Single:2N4401BU</td><td>digikey-footprints:TO-92-3</td><td>TRANS NPN 40V 0.6A TO-92</td><td></td></tr>
+    <tr><td>R1, R8, R17, R18, R23</td><td>5</td><td>1k</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</td><td>Resistor</td><td></td></tr>
+    <tr><td>R2, R12</td><td>2</td><td>501k</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</td><td>Resistor</td><td></td></tr>
+    <tr><td>R3, R5, R9, R10, R13, R14, R16</td><td>7</td><td>10k</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</td><td>Resistor</td><td></td></tr>
+    <tr><td>R6</td><td>1</td><td>4k7</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</td><td>Resistor</td><td></td></tr>
+    <tr><td>R7</td><td>1</td><td>51k</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</td><td>Resistor</td><td></td></tr>
+    <tr><td>R11</td><td>1</td><td>220</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</td><td>Resistor</td><td></td></tr>
+    <tr><td>R15</td><td>1</td><td>100</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</td><td>Resistor</td><td></td></tr>
+    <tr><td>R19</td><td>1</td><td>DrivePot</td><td>Device:R_POT</td><td>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</td><td>Potentiometer</td><td></td></tr>
+    <tr><td>R20</td><td>1</td><td>TonePot</td><td>Device:R_POT</td><td>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</td><td>Potentiometer</td><td></td></tr>
+    <tr><td>R21</td><td>1</td><td>VolumePot</td><td>Device:R_POT</td><td>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</td><td>Potentiometer</td><td></td></tr>
+    <tr><td>R22</td><td>1</td><td>1M5</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</td><td>Resistor</td><td></td></tr>
+    <tr><td>SW1</td><td>1</td><td>FS57003PLT2B2M2QE</td><td>screaming-panda:FS57003PLT2B2M2QE</td><td>screaming-panda:SW_PUSH_E-Switch_FS57003PLT_3PDT</td><td>SW_3PDT</td><td></td></tr>
+    <tr><td>V1, V2</td><td>2</td><td>VSOURCE</td><td>pspice:VSOURCE</td><td></td><td>Voltage source symbol for simulation only</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    

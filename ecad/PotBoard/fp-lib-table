@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name screaming-panda)(type KiCad)(uri /home/john/dox/cad/screaming-panda/ecad/lib/screaming-panda.pretty)(options "")(descr ""))
+)
