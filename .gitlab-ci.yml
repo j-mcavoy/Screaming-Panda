@@ -33,7 +33,7 @@ run:
   script:
     - pip install kicost
     - pwd
-    - kicost -i ./ecad/MainBoard/MainBoard.xml -o kicost.xlsx
+    - kicost -i /builds/j-mcavoy/screaming-panda/ecad/MainBoard/MainBoard.xml -o kicost.xlsx
   artifacts:
     paths:
       - ./*xlsx
