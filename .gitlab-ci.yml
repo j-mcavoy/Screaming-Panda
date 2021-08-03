@@ -32,7 +32,8 @@ before_script:
 run:
   script:
     - pip install kicost
-    - kicost -i ecad/MainBoard/MainBoard.xml -o kicost.xlsx
+    - pwd
+    - kicost -i ./ecad/MainBoard/MainBoard.xml -o kicost.xlsx
   artifacts:
     paths:
       - ./*xlsx
