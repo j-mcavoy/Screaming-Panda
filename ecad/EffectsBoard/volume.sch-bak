@@ -1,0 +1,265 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title "Effects Board"
+Date "2021-01-17"
+Rev "1.0"
+Comp "Panda Pals"
+Comment1 "John McAvoy"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C?
+U 1 1 6033245E
+P 4250 3700
+AR Path="/6033245E" Ref="C?"  Part="1" 
+AR Path="/6030769F/6033245E" Ref="C8"  Part="1" 
+F 0 "C8" V 3998 3700 50  0000 C CNN
+F 1 "1u" V 4089 3700 50  0000 C CNN
+F 2 "" H 4288 3550 50  0001 C CNN
+F 3 "~" H 4250 3700 50  0001 C CNN
+	1    4250 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60332464
+P 4600 3700
+AR Path="/60332464" Ref="R?"  Part="1" 
+AR Path="/6030769F/60332464" Ref="R13"  Part="1" 
+F 0 "R13" V 4393 3700 50  0000 C CNN
+F 1 "1k" V 4484 3700 50  0000 C CNN
+F 2 "" V 4530 3700 50  0001 C CNN
+F 3 "~" H 4600 3700 50  0001 C CNN
+	1    4600 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT RV?
+U 1 1 6033246A
+P 4950 3700
+AR Path="/6033246A" Ref="RV?"  Part="1" 
+AR Path="/6030769F/6033246A" Ref="RV3"  Part="1" 
+F 0 "RV3" V 4850 3800 50  0000 R CNN
+F 1 "100ka" V 4750 3800 50  0000 R CNN
+F 2 "" H 4950 3700 50  0001 C CNN
+F 3 "~" H 4950 3700 50  0001 C CNN
+	1    4950 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60332470
+P 5300 3700
+AR Path="/60332470" Ref="C?"  Part="1" 
+AR Path="/6030769F/60332470" Ref="C9"  Part="1" 
+F 0 "C9" V 5048 3700 50  0000 C CNN
+F 1 "0u1" V 5139 3700 50  0000 C CNN
+F 2 "" H 5338 3550 50  0001 C CNN
+F 3 "~" H 5300 3700 50  0001 C CNN
+	1    5300 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60332476
+P 5500 3900
+AR Path="/60332476" Ref="R?"  Part="1" 
+AR Path="/6030769F/60332476" Ref="R14"  Part="1" 
+F 0 "R14" H 5570 3946 50  0000 L CNN
+F 1 "501k" H 5570 3855 50  0000 L CNN
+F 2 "" V 5430 3900 50  0001 C CNN
+F 3 "~" H 5500 3900 50  0001 C CNN
+	1    5500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:2N4401BU Q?
+U 1 1 60332485
+P 5750 3700
+AR Path="/60332485" Ref="Q?"  Part="1" 
+AR Path="/6030769F/60332485" Ref="Q2"  Part="1" 
+F 0 "Q2" H 5938 3753 60  0000 L CNN
+F 1 "2N4401BU" H 5938 3647 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 5950 3900 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/MMBT4401-D.PDF" H 5950 4000 60  0001 L CNN
+F 4 "2N4401-ND" H 5950 4100 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N4401BU" H 5950 4200 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 5950 4300 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 5950 4400 60  0001 L CNN "Family"
+F 8 "https://www.onsemi.com/pub/Collateral/MMBT4401-D.PDF" H 5950 4500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/2N4401BU/2N4401-ND/1417" H 5950 4600 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 40V 0.6A TO-92" H 5950 4700 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 5950 4800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5950 4900 60  0001 L CNN "Status"
+	1    5750 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 3700 4100 3700
+Wire Wire Line
+	4400 3700 4450 3700
+Wire Wire Line
+	4950 3550 4950 3500
+Wire Wire Line
+	5450 3700 5500 3700
+Wire Wire Line
+	5500 3700 5500 3750
+Connection ~ 5500 3700
+Wire Wire Line
+	5500 3700 5550 3700
+Wire Wire Line
+	5500 4050 5500 4100
+Wire Wire Line
+	5850 3500 5850 3450
+$Comp
+L power:+9V #PWR?
+U 1 1 60332494
+P 5850 3450
+AR Path="/60332494" Ref="#PWR?"  Part="1" 
+AR Path="/6030769F/60332494" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 5850 3300 50  0001 C CNN
+F 1 "+9V" H 5865 3623 50  0000 C CNN
+F 2 "" H 5850 3450 50  0001 C CNN
+F 3 "" H 5850 3450 50  0001 C CNN
+	1    5850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6033249A
+P 5850 4350
+AR Path="/6033249A" Ref="#PWR?"  Part="1" 
+AR Path="/6030769F/6033249A" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0120" H 5850 4100 50  0001 C CNN
+F 1 "GND" H 5855 4177 50  0000 C CNN
+F 2 "" H 5850 4350 50  0001 C CNN
+F 3 "" H 5850 4350 50  0001 C CNN
+	1    5850 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 603324A0
+P 5500 4100
+AR Path="/603324A0" Ref="#PWR?"  Part="1" 
+AR Path="/6030769F/603324A0" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 5500 3850 50  0001 C CNN
+F 1 "GND" H 5505 3927 50  0000 C CNN
+F 2 "" H 5500 4100 50  0001 C CNN
+F 3 "" H 5500 4100 50  0001 C CNN
+	1    5500 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 3700 5150 3700
+Wire Wire Line
+	4750 3700 4800 3700
+$Comp
+L power:VCC #PWR?
+U 1 1 603324A8
+P 4950 3500
+AR Path="/603324A8" Ref="#PWR?"  Part="1" 
+AR Path="/6030769F/603324A8" Ref="#PWR0122"  Part="1" 
+F 0 "#PWR0122" H 4950 3350 50  0001 C CNN
+F 1 "VCC" H 4965 3673 50  0000 C CNN
+F 2 "" H 4950 3500 50  0001 C CNN
+F 3 "" H 4950 3500 50  0001 C CNN
+	1    4950 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 4300 5850 4350
+Wire Wire Line
+	5850 3900 5850 3950
+$Comp
+L Device:R R?
+U 1 1 603324B1
+P 5850 4150
+AR Path="/603324B1" Ref="R?"  Part="1" 
+AR Path="/6030769F/603324B1" Ref="R15"  Part="1" 
+F 0 "R15" H 5920 4196 50  0000 L CNN
+F 1 "10k" H 5920 4105 50  0000 L CNN
+F 2 "" V 5780 4150 50  0001 C CNN
+F 3 "~" H 5850 4150 50  0001 C CNN
+	1    5850 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 3950 6400 3950
+Connection ~ 5850 3950
+Wire Wire Line
+	5850 3950 5850 4000
+$Comp
+L Device:R R?
+U 1 1 603324BA
+P 6550 3950
+AR Path="/603324BA" Ref="R?"  Part="1" 
+AR Path="/6030769F/603324BA" Ref="R16"  Part="1" 
+F 0 "R16" V 6343 3950 50  0000 C CNN
+F 1 "100" V 6434 3950 50  0000 C CNN
+F 2 "" V 6480 3950 50  0001 C CNN
+F 3 "~" H 6550 3950 50  0001 C CNN
+	1    6550 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 603324C0
+P 6900 3950
+AR Path="/603324C0" Ref="C?"  Part="1" 
+AR Path="/6030769F/603324C0" Ref="C10"  Part="1" 
+F 0 "C10" V 7155 3950 50  0000 C CNN
+F 1 "CP" V 7064 3950 50  0000 C CNN
+F 2 "" H 6938 3800 50  0001 C CNN
+F 3 "~" H 6900 3950 50  0001 C CNN
+	1    6900 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 603324C6
+P 7100 4150
+AR Path="/603324C6" Ref="R?"  Part="1" 
+AR Path="/6030769F/603324C6" Ref="R17"  Part="1" 
+F 0 "R17" H 7170 4196 50  0000 L CNN
+F 1 "10k" H 7170 4105 50  0000 L CNN
+F 2 "" V 7030 4150 50  0001 C CNN
+F 3 "~" H 7100 4150 50  0001 C CNN
+	1    7100 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 603324CC
+P 7100 4350
+AR Path="/603324CC" Ref="#PWR?"  Part="1" 
+AR Path="/6030769F/603324CC" Ref="#PWR0123"  Part="1" 
+F 0 "#PWR0123" H 7100 4100 50  0001 C CNN
+F 1 "GND" H 7105 4177 50  0000 C CNN
+F 2 "" H 7100 4350 50  0001 C CNN
+F 3 "" H 7100 4350 50  0001 C CNN
+	1    7100 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 3950 6750 3950
+Wire Wire Line
+	7100 3950 7100 4000
+Wire Wire Line
+	7050 3950 7100 3950
+Wire Wire Line
+	7100 4300 7100 4350
+Wire Wire Line
+	7100 3950 7150 3950
+Connection ~ 7100 3950
+Text GLabel 4050 3700 0    50   Input ~ 0
+TONE_OUT
+Text GLabel 7150 3950 2    50   Output ~ 0
+EFFECT_OUT
+$EndSCHEMATC
