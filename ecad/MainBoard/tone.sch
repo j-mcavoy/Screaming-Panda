@@ -24,7 +24,8 @@ AR Path="/60307048/6027E33E" Ref="C9"  Part="1"
 F 0 "C9" V 1300 1600 50  0000 C CNN
 F 1 "220n" V 1000 1600 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1188 1450 50  0001 C CNN
-F 3 "~" H 1150 1600 50  0001 C CNN
+F 3 "https://datasheets.avx.com/X7RDielectric.pdf" H 1150 1600 50  0001 C CNN
+F 4 "12065C204KAT4A" H 1150 1600 50  0001 C CNN "MPN"
 	1    1150 1600
 	0    -1   -1   0   
 $EndComp
@@ -38,6 +39,8 @@ F 0 "R11" V 1600 1600 50  0000 C CNN
 F 1 "220" V 1400 1600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1430 1600 50  0001 C CNN
 F 3 "~" H 1500 1600 50  0001 C CNN
+F 4 "PT220XTR-ND" H 1500 1600 50  0001 C CNN "Digi-Key_PN"
+F 5 "ERJ-1TYJ221U" H 1500 1600 50  0001 C CNN "MPN"
 	1    1500 1600
 	0    -1   -1   0   
 $EndComp
@@ -59,6 +62,8 @@ F 0 "R17" V 1500 1200 50  0000 C CNN
 F 1 "1k" V 1700 1200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1530 1200 50  0001 C CNN
 F 3 "~" H 1600 1200 50  0001 C CNN
+F 4 "A130048TR-ND" H 1600 1200 50  0001 C CNN "Digi-Key_PN"
+F 5 "CRGCQ0402J1K0" H 1600 1200 50  0001 C CNN "MPN"
 	1    1600 1200
 	0    1    1    0   
 $EndComp
@@ -76,6 +81,8 @@ F 4 "X" H 1550 850 50  0001 C CNN "Spice_Primitive"
 F 5 "RC4558" H 1550 850 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 1550 850 50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "../lib/spice_models/RC4558.301.lib" H 1550 850 50  0001 C CNN "Spice_Lib_File"
+F 8 "296-9650-5-ND" H 1550 850 50  0001 C CNN "Digi-Key_PN"
+F 9 "RC4558D" H 1550 850 50  0001 C CNN "MPN"
 	2    1550 850 
 	1    0    0    -1  
 $EndComp

@@ -26,6 +26,8 @@ F 3 "~" H 850 1900 50  0001 C CNN
 F 4 "C" H 850 1900 50  0001 C CNN "Spice_Primitive"
 F 5 "1u" H 850 1900 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 850 1900 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "1276-1943-2-ND" H 850 1900 50  0001 C CNN "Digi-Key_PN"
+F 8 "1276-1943-2-ND" H 850 1900 50  0001 C CNN "MPN"
 	1    850  1900
 	0    -1   -1   0   
 $EndComp
@@ -36,12 +38,13 @@ P 1700 1400
 AR Path="/60325725" Ref="C?"  Part="1" 
 AR Path="/603069E8/60325725" Ref="C4"  Part="1" 
 F 0 "C4" V 1650 1250 50  0000 C CNN
-F 1 "51p" V 1650 1550 50  0000 C CNN
+F 1 "50p" V 1650 1550 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1738 1250 50  0001 C CNN
-F 3 "~" H 1700 1400 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM0335C1E470JA01-01.pdf" H 1700 1400 50  0001 C CNN
 F 4 "C" H 1700 1400 50  0001 C CNN "Spice_Primitive"
-F 5 "51p" H 1700 1400 50  0001 C CNN "Spice_Model"
+F 5 "50p" H 1700 1400 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 1700 1400 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "GRM0335C1E470JA01D" H 1700 1400 50  0001 C CNN "MPN"
 	1    1700 1400
 	0    -1   1    0   
 $EndComp
@@ -60,6 +63,8 @@ F 5 "D" H 1700 1250 50  0001 C CNN "Spice_Primitive"
 F 6 "D1N914" H 1700 1250 50  0001 C CNN "Spice_Model"
 F 7 "Y" H 1700 1250 50  0001 C CNN "Spice_Netlist_Enabled"
 F 8 "2 1" H 1700 1250 50  0001 C CNN "Spice_Node_Sequence"
+F 9 "1N914MS-ND" H 1700 1250 50  0001 C CNN "Digi-Key_PN"
+F 10 "1N914" H 1700 1250 50  0001 C CNN "MPN"
 	1    1700 1250
 	-1   0    0    -1  
 $EndComp
@@ -78,6 +83,8 @@ F 5 "D1N914" H 1700 1100 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 1700 1100 50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "../lib/spice_models/1N914.LIB" H 1700 1100 50  0001 C CNN "Spice_Lib_File"
 F 8 "2 1" H 1700 1100 50  0001 C CNN "Spice_Node_Sequence"
+F 9 "1N914MS-ND" H 1700 1100 50  0001 C CNN "Digi-Key_PN"
+F 10 "1N914" H 1700 1100 50  0001 C CNN "MPN"
 	1    1700 1100
 	1    0    0    -1  
 $EndComp
@@ -91,6 +98,8 @@ F 0 "R7" H 1420 946 50  0000 L CNN
 F 1 "51k" H 1420 855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1280 900 50  0001 C CNN
 F 3 "~" H 1350 900 50  0001 C CNN
+F 4 "RMCF1206FT51K0TR-ND" H 1350 900 50  0001 C CNN "Digi-Key_PN"
+F 5 "RMCF1206FT51K0" H 1350 900 50  0001 C CNN "MPN"
 	1    1350 900 
 	1    0    0    -1  
 $EndComp
@@ -104,6 +113,8 @@ F 0 "R8" V 1993 1800 50  0000 C CNN
 F 1 "1k" V 2084 1800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2130 1800 50  0001 C CNN
 F 3 "~" H 2200 1800 50  0001 C CNN
+F 4 "A130048TR-ND" H 2200 1800 50  0001 C CNN "Digi-Key_PN"
+F 5 "CRGCQ0402J1K0" H 2200 1800 50  0001 C CNN "MPN"
 	1    2200 1800
 	0    1    1    0   
 $EndComp
@@ -117,6 +128,8 @@ F 0 "R16" H 2470 1646 50  0000 L CNN
 F 1 "10k" H 2470 1555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2330 1600 50  0001 C CNN
 F 3 "~" H 2400 1600 50  0001 C CNN
+F 4 "RG2012N-474-W-T1" H 2400 1600 50  0001 C CNN "Digi-Key_PN"
+F 5 "RG20N470KWTR-ND" H 2400 1600 50  0001 C CNN "MPN"
 	1    2400 1600
 	1    0    0    -1  
 $EndComp
@@ -167,10 +180,11 @@ AR Path="/603069E8/60325768" Ref="C5"  Part="1"
 F 0 "C5" H 2515 2046 50  0000 L CNN
 F 1 "0u22" H 2515 1955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2438 1850 50  0001 C CNN
-F 3 "~" H 2400 2000 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012105011.pdf" H 2400 2000 50  0001 C CNN
 F 4 "C" H 2400 2000 50  0001 C CNN "Spice_Primitive"
 F 5 "0.22u" H 2400 2000 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 2400 2000 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "885012105011" H 2400 2000 50  0001 C CNN "MPN"
 	1    2400 2000
 	1    0    0    -1  
 $EndComp
@@ -199,6 +213,8 @@ F 0 "R5" H 1170 1596 50  0000 L CNN
 F 1 "10k" H 1170 1505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1030 1550 50  0001 C CNN
 F 3 "~" H 1100 1550 50  0001 C CNN
+F 4 "RG2012N-474-W-T1" H 1100 1550 50  0001 C CNN "Digi-Key_PN"
+F 5 "RG20N470KWTR-ND" H 1100 1550 50  0001 C CNN "MPN"
 	1    1100 1550
 	1    0    0    -1  
 $EndComp
@@ -267,6 +283,8 @@ F 4 "X" H 1700 1800 50  0001 C CNN "Spice_Primitive"
 F 5 "RC4558" H 1700 1800 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 1700 1800 50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "../lib/spice_models/RC4558.301.lib" H 1700 1800 50  0001 C CNN "Spice_Lib_File"
+F 8 "296-9650-5-ND" H 1700 1800 50  0001 C CNN "Digi-Key_PN"
+F 9 "RC4558D" H 1700 1800 50  0001 C CNN "MPN"
 	1    1700 1800
 	1    0    0    1   
 $EndComp
@@ -289,12 +307,13 @@ L Device:C C3
 U 1 1 610F1150
 P 1050 1100
 F 0 "C3" V 798 1100 50  0000 C CNN
-F 1 "47p" V 889 1100 50  0000 C CNN
-F 2 "" H 1088 950 50  0001 C CNN
-F 3 "~" H 1050 1100 50  0001 C CNN
+F 1 "50p" V 889 1100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1088 950 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM0335C1E470JA01-01.pdf" H 1050 1100 50  0001 C CNN
 F 4 "C" H 1050 1100 50  0001 C CNN "Spice_Primitive"
-F 5 "47p" H 1050 1100 50  0001 C CNN "Spice_Model"
+F 5 "50p" H 1050 1100 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 1050 1100 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "GRM0335C1E470JA01D" H 1050 1100 50  0001 C CNN "MPN"
 	1    1050 1100
 	0    1    1    0   
 $EndComp
@@ -311,6 +330,8 @@ F 3 "~" H 550 900 50  0001 C CNN
 F 4 "R" H 550 900 50  0001 C CNN "Spice_Primitive"
 F 5 "4.7k" H 550 900 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 550 900 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "A129546TR-ND" H 550 900 50  0001 C CNN "Digi-Key_PN"
+F 8 "CRGH0805F4K7" H 550 900 50  0001 C CNN "MPN"
 	1    550  900 
 	1    0    0    -1  
 $EndComp

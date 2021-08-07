@@ -1,0 +1,73 @@
+.title KiCad schematic
+.include "../lib/spice_models/1N914.LIB"
+.include "../lib/spice_models/2N4401.lib"
+.include "../lib/spice_models/RC4558.301.lib"
+.include "../lib/spice_models/audio_src.lib"
+.include "../lib/spice_models/pot.lib"
+.include "/home/john/dox/cad/screaming-panda/ecad/lib/spice_models/2N4401.lib"
+C1 Net-_C1-Pad1_ /SIG_IN 20n
+C10 Net-_C10-Pad1_ Net-_C10-Pad2_ 0.1u
+C11 Net-_C11-Pad1_ /EFFECT_OUT 10u
+C12 +9V 0 100u
+C2 /drive/IN Net-_C2-Pad2_ 1u
+C3 Net-_C3-Pad1_ Net-_C3-Pad2_ 50p
+C4 Net-_C3-Pad1_ Net-_C4-Pad2_ 50p
+C5 /tone/IN 0 0.22u
+C7 VCC 0 47u
+C8 Net-_C8-Pad1_ /volume/IN 1u
+C9 Net-_C9-Pad1_ Net-_C9-Pad2_ 220n
+D1 Net-_C4-Pad2_ Net-_C3-Pad1_ D1N914
+D2 Net-_C3-Pad1_ Net-_C4-Pad2_ D1N914
+D5 0 +9V D1N914
+Q1 +9V Net-_Q1-Pad2_ /drive/IN 2N4401
+Q2 Net-_Q2-Pad1_ Net-_C10-Pad1_ +9V 2N4401
+R1 Net-_Q1-Pad2_ Net-_C1-Pad1_ 1k
+R10 VCC 0 10k
+R11 Net-_C9-Pad2_ 0 220
+R12 Net-_C10-Pad1_ VCC 501k
+R13 /EFFECT_OUT 0 10k
+R14 Net-_Q2-Pad1_ 0 10k
+R15 Net-_C11-Pad1_ Net-_Q2-Pad1_ 100
+R16 VCC /tone/IN 10k
+R17 /volume/IN Net-_IC1-Pad6_ 1k
+R18 Net-_R18-Pad1_ Net-_C8-Pad1_ 1k
+R2 VCC Net-_Q1-Pad2_ 501k
+R22 /SIG_IN 0 1.5Meg
+R23 +9V Net-_D4-Pad2_ 1k
+R3 /drive/IN 0 10k
+R5 VCC Net-_C2-Pad2_ 10k
+R6 VCC Net-_C3-Pad2_ 4.7k
+R7 Net-_R19-Pad3_ Net-_C3-Pad1_ 51k
+R8 /tone/IN Net-_C4-Pad2_ 1k
+R9 +9V VCC 10k
+V1 /SIG_IN 0 ac 1 sin(0 150m 100k)
+V2 +9V 0 dc 9
+XIC1 Net-_C4-Pad2_ Net-_C3-Pad1_ Net-_C2-Pad2_ 0 /tone/IN Net-_IC1-Pad6_ /volume/IN +9V RC4558
+XR19 NC_01 Net-_C4-Pad2_ Net-_R19-Pad3_ POTDrive
+XR20 /tone/IN Net-_C9-Pad1_ Net-_IC1-Pad6_ POTTone
+XR21 Net-_R18-Pad1_ Net-_C10-Pad2_ VCC POTVolume
+.end
+.tran 0.1u 10m 9.9m
+.control
+run
+print maximum(@R1[p])
+print maximum(@R10[p])
+print maximum(@R11[p])
+print maximum(@R12[p])
+print maximum(@R13[p])
+print maximum(@R14[p])
+print maximum(@R15[p])
+print maximum(@R16[p])
+print maximum(@R17[p])
+print maximum(@R18[p])
+print maximum(@R2[p])
+print maximum(@R22[p])
+print maximum(@R23[p])
+print maximum(@R3[p])
+print maximum(@R5[p])
+print maximum(@R6[p])
+print maximum(@R7[p])
+print maximum(@R8[p])
+print maximum(@R9[p])
+quit
+.endc

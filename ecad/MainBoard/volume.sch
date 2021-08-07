@@ -23,6 +23,8 @@ F 0 "C8" V 598 800 50  0000 C CNN
 F 1 "1u" V 689 800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 888 650 50  0001 C CNN
 F 3 "~" H 850 800 50  0001 C CNN
+F 4 "1276-1943-2-ND" H 850 800 50  0001 C CNN "Digi-Key_PN"
+F 5 "1276-1943-2-ND" H 850 800 50  0001 C CNN "MPN"
 	1    850  800 
 	0    1    1    0   
 $EndComp
@@ -36,6 +38,8 @@ F 0 "R18" V 993 800 50  0000 C CNN
 F 1 "1k" V 1084 800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1130 800 50  0001 C CNN
 F 3 "~" H 1200 800 50  0001 C CNN
+F 4 "A130048TR-ND" H 1200 800 50  0001 C CNN "Digi-Key_PN"
+F 5 "CRGCQ0402J1K0" H 1200 800 50  0001 C CNN "MPN"
 	1    1200 800 
 	0    1    1    0   
 $EndComp
@@ -48,10 +52,11 @@ AR Path="/6030769F/60332470" Ref="C10"  Part="1"
 F 0 "C10" V 1648 950 50  0000 C CNN
 F 1 "0u1" V 1739 950 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1938 800 50  0001 C CNN
-F 3 "~" H 1900 950 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL03A104MP3NNNC.jsp" H 1900 950 50  0001 C CNN
 F 4 "C" H 1900 950 50  0001 C CNN "Spice_Primitive"
 F 5 "0.1u" H 1900 950 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 1900 950 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "CL03A104MP3NNNC" H 1900 950 50  0001 C CNN "MPN"
 	1    1900 950 
 	0    1    1    0   
 $EndComp
@@ -65,6 +70,8 @@ F 0 "R12" H 2170 1446 50  0000 L CNN
 F 1 "501k" H 2170 1355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2030 1400 50  0001 C CNN
 F 3 "~" H 2100 1400 50  0001 C CNN
+F 4 "2019-RN73R2ATTD5053F100TR-ND" H 2100 1400 50  0001 C CNN "Digi-Key_PN"
+F 5 "RN73R2ATTD5053F100" H 2100 1400 50  0001 C CNN "MPN"
 	1    2100 1400
 	1    0    0    -1  
 $EndComp
@@ -121,6 +128,8 @@ F 0 "R14" H 2520 1446 50  0000 L CNN
 F 1 "10k" H 2520 1355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2380 1400 50  0001 C CNN
 F 3 "~" H 2450 1400 50  0001 C CNN
+F 4 "RG2012N-474-W-T1" H 2450 1400 50  0001 C CNN "Digi-Key_PN"
+F 5 "RG20N470KWTR-ND" H 2450 1400 50  0001 C CNN "MPN"
 	1    2450 1400
 	1    0    0    -1  
 $EndComp
@@ -138,7 +147,9 @@ AR Path="/6030769F/603324BA" Ref="R15"  Part="1"
 F 0 "R15" V 2943 1200 50  0000 C CNN
 F 1 "100" V 3034 1200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3080 1200 50  0001 C CNN
-F 3 "~" H 3150 1200 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 3150 1200 50  0001 C CNN
+F 4 "311-100DGTR-ND" H 3150 1200 50  0001 C CNN "Digi-Key_PN"
+F 5 "RC0100FR-07100RL" H 3150 1200 50  0001 C CNN "MPN"
 	1    3150 1200
 	0    1    1    0   
 $EndComp
@@ -151,7 +162,8 @@ AR Path="/6030769F/603324C0" Ref="C11"  Part="1"
 F 0 "C11" V 3755 1200 50  0000 C CNN
 F 1 "10u" V 3664 1200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3538 1050 50  0001 C CNN
-F 3 "~" H 3500 1200 50  0001 C CNN
+F 3 "https://datasheets.avx.com/cx5r.pdf" H 3500 1200 50  0001 C CNN
+F 4 "0603ZD106KAT2A" H 3500 1200 50  0001 C CNN "MPN"
 	1    3500 1200
 	0    -1   -1   0   
 $EndComp
@@ -165,6 +177,8 @@ F 0 "R13" H 3770 1446 50  0000 L CNN
 F 1 "10k" H 3770 1355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3630 1400 50  0001 C CNN
 F 3 "~" H 3700 1400 50  0001 C CNN
+F 4 "RG2012N-474-W-T1" H 3700 1400 50  0001 C CNN "Digi-Key_PN"
+F 5 "RG20N470KWTR-ND" H 3700 1400 50  0001 C CNN "MPN"
 	1    3700 1400
 	1    0    0    -1  
 $EndComp
@@ -222,7 +236,7 @@ F 1 "2N4401BU" H 2538 897 60  0000 L CNN
 F 2 "digikey-footprints:TO-92-3" H 2550 1150 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/MMBT4401-D.PDF" H 2550 1250 60  0001 L CNN
 F 4 "2N4401-ND" H 2550 1350 60  0001 L CNN "Digi-Key_PN"
-F 5 "2N4401BU" H 2550 1450 60  0001 L CNN "MPN"
+F 5 "2N4401-ND" H 2550 1450 60  0001 L CNN "MPN"
 F 6 "Discrete Semiconductor Products" H 2550 1550 60  0001 L CNN "Category"
 F 7 "Transistors - Bipolar (BJT) - Single" H 2550 1650 60  0001 L CNN "Family"
 F 8 "https://www.onsemi.com/pub/Collateral/MMBT4401-D.PDF" H 2550 1750 60  0001 L CNN "DK_Datasheet_Link"

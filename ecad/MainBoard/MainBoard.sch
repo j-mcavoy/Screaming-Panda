@@ -327,6 +327,7 @@ F 3 "http://www.qt-brightek.com/datasheet/QBL8XX60D.pdf" H 1600 2800 50  0001 C 
 F 4 "D" H 1600 2800 50  0001 C CNN "Spice_Primitive"
 F 5 "LED" H 1600 2800 50  0001 C CNN "Spice_Model"
 F 6 "N" H 1600 2800 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "QBL8XX60D" H 1600 2800 50  0001 C CNN "MPN"
 	1    1600 2800
 	1    0    0    -1  
 $EndComp
@@ -341,6 +342,8 @@ F 3 "~" H 1850 2600 50  0001 C CNN
 F 4 "R" H 1850 2600 50  0001 C CNN "Spice_Primitive"
 F 5 "1k" H 1850 2600 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 1850 2600 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "A130048TR-ND" H 1850 2600 50  0001 C CNN "Digi-Key_PN"
+F 8 "CRGCQ0402J1K0" H 1850 2600 50  0001 C CNN "MPN"
 	1    1850 2600
 	1    0    0    -1  
 $EndComp
@@ -353,7 +356,7 @@ F 1 "PJ-102A" H 850 650 50  0000 R CNN
 F 2 "screaming-panda:Barrel_Jack_5.5mmODx2.1mmID_PJ-102A" H 950 1150 60  0001 L CNN
 F 3 "https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf" H 950 1250 60  0001 L CNN
 F 4 "CP-102A-ND" H 950 1350 60  0001 L CNN "Digi-Key_PN"
-F 5 "PJ-102A" H 950 1450 60  0001 L CNN "MPN"
+F 5 "CP-102A-ND" H 950 1450 60  0001 L CNN "MPN"
 F 6 "Connectors, Interconnects" H 950 1550 60  0001 L CNN "Category"
 F 7 "Barrel - Power Connectors" H 950 1650 60  0001 L CNN "Family"
 F 8 "https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf" H 950 1750 60  0001 L CNN "DK_Datasheet_Link"
@@ -380,6 +383,8 @@ F 5 "D" H 1250 950 50  0001 C CNN "Spice_Primitive"
 F 6 "D1N914" H 1250 950 50  0001 C CNN "Spice_Model"
 F 7 "Y" H 1250 950 50  0001 C CNN "Spice_Netlist_Enabled"
 F 8 "2 1" H 1250 950 50  0001 C CNN "Spice_Node_Sequence"
+F 9 "1N914MS-ND" H 1250 950 50  0001 C CNN "Digi-Key_PN"
+F 10 "1N914" H 1250 950 50  0001 C CNN "MPN"
 	1    1250 950 
 	0    1    1    0   
 $EndComp
@@ -390,7 +395,8 @@ P 1450 950
 F 0 "C12" H 1450 1050 50  0000 L CNN
 F 1 "100u" H 1450 850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1488 800 50  0001 C CNN
-F 3 "~" H 1450 950 50  0001 C CNN
+F 3 "https://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf" H 1450 950 50  0001 C CNN
+F 4 "LMK325ABJ107MM-T" H 1450 950 50  0001 C CNN "MPN"
 	1    1450 950 
 	1    0    0    -1  
 $EndComp
@@ -402,6 +408,8 @@ F 0 "R9" H 1970 946 50  0000 L CNN
 F 1 "10k" H 1970 855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1830 900 50  0001 C CNN
 F 3 "~" H 1900 900 50  0001 C CNN
+F 4 "RG2012N-474-W-T1" H 1900 900 50  0001 C CNN "Digi-Key_PN"
+F 5 "RG20N470KWTR-ND" H 1900 900 50  0001 C CNN "MPN"
 	1    1900 900 
 	1    0    0    -1  
 $EndComp
@@ -413,6 +421,8 @@ F 0 "R10" H 1970 1346 50  0000 L CNN
 F 1 "10k" H 1970 1255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1830 1300 50  0001 C CNN
 F 3 "~" H 1900 1300 50  0001 C CNN
+F 4 "RG2012N-474-W-T1" H 1900 1300 50  0001 C CNN "Digi-Key_PN"
+F 5 "RG20N470KWTR-ND" H 1900 1300 50  0001 C CNN "MPN"
 	1    1900 1300
 	1    0    0    -1  
 $EndComp
@@ -423,7 +433,8 @@ P 2200 1300
 F 0 "C7" H 2318 1346 50  0000 L CNN
 F 1 "47u" H 2318 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2238 1150 50  0001 C CNN
-F 3 "~" H 2200 1300 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31A476MPHNNNE_Spec.pdf" H 2200 1300 50  0001 C CNN
+F 4 "CL31A476MPHNNNE" H 2200 1300 50  0001 C CNN "MPN"
 	1    2200 1300
 	1    0    0    -1  
 $EndComp
@@ -438,6 +449,7 @@ F 3 "blob:resource://pdf.js/bd5152e8-2016-4ab9-ab1f-daa8b1490186" H 6450 2450 50
 F 4 "J" H 6450 2250 50  0001 C CNN "Spice_Primitive"
 F 5 "ACJM-HHDR" H 6450 2250 50  0001 C CNN "Spice_Model"
 F 6 "N" H 6450 2250 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "889-ACJM-HHDR-ND" H 6450 2250 50  0001 C CNN "Digi-Key_PN"
 	1    6450 2250
 	-1   0    0    -1  
 $EndComp
@@ -452,6 +464,8 @@ F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/prod
 F 4 "R" H 5400 2250 50  0001 C CNN "Spice_Primitive"
 F 5 "1" H 5400 2250 50  0001 C CNN "Spice_Model"
 F 6 "N" H 5400 2250 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "EG5492-ND" H 5400 2250 50  0001 C CNN "Digi-Key_PN"
+F 8 "FS57003PLT2B2M2QE" H 5400 2250 50  0001 C CNN "MPN"
 	3    5400 2250
 	-1   0    0    -1  
 $EndComp
@@ -466,6 +480,8 @@ F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/prod
 F 4 "R" H 1500 2150 50  0001 C CNN "Spice_Primitive"
 F 5 "1" H 1500 2150 50  0001 C CNN "Spice_Model"
 F 6 "N" H 1500 2150 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "EG5492-ND" H 1500 2150 50  0001 C CNN "Digi-Key_PN"
+F 8 "FS57003PLT2B2M2QE" H 1500 2150 50  0001 C CNN "MPN"
 	1    1500 2150
 	-1   0    0    -1  
 $EndComp
@@ -480,6 +496,8 @@ F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/prod
 F 4 "R" H 1450 3000 50  0001 C CNN "Spice_Primitive"
 F 5 "1" H 1450 3000 50  0001 C CNN "Spice_Model"
 F 6 "N" H 1450 3000 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "EG5492-ND" H 1450 3000 50  0001 C CNN "Digi-Key_PN"
+F 8 "FS57003PLT2B2M2QE" H 1450 3000 50  0001 C CNN "MPN"
 	2    1450 3000
 	-1   0    0    -1  
 $EndComp
@@ -494,6 +512,7 @@ F 3 "blob:resource://pdf.js/bd5152e8-2016-4ab9-ab1f-daa8b1490186" H 700 2250 50 
 F 4 "I" H 700 2050 50  0001 C CNN "Spice_Primitive"
 F 5 "dc 0 ac 1 sin(200m 1 100)" H 700 2050 50  0001 C CNN "Spice_Model"
 F 6 "N" H 700 2050 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "889-ACJM-HHDR-ND" H 700 2050 50  0001 C CNN "Digi-Key_PN"
 	1    700  2050
 	1    0    0    -1  
 $EndComp
@@ -513,6 +532,8 @@ F 4 "X" H 2700 1150 50  0001 C CNN "Spice_Primitive"
 F 5 "RC4558" H 2700 1150 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 2700 1150 50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "../lib/spice_models/RC4558.301.lib" H 2700 1150 50  0001 C CNN "Spice_Lib_File"
+F 8 "296-9650-5-ND" H 2700 1150 50  0001 C CNN "Digi-Key_PN"
+F 9 "RC4558D" H 2700 1150 50  0001 C CNN "MPN"
 	3    2700 1150
 	1    0    0    -1  
 $EndComp
@@ -637,6 +658,4 @@ F 7 "../lib/spice_models/audio_src.lib" H 2350 3950 50  0001 C CNN "Spice_Lib_Fi
 $EndComp
 Text Notes 900  4150 0    50   ~ 0
 .tran 0.1u 10m 9.9m
-Text Notes 900  4350 0    50   ~ 0
-.ac dec 10 1 10K
 $EndSCHEMATC
