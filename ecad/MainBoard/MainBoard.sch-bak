@@ -639,8 +639,6 @@ Wire Wire Line
 	2350 4300 2350 4350
 Wire Wire Line
 	2650 2150 2750 2150
-Wire Wire Line
-	3300 2150 3400 2150
 $Comp
 L pspice:VSOURCE V1
 U 1 1 61037A31
@@ -650,12 +648,14 @@ F 1 "VSOURCE" H 2578 3905 50  0000 L CNN
 F 2 "" H 2350 3950 50  0001 C CNN
 F 3 "~" H 2350 3950 50  0001 C CNN
 F 4 "V" H 2350 3950 50  0001 C CNN "Spice_Primitive"
-F 5 "ac 1 sin(0 150m 100k)" H 2350 3950 50  0001 C CNN "Spice_Model"
+F 5 "ac 500m sin(0 500m 200)" H 2350 3950 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 2350 3950 50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "../lib/spice_models/audio_src.lib" H 2350 3950 50  0001 C CNN "Spice_Lib_File"
 	1    2350 3950
 	1    0    0    -1  
 $EndComp
 Text Notes 900  4150 0    50   ~ 0
-.save all @r9[p]\n.tran 0.1u 10m 9.9m\n.run\n.plot @r9[p]
+.tran 1u 30m 20m
+Wire Wire Line
+	3300 2150 3400 2150
 $EndSCHEMATC

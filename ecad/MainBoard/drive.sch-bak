@@ -182,7 +182,7 @@ F 1 "0u22" H 2515 1955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2438 1850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012105011.pdf" H 2400 2000 50  0001 C CNN
 F 4 "C" H 2400 2000 50  0001 C CNN "Spice_Primitive"
-F 5 "0.22u" H 2400 2000 50  0001 C CNN "Spice_Model"
+F 5 "0.22uF" H 2400 2000 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 2400 2000 50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "885012105011" H 2400 2000 50  0001 C CNN "MPN"
 	1    2400 2000
@@ -206,16 +206,16 @@ Wire Wire Line
 $Comp
 L Device:R R?
 U 1 1 60325775
-P 1100 1550
+P 1100 1600
 AR Path="/60325775" Ref="R?"  Part="1" 
 AR Path="/603069E8/60325775" Ref="R5"  Part="1" 
-F 0 "R5" H 1170 1596 50  0000 L CNN
-F 1 "10k" H 1170 1505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1030 1550 50  0001 C CNN
-F 3 "~" H 1100 1550 50  0001 C CNN
-F 4 "RG2012N-474-W-T1" H 1100 1550 50  0001 C CNN "Digi-Key_PN"
-F 5 "RG20N470KWTR-ND" H 1100 1550 50  0001 C CNN "MPN"
-	1    1100 1550
+F 0 "R5" H 1170 1646 50  0000 L CNN
+F 1 "10k" H 1170 1555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1030 1600 50  0001 C CNN
+F 3 "~" H 1100 1600 50  0001 C CNN
+F 4 "RG2012N-474-W-T1" H 1100 1600 50  0001 C CNN "Digi-Key_PN"
+F 5 "RG20N470KWTR-ND" H 1100 1600 50  0001 C CNN "MPN"
+	1    1100 1600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -231,8 +231,6 @@ F 3 "" H 1100 1400 50  0001 C CNN
 	1    1100 1400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1100 1700 1100 1900
 Connection ~ 1100 1900
 Wire Wire Line
 	1100 1900 1400 1900
@@ -367,4 +365,8 @@ Wire Wire Line
 Wire Wire Line
 	2050 500  2050 1100
 Connection ~ 2050 1100
+Wire Wire Line
+	1100 1750 1100 1900
+Wire Wire Line
+	1100 1450 1100 1400
 $EndSCHEMATC
