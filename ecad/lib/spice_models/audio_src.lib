@@ -1,5 +1,0 @@
-.SUBCKT sig 1 2
-SIG_IN %vd([1 0 2 0]) filesrc
-
-.model filesrc filesource (file="test.wav" amploffset=[0 0] amplscale=[1 1] timescale=1 timerelative=false amplstep=false)
-.ENDS

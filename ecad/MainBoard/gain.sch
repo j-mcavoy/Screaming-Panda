@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 5
-Title "Effects Board"
-Date "2021-01-17"
-Rev "1.0"
-Comp "Panda Pals"
-Comment1 "John McAvoy"
+Title "Screaming Panda Guitar Pedal"
+Date "2021-08-08"
+Rev "1v0"
+Comp "John McAvoy"
+Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -20,8 +20,8 @@ P 750 1300
 AR Path="/6030F08B" Ref="R?"  Part="1" 
 AR Path="/60306390/6030F08B" Ref="R22"  Part="1" 
 F 0 "R22" H 820 1346 50  0000 L CNN
-F 1 "1M5" H 820 1255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 680 1300 50  0001 C CNN
+F 1 "1M5" V 750 1225 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 680 1300 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf" H 750 1300 50  0001 C CNN
 F 4 "R" H 750 1300 50  0001 C CNN "Spice_Primitive"
 F 5 "1.5Meg" H 750 1300 50  0001 C CNN "Spice_Model"
@@ -58,8 +58,8 @@ AR Path="/6030F09B" Ref="C?"  Part="1"
 AR Path="/60306390/6030F09B" Ref="C1"  Part="1" 
 F 0 "C1" V 748 1100 50  0000 C CNN
 F 1 "20n" V 839 1100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1038 950 50  0001 C CNN
-F 3 "~" H 1000 1100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 1038 950 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0402C224M8RACTU.pdf" H 1000 1100 50  0001 C CNN
 F 4 "399-C0402C224M8RACTUTR-ND" H 1000 1100 50  0001 C CNN "Digi-Key_PN"
 F 5 "399-C0402C224M8RACTUTR-ND" H 1000 1100 50  0001 C CNN "MPN"
 	1    1000 1100
@@ -74,10 +74,10 @@ U 1 1 6030F0A3
 P 1350 1100
 AR Path="/6030F0A3" Ref="R?"  Part="1" 
 AR Path="/60306390/6030F0A3" Ref="R1"  Part="1" 
-F 0 "R1" V 1143 1100 50  0000 C CNN
-F 1 "1k" V 1234 1100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1280 1100 50  0001 C CNN
-F 3 "~" H 1350 1100 50  0001 C CNN
+F 0 "R1" V 1250 1100 50  0000 C CNN
+F 1 "1k" V 1350 1100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1280 1100 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 1350 1100 50  0001 C CNN
 F 4 "A130048TR-ND" H 1350 1100 50  0001 C CNN "Digi-Key_PN"
 F 5 "CRGCQ0402J1K0" H 1350 1100 50  0001 C CNN "MPN"
 	1    1350 1100
@@ -90,9 +90,9 @@ P 1550 900
 AR Path="/6030F0A9" Ref="R?"  Part="1" 
 AR Path="/60306390/6030F0A9" Ref="R2"  Part="1" 
 F 0 "R2" H 1620 946 50  0000 L CNN
-F 1 "501k" H 1620 855 50  0000 L CNN
+F 1 "505k" V 1550 800 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1480 900 50  0001 C CNN
-F 3 "~" H 1550 900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/KOA%20Speer/RN73R_Type_DS.pdf" H 1550 900 50  0001 C CNN
 F 4 "2019-RN73R2ATTD5053F100TR-ND" H 1550 900 50  0001 C CNN "Digi-Key_PN"
 F 5 "RN73R2ATTD5053F100" H 1550 900 50  0001 C CNN "MPN"
 	1    1550 900 
@@ -171,9 +171,9 @@ P 1950 1550
 AR Path="/6030F0D1" Ref="R?"  Part="1" 
 AR Path="/60306390/6030F0D1" Ref="R3"  Part="1" 
 F 0 "R3" H 2020 1596 50  0000 L CNN
-F 1 "10k" H 2020 1505 50  0000 L CNN
+F 1 "10k" V 1950 1475 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1880 1550 50  0001 C CNN
-F 3 "~" H 1950 1550 50  0001 C CNN
+F 3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf" H 1950 1550 50  0001 C CNN
 F 4 "RG2012N-474-W-T1" H 1950 1550 50  0001 C CNN "Digi-Key_PN"
 F 5 "RG20N470KWTR-ND" H 1950 1550 50  0001 C CNN "MPN"
 	1    1950 1550

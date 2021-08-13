@@ -1,0 +1,7 @@
+Reference, Value, Footprint, Datasheet
+"RV1","500ka","screaming-panda:Potentiometer_Bourns_PTV09A-1_Single_Vertical","~"
+"RV2","20kb","screaming-panda:Potentiometer_Bourns_PTV09A-1_Single_Vertical","~"
+"RV3","20ka","screaming-panda:Potentiometer_Bourns_PTV09A-1_Single_Vertical","~"
+"J1","DrivePot","Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Vertical","~"
+"J2","TonePot","Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Vertical","~"
+"J3","VolumePot","Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Vertical","~"

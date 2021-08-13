@@ -1,9 +1,8 @@
 .title KiCad schematic
-.include "../lib/spice_models/1N914.LIB"
+.include "../lib/spice_models/1N914.lib"
 .include "../lib/spice_models/2N4401.lib"
 .include "../lib/spice_models/RC4558.301.lib"
-.include "../lib/spice_models/audio_src.lib"
-.include "../lib/spice_models/pot.lib"
+.include "../lib/spice_models/pots.lib"
 .include "/home/john/dox/cad/screaming-panda/ecad/lib/spice_models/2N4401BU.lib"
 R23 +9V Net-_D4-Pad2_ 1k
 D5 0 +9V D1N914
@@ -11,25 +10,25 @@ C12 +9V 0 100u
 R9 +9V VCC 10k
 R10 VCC 0 10k
 C7 VCC 0 47u
-XIC1 Net-_C4-Pad2_ Net-_C3-Pad1_ Net-_C2-Pad2_ 0 /tone/IN Net-_IC1-Pad6_ /volume/IN +9V RC4558
 V2 +9V 0 dc 9
 V1 /SIG_IN 0 ac 500m sin(0 500m 200)
-C2 /drive/IN Net-_C2-Pad2_ 1u
-C4 Net-_C3-Pad1_ Net-_C4-Pad2_ 50p
-D2 Net-_C3-Pad1_ Net-_C4-Pad2_ D1N914
-D1 Net-_C4-Pad2_ Net-_C3-Pad1_ D1N914
-R7 Net-_R19-Pad3_ Net-_C3-Pad1_ 51k
-R8 /tone/IN Net-_C4-Pad2_ 1k
-R16 VCC /tone/IN 10k
-C5 /tone/IN 0 0.22uF
-R5 VCC Net-_C2-Pad2_ 10k
-C3 Net-_C3-Pad1_ Net-_C3-Pad2_ 50p
+XIC1 Net-_C4-Pad2_ Net-_C3-Pad1_ Net-_C2-Pad2_ 0 /tone/IN Net-_IC1-Pad6_ /volume/IN +9V RC4558
 R6 VCC Net-_C3-Pad2_ 4.7k
+C3 Net-_C3-Pad1_ Net-_C3-Pad2_ 50p
+R5 VCC Net-_C2-Pad2_ 10k
+C5 /tone/IN 0 0.22uF
+R16 VCC /tone/IN 10k
+R8 /tone/IN Net-_C4-Pad2_ 1k
+R7 Net-_R19-Pad3_ Net-_C3-Pad1_ 51k
+D1 Net-_C4-Pad2_ Net-_C3-Pad1_ D1N914
+D2 Net-_C3-Pad1_ Net-_C4-Pad2_ D1N914
+C4 Net-_C3-Pad1_ Net-_C4-Pad2_ 50p
+C2 /drive/IN Net-_C2-Pad2_ 1u
 XR19 NC_01 Net-_C4-Pad2_ Net-_R19-Pad3_ POTDrive
 C9 Net-_C9-Pad1_ Net-_C9-Pad2_ 220n
-R11 Net-_C9-Pad2_ 0 220
+R11 Net-_C9-Pad1_ 0 220
 R17 /volume/IN Net-_IC1-Pad6_ 1k
-XR20 /tone/IN Net-_C9-Pad1_ Net-_IC1-Pad6_ POTTone
+XR20 /tone/IN Net-_C9-Pad2_ Net-_IC1-Pad6_ POTTone
 R18 Net-_R18-Pad1_ Net-_C8-Pad2_ 1k
 C10 Net-_C10-Pad1_ Net-_C10-Pad2_ 0.1u
 R12 VCC Net-_C10-Pad1_ 510k
@@ -43,7 +42,7 @@ XR21 Net-_R18-Pad1_ Net-_C10-Pad2_ VCC POTVolume
 R22 /SIG_IN 0 1.5Meg
 C1 Net-_C1-Pad1_ /SIG_IN 20n
 R1 Net-_Q1-Pad2_ Net-_C1-Pad1_ 1k
-R2 VCC Net-_Q1-Pad2_ 501k
+R2 VCC Net-_Q1-Pad2_ 505k
 Q1 +9V Net-_Q1-Pad2_ /drive/IN 2N4401
 R3 /drive/IN 0 10k
 .tran 1u 30m 20m 

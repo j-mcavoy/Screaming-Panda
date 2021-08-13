@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/john/dox/cad/screaming-panda/ecad/PotBoard/PotBoard.sch</source>
+    <date>Sun 08 Aug 2021 10:47:09 AM PDT</date>
+    <tool>Eeschema 5.1.10</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PotBoard.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="RV1">
+      <value>500ka</value>
+      <footprint>screaming-panda:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60172AD1</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>20kb</value>
+      <footprint>screaming-panda:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601741E4</tstamp>
+    </comp>
+    <comp ref="RV3">
+      <value>20ka</value>
+      <footprint>screaming-panda:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6017449C</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>DrivePot</value>
+      <footprint>Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60174D24</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>TonePot</value>
+      <footprint>Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60175BA1</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>VolumePot</value>
+      <footprint>Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60176058</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x03_Female">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J1-Pad3)">
+      <node ref="RV1" pin="3"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="2" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+      <node ref="RV2" pin="1"/>
+    </net>
+    <net code="3" name="Net-(J2-Pad2)">
+      <node ref="RV2" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="4" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+      <node ref="RV2" pin="3"/>
+    </net>
+    <net code="5" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="RV1" pin="2"/>
+    </net>
+    <net code="6" name="Net-(J3-Pad1)">
+      <node ref="RV3" pin="1"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="7" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+      <node ref="RV3" pin="2"/>
+    </net>
+    <net code="8" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
+      <node ref="RV3" pin="3"/>
+    </net>
+    <net code="9" name="Net-(J1-Pad1)">
+      <node ref="RV1" pin="1"/>
+      <node ref="J1" pin="1"/>
+    </net>
+  </nets>
+</export>

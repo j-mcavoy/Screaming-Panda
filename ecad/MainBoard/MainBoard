@@ -1,49 +1,47 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>KiCad BOM Example 5</title>
-    </head>
-    <body>
-    <h1>/home/john/dox/cad/screaming-panda/ecad/MainBoard/MainBoard.sch</h1>
-    <p>Tue 03 Aug 2021 10:55:26 AM PDT</p>
-    <p>Eeschema 5.1.10</p>
-    <p><b>Component Count:</b>46</p>
-    <table>
-    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
-    <tr><td>C1</td><td>1</td><td>20n</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</td><td>Unpolarized capacitor</td><td></td></tr>
-    <tr><td>C2</td><td>1</td><td>1u</td><td>Device:CP</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</td><td>Polarized capacitor</td><td></td></tr>
-    <tr><td>C3</td><td>1</td><td>47p</td><td>Device:C</td><td></td><td>Unpolarized capacitor</td><td></td></tr>
-    <tr><td>C4</td><td>1</td><td>51p</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</td><td>Unpolarized capacitor</td><td></td></tr>
-    <tr><td>C5</td><td>1</td><td>0u22</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</td><td>Unpolarized capacitor</td><td></td></tr>
-    <tr><td>C7</td><td>1</td><td>47u</td><td>Device:CP</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</td><td>Polarized capacitor</td><td></td></tr>
-    <tr><td>C8</td><td>1</td><td>1u</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</td><td>Unpolarized capacitor</td><td></td></tr>
-    <tr><td>C9</td><td>1</td><td>220n</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</td><td>Unpolarized capacitor</td><td></td></tr>
-    <tr><td>C10</td><td>1</td><td>0u1</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</td><td>Unpolarized capacitor</td><td></td></tr>
-    <tr><td>C11</td><td>1</td><td>10u</td><td>Device:CP</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</td><td>Polarized capacitor</td><td></td></tr>
-    <tr><td>C12</td><td>1</td><td>100u</td><td>Device:CP</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</td><td>Polarized capacitor</td><td></td></tr>
-    <tr><td>D1, D2, D5</td><td>3</td><td>1N914</td><td>Diode:1N914</td><td>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp</td><td>100V 0.3A Small Signal Fast Switching Diode, DO-35</td><td></td></tr>
-    <tr><td>D4</td><td>1</td><td>QBL8XX60D</td><td>Device:LED</td><td>digikey-footprints:LED_5mm_Radial</td><td>Light emitting diode</td><td></td></tr>
-    <tr><td>IC1</td><td>1</td><td>RC4558</td><td>Amplifier_Operational:RC4558</td><td>Package_SO:Texas_R-PDSO-G8_EP2.95x4.9mm_Mask2.4x3.1mm</td><td>Dual General Purpose, Operational Amplifier, DIP-8/SOIC-8/SSOP-8</td><td></td></tr>
-    <tr><td>J1, J2</td><td>2</td><td>ACJM-HHDR</td><td>Connector:AudioJack2_Switch</td><td>screaming-panda:ACJM-HHDR</td><td>Audio Jack, 2 Poles (Mono / TS), Switched Pole (Normalling)</td><td></td></tr>
-    <tr><td>J3</td><td>1</td><td>PJ-102A</td><td>dk_Barrel-Power-Connectors:PJ-102A</td><td>screaming-panda:Barrel_Jack_5.5mmODx2.1mmID_PJ-102A</td><td>CONN PWR JACK 2X5.5MM SOLDER</td><td></td></tr>
-    <tr><td>Q1, Q2</td><td>2</td><td>2N4401BU</td><td>dk_Transistors-Bipolar-BJT-Single:2N4401BU</td><td>digikey-footprints:TO-92-3</td><td>TRANS NPN 40V 0.6A TO-92</td><td></td></tr>
-    <tr><td>R1, R8, R17, R18, R23</td><td>5</td><td>1k</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</td><td>Resistor</td><td></td></tr>
-    <tr><td>R2, R12</td><td>2</td><td>501k</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</td><td>Resistor</td><td></td></tr>
-    <tr><td>R3, R5, R9, R10, R13, R14, R16</td><td>7</td><td>10k</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</td><td>Resistor</td><td></td></tr>
-    <tr><td>R6</td><td>1</td><td>4k7</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</td><td>Resistor</td><td></td></tr>
-    <tr><td>R7</td><td>1</td><td>51k</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</td><td>Resistor</td><td></td></tr>
-    <tr><td>R11</td><td>1</td><td>220</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</td><td>Resistor</td><td></td></tr>
-    <tr><td>R15</td><td>1</td><td>100</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</td><td>Resistor</td><td></td></tr>
-    <tr><td>R19</td><td>1</td><td>DrivePot</td><td>Device:R_POT</td><td>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</td><td>Potentiometer</td><td></td></tr>
-    <tr><td>R20</td><td>1</td><td>TonePot</td><td>Device:R_POT</td><td>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</td><td>Potentiometer</td><td></td></tr>
-    <tr><td>R21</td><td>1</td><td>VolumePot</td><td>Device:R_POT</td><td>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</td><td>Potentiometer</td><td></td></tr>
-    <tr><td>R22</td><td>1</td><td>1M5</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</td><td>Resistor</td><td></td></tr>
-    <tr><td>SW1</td><td>1</td><td>FS57003PLT2B2M2QE</td><td>screaming-panda:FS57003PLT2B2M2QE</td><td>screaming-panda:SW_PUSH_E-Switch_FS57003PLT_3PDT</td><td>SW_3PDT</td><td></td></tr>
-    <tr><td>V1, V2</td><td>2</td><td>VSOURCE</td><td>pspice:VSOURCE</td><td></td><td>Voltage source symbol for simulation only</td><td></td></tr><!--TABLEROW-->
-    </table>
-    </body>
-</html>
-    
+Reference, Value, Footprint, Datasheet, Digi-Key_PN, MPN, Spice_Model, Spice_Netlist_Enabled, Spice_Primitive, Category, DK_Datasheet_Link, DK_Detail_Page, Description, Family, Manufacturer, Status, Spice_Lib_File, Spice_Node_Sequence
+"D4","QBL8XX60D","digikey-footprints:LED_5mm_Radial","http://www.qt-brightek.com/datasheet/QBL8XX60D.pdf","1516-1359-ND","QBL8XX60D","LED","N","D","","","","","","","","",""
+"R23","1k","Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder","https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English","A130048TR-ND","CRGCQ0402J1K0","1k","Y","R","","","","","","","","",""
+"J3","PJ-102A","screaming-panda:Barrel_Jack_5.5mmODx2.1mmID_PJ-102A","https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf","CP-102A-ND","CP-102A-ND","dc 9","N","V","Connectors, Interconnects","https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf","/product-detail/en/cui-inc/PJ-102A/CP-102A-ND/275425","CONN PWR JACK 2X5.5MM SOLDER","Barrel - Power Connectors","CUI Inc.","Active","",""
+"D5","1N914","Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp","http://www.vishay.com/docs/85622/1n914.pdf","1N914MS-ND","1N914","D1N914","Y","D","","","","","","","","../lib/spice_models/1N914.lib","2 1"
+"C12","100u","Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder","https://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf","587-6152-6-ND","LMK325ABJ107MM-T","","","","","","","","","","","",""
+"R9","10k","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf","RG2012N-474-W-T1","RG20N470KWTR-ND","","","","","","","","","","","",""
+"R10","10k","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf","RG2012N-474-W-T1","RG20N470KWTR-ND","","","","","","","","","","","",""
+"C7","47u","Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder","https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31A476MPHNNNE_Spec.pdf","1276-3063-6-ND","CL31A476MPHNNNE","","","","","","","","","","","",""
+"SW1","FS57003PLT2B2M2QE","screaming-panda:SW_PUSH_E-Switch_FS57003PLT_3PDT","https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/226/FS5700.pdf","EG5492-ND","FS57003PLT2B2M2QE","1","N","R","","","","","","","","",""
+"J1","ACJM-HHDR","screaming-panda:ACJM-HHDR","http://www.amphenolaudio.com/wp-content/uploads/2015/07/TD_m-jack.pdf","889-ACJM-HHDR-ND","ACJM-HHDR","dc 0 ac 1 sin(200m 1 100)","N","I","","","","","","","","",""
+"V2","VSOURCE","","~","","","dc 9","Y","V","","","","","","","","",""
+"V1","VSOURCE","","~","","","ac 500m sin(0 500m 200)","Y","V","","","","","","","","",""
+"J2","ACJM-HHDR","screaming-panda:ACJM-HHDR","http://www.amphenolaudio.com/wp-content/uploads/2015/07/TD_m-jack.pdf","889-ACJM-HHDR-ND","ACJM-HHDR","ACJM-HHDR","N","J","","","","","","","","",""
+"IC1","RC4558","DigiKey:SOIC-8_W3.9mm","http://www.ti.com/lit/ds/symlink/rc4558.pdf","296-9650-5-ND","RC4558D","RC4558","Y","X","","","","","","","","../lib/spice_models/RC4558.301.lib",""
+"R6","4k7","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-1&DocType=DS&DocLang=English","A129546TR-ND","CRGH0805F4K7","4.7k","Y","R","","","","","","","","",""
+"C3","50p","Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder","https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM0335C1E470JA01-01.pdf","490-1256-6-ND","GRM0335C1E470JA01D","50p","Y","C","","","","","","","","",""
+"R5","10k","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf","RG2012N-474-W-T1","RG20N470KWTR-ND","","","","","","","","","","","",""
+"C5","0u22","Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder","https://www.we-online.de/katalog/datasheet/885012105011.pdf","732-7488-6-ND","885012105011","0.22uF","Y","C","","","","","","","","",""
+"R16","10k","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf","RG2012N-474-W-T1","RG20N470KWTR-ND","","","","","","","","","","","",""
+"R8","1k","Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder","https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English","A130048TR-ND","CRGCQ0402J1K0","","","","","","","","","","","",""
+"R7","51k","Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder","https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf","RMCF1206FT51K0TR-ND","RMCF1206FT51K0","","","","","","","","","","","",""
+"D1","1N914","Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp","http://www.vishay.com/docs/85622/1n914.pdf","1N914MS-ND","1N914","D1N914","Y","D","","","","","","","","../lib/spice_models/1N914.lib","2 1"
+"D2","1N914","Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp","http://www.vishay.com/docs/85622/1n914.pdf","1N914MS-ND","1N914","D1N914","Y","D","","","","","","","","../lib/spice_models/1N914.lib","2 1"
+"C4","50p","Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder","https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM0335C1E470JA01-01.pdf","490-1256-6-ND","GRM0335C1E470JA01D","50p","Y","C","","","","","","","","",""
+"C2","1u","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","https://datasheets.avx.com/cx5r.pdf","0603ZD106KAT2A","0603ZD106KAT2A","1u","Y","C","","","","","","","","",""
+"R19","500ka","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","https://www.bourns.com/docs/Product-Datasheets/PTV09.pdf","75160-195-08LF","","POTDrive","Y","X","Drive Pot","","","","","","","../lib/spice_models/pots.lib",""
+"C9","220n","Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder","https://datasheets.avx.com/X7RDielectric.pdf","478-12065C204KAT4ADKR-ND","12065C204KAT4A","","","","","","","","","","","",""
+"R11","220","Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder","https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242","PT220XTR-ND","ERJ-1TYJ221U","","","","","","","","","","","",""
+"R17","1k","Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder","https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English","A130048TR-ND","CRGCQ0402J1K0","","","","","","","","","","","",""
+"R20","20kb","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","https://www.bourns.com/docs/Product-Datasheets/PTV09.pdf","75160-195-08LF","","POTTone","Y","X","Tone Pot","","","","","","","../lib/spice_models/pots.lib",""
+"R18","1k","Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder","https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English","A130048TR-ND","CRGCQ0402J1K0","","","","","","","","","","","",""
+"C10","0u1","Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder","http://www.samsungsem.com/kr/support/product-search/mlcc/CL03A104MP3NNNC.jsp","1276-1321-6-ND","CL03A104MP3NNNC","0.1u","Y","C","","","","","","","","",""
+"R12","510k","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","https://media.digikey.com/pdf/Data%20Sheets/KOA%20Speer/RN73R_Type_DS.pdf","2019-RN73R2ATTD5053F100TR-ND","RN73R2ATTD5053F100","","","","","","","","","","","",""
+"R14","10k","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf","RG2012N-474-W-T1","RG20N470KWTR-ND","","","","","","","","","","","",""
+"R15","100","Resistor_SMD:R_1218_3246Metric_Pad1.22x4.75mm_HandSolder","https://www.vishay.com/docs/20043/crcwhpe3.pdf","541-100ANDKR-ND","CRCW1218100RFKEKHP","","","","","","","","","","","",""
+"C11","10u","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","https://datasheets.avx.com/cx5r.pdf","478-10766-6-ND","0603ZD106KAT2A","","","","","","","","","","","",""
+"R13","10k","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf","RG2012N-474-W-T1","RG20N470KWTR-ND","","","","","","","","","","","",""
+"C8","1u","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","https://datasheets.avx.com/cx5r.pdf","0603ZD106KAT2A","0603ZD106KAT2A","","","","","","","","","","","",""
+"Q2","2N4401BU","digikey-footprints:TO-92-3","https://www.onsemi.com/pub/Collateral/MMBT4401-D.PDF","2N4401-ND","2N4401-ND","2N4401","Y","Q","Discrete Semiconductor Products","https://www.onsemi.com/pub/Collateral/MMBT4401-D.PDF","/product-detail/en/on-semiconductor/2N4401BU/2N4401-ND/1417","TRANS NPN 40V 0.6A TO-92","Transistors - Bipolar (BJT) - Single","ON Semiconductor","Active","/home/john/dox/cad/screaming-panda/ecad/lib/spice_models/2N4401BU.lib","3 2 1"
+"R21","20ka","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","https://www.bourns.com/docs/Product-Datasheets/PTV09.pdf","75160-195-08LF","","POTVolume","Y","X","Volume Pot","","","","","","","../lib/spice_models/pots.lib",""
+"R22","1M5","Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder","https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf","10-ERJ-U02J155XTR-ND","ERJ-U02J155X","1.5Meg","Y","R","","","","","","","","",""
+"C1","20n","Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder","https://api.kemet.com/component-edge/download/datasheet/C0402C224M8RACTU.pdf","399-C0402C224M8RACTUTR-ND","399-C0402C224M8RACTUTR-ND","","","","","","","","","","","",""
+"R1","1k","Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder","https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English","A130048TR-ND","CRGCQ0402J1K0","","","","","","","","","","","",""
+"R2","505k","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","https://media.digikey.com/pdf/Data%20Sheets/KOA%20Speer/RN73R_Type_DS.pdf","2019-RN73R2ATTD5053F100TR-ND","RN73R2ATTD5053F100","","","","","","","","","","","",""
+"Q1","2N4401BU","digikey-footprints:TO-92-3","https://www.onsemi.com/pub/Collateral/MMBT4401-D.PDF","2N4401-ND","2N4401-ND","2N4401","Y","Q","Discrete Semiconductor Products","https://www.onsemi.com/pub/Collateral/MMBT4401-D.PDF","/product-detail/en/on-semiconductor/2N4401BU/2N4401-ND/1417","TRANS NPN 40V 0.6A TO-92","Transistors - Bipolar (BJT) - Single","ON Semiconductor","Active","../lib/spice_models/2N4401.lib","3 2 1"
+"R3","10k","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf","RG2012N-474-W-T1","RG20N470KWTR-ND","","","","","","","","","","","",""
