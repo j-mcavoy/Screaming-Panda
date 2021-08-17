@@ -21,10 +21,10 @@ AR Path="/60332464" Ref="R?"  Part="1"
 AR Path="/6030769F/60332464" Ref="R18"  Part="1" 
 F 0 "R18" V 1100 1650 50  0000 C CNN
 F 1 "1k" V 1200 1650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1130 1650 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 1200 1650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1130 1650 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/ERA6AEB102V-Panasonic-datasheet-62287448.pdf" H 1200 1650 50  0001 C CNN
 F 4 "A130048TR-ND" H 1200 1650 50  0001 C CNN "Digi-Key_PN"
-F 5 "CRGCQ0402J1K0" H 1200 1650 50  0001 C CNN "MPN"
+F 5 "ERA6AEB102V" H 1200 1650 50  0001 C CNN "MPN"
 	1    1200 1650
 	0    1    1    0   
 $EndComp
@@ -35,13 +35,13 @@ P 1900 1400
 AR Path="/60332470" Ref="C?"  Part="1" 
 AR Path="/6030769F/60332470" Ref="C10"  Part="1" 
 F 0 "C10" V 1648 1400 50  0000 C CNN
-F 1 "0u1" V 1739 1400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 1938 1250 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL03A104MP3NNNC.jsp" H 1900 1400 50  0001 C CNN
+F 1 "100n" V 1739 1400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1938 1250 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/C0805C104K3RAC-TU-Kemet-datasheet-5313890.pdf" H 1900 1400 50  0001 C CNN
 F 4 "C" H 1900 1400 50  0001 C CNN "Spice_Primitive"
 F 5 "0.1u" H 1900 1400 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 1900 1400 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "CL03A104MP3NNNC" H 1900 1400 50  0001 C CNN "MPN"
+F 7 "C0805C104K3RACTU" H 1900 1400 50  0001 C CNN "MPN"
 F 8 "1276-1321-6-ND" H 1900 1400 50  0001 C CNN "Digi-Key_PN"
 	1    1900 1400
 	0    1    1    0   
@@ -55,9 +55,9 @@ AR Path="/6030769F/60332476" Ref="R12"  Part="1"
 F 0 "R12" H 2170 1096 50  0000 L CNN
 F 1 "510k" V 2100 950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2030 1050 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/KOA%20Speer/RN73R_Type_DS.pdf" H 2100 1050 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/ERJ-6ENF5103V-Panasonic-datasheet-13266541.pdf" H 2100 1050 50  0001 C CNN
 F 4 "2019-RN73R2ATTD5053F100TR-ND" H 2100 1050 50  0001 C CNN "Digi-Key_PN"
-F 5 "RN73R2ATTD5053F100" H 2100 1050 50  0001 C CNN "MPN"
+F 5 "ERJ-6ENF5103V" H 2100 1050 50  0001 C CNN "MPN"
 	1    2100 1050
 	1    0    0    -1  
 $EndComp
@@ -106,9 +106,9 @@ AR Path="/6030769F/603324B1" Ref="R14"  Part="1"
 F 0 "R14" H 2520 1896 50  0000 L CNN
 F 1 "10k" V 2450 1750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2380 1850 50  0001 C CNN
-F 3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf" H 2450 1850 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/ERJ-6GEYJ103V-Panasonic-datasheet-13266872.pdf" H 2450 1850 50  0001 C CNN
 F 4 "RG2012N-474-W-T1" H 2450 1850 50  0001 C CNN "Digi-Key_PN"
-F 5 "RG20N470KWTR-ND" H 2450 1850 50  0001 C CNN "MPN"
+F 5 "ERJ-6GEYJ103V" H 2450 1850 50  0001 C CNN "MPN"
 	1    2450 1850
 	1    0    0    -1  
 $EndComp
@@ -125,10 +125,10 @@ AR Path="/603324BA" Ref="R?"  Part="1"
 AR Path="/6030769F/603324BA" Ref="R15"  Part="1" 
 F 0 "R15" V 3050 1650 50  0000 C CNN
 F 1 "100" V 3150 1650 50  0000 C CNN
-F 2 "Resistor_SMD:R_1218_3246Metric_Pad1.22x4.75mm_HandSolder" V 3080 1650 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/20043/crcwhpe3.pdf" H 3150 1650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3080 1650 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/ERJ-6GEYJ101V-Panasonic-datasheet-13266872.pdf" H 3150 1650 50  0001 C CNN
 F 4 "541-100ANDKR-ND" H 3150 1650 50  0001 C CNN "Digi-Key_PN"
-F 5 "CRCW1218100RFKEKHP" H 3150 1650 50  0001 C CNN "MPN"
+F 5 "ERJ-6GEYJ101V" H 3150 1650 50  0001 C CNN "MPN"
 	1    3150 1650
 	0    1    1    0   
 $EndComp
@@ -140,9 +140,9 @@ AR Path="/603324C0" Ref="C?"  Part="1"
 AR Path="/6030769F/603324C0" Ref="C11"  Part="1" 
 F 0 "C11" V 3755 1650 50  0000 C CNN
 F 1 "10u" V 3664 1650 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3538 1500 50  0001 C CNN
-F 3 "https://datasheets.avx.com/cx5r.pdf" H 3500 1650 50  0001 C CNN
-F 4 "0603ZD106KAT2A" H 3500 1650 50  0001 C CNN "MPN"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3538 1500 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/C0805C106K8PACTU-KEMET-datasheet-149523945.pdf" H 3500 1650 50  0001 C CNN
+F 4 "C0805C106K8PACTU" H 3500 1650 50  0001 C CNN "MPN"
 F 5 "478-10766-6-ND" H 3500 1650 50  0001 C CNN "Digi-Key_PN"
 	1    3500 1650
 	0    -1   -1   0   
@@ -156,9 +156,9 @@ AR Path="/6030769F/603324C6" Ref="R13"  Part="1"
 F 0 "R13" H 3770 1896 50  0000 L CNN
 F 1 "10k" V 3700 1775 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3630 1850 50  0001 C CNN
-F 3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf" H 3700 1850 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/ERJ-6GEYJ103V-Panasonic-datasheet-13266872.pdf" H 3700 1850 50  0001 C CNN
 F 4 "RG2012N-474-W-T1" H 3700 1850 50  0001 C CNN "Digi-Key_PN"
-F 5 "RG20N470KWTR-ND" H 3700 1850 50  0001 C CNN "MPN"
+F 5 "ERJ-6GEYJ103V" H 3700 1850 50  0001 C CNN "MPN"
 	1    3700 1850
 	1    0    0    -1  
 $EndComp
@@ -211,9 +211,9 @@ AR Path="/61103F6B" Ref="C?"  Part="1"
 AR Path="/6030769F/61103F6B" Ref="C8"  Part="1" 
 F 0 "C8" V 1105 1650 50  0000 C CNN
 F 1 "1u" V 1014 1650 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 888 1500 50  0001 C CNN
-F 3 "https://datasheets.avx.com/cx5r.pdf" H 850 1650 50  0001 C CNN
-F 4 "0603ZD106KAT2A" H 850 1650 50  0001 C CNN "MPN"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 888 1500 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/C0805C105K4RACTU-KEMET-datasheet-149523919.pdf" H 850 1650 50  0001 C CNN
+F 4 "C0805C105K4RACTU" H 850 1650 50  0001 C CNN "MPN"
 F 5 "0603ZD106KAT2A" H 850 1650 50  0001 C CNN "Digi-Key_PN"
 	1    850  1650
 	0    -1   -1   0   
@@ -225,11 +225,11 @@ P 2350 1400
 AR Path="/60332485" Ref="Q?"  Part="1" 
 AR Path="/6030769F/60332485" Ref="Q2"  Part="1" 
 F 0 "Q2" H 2538 1453 60  0000 L CNN
-F 1 "2N4401BU" H 2538 1347 60  0000 L CNN
+F 1 "2N4424" H 2538 1347 60  0000 L CNN
 F 2 "digikey-footprints:TO-92-3" H 2550 1600 60  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/MMBT4401-D.PDF" H 2550 1700 60  0001 L CNN
+F 3 "" H 2550 1700 60  0001 L CNN
 F 4 "2N4401-ND" H 2550 1800 60  0001 L CNN "Digi-Key_PN"
-F 5 "2N4401-ND" H 2550 1900 60  0001 L CNN "MPN"
+F 5 "2N4424" H 2550 1900 60  0001 L CNN "MPN"
 F 6 "Discrete Semiconductor Products" H 2550 2000 60  0001 L CNN "Category"
 F 7 "Transistors - Bipolar (BJT) - Single" H 2550 2100 60  0001 L CNN "Family"
 F 8 "https://www.onsemi.com/pub/Collateral/MMBT4401-D.PDF" H 2550 2200 60  0001 L CNN "DK_Datasheet_Link"
@@ -237,8 +237,8 @@ F 9 "/product-detail/en/on-semiconductor/2N4401BU/2N4401-ND/1417" H 2550 2300 60
 F 10 "TRANS NPN 40V 0.6A TO-92" H 2550 2400 60  0001 L CNN "Description"
 F 11 "ON Semiconductor" H 2550 2500 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 2550 2600 60  0001 L CNN "Status"
-F 13 "/home/john/dox/cad/screaming-panda/ecad/lib/spice_models/2N4401BU.lib" H 2350 1400 50  0001 C CNN "Spice_Lib_File"
-F 14 "2N4401" H 2350 1400 50  0001 C CNN "Spice_Model"
+F 13 "../lib/spice_models/2N4424.lib" H 2350 1400 50  0001 C CNN "Spice_Lib_File"
+F 14 "2N4424" H 2350 1400 50  0001 C CNN "Spice_Model"
 F 15 "Y" H 2350 1400 50  0001 C CNN "Spice_Netlist_Enabled"
 F 16 "Q" H 2350 1400 50  0001 C CNN "Spice_Primitive"
 F 17 "3 2 1" H 2350 1400 50  0001 C CNN "Spice_Node_Sequence"
@@ -271,15 +271,15 @@ U 1 1 60197A22
 P 1550 1400
 F 0 "R21" H 1650 1550 50  0000 C CNN
 F 1 "20ka" V 1550 1400 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1550 1400 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PTV09.pdf" H 1550 1400 50  0001 C CNN
+F 2 "DigiKey:PinHeader_1x3_P2.54_Drill1.1mm" H 1550 1400 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/901200160_sd.pdf" H 1550 1400 50  0001 C CNN
 F 4 "X" H 1550 1400 50  0001 C CNN "Spice_Primitive"
 F 5 "POTVolume" H 1550 1400 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 1550 1400 50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "../lib/spice_models/pots.lib" H 1550 1400 50  0001 C CNN "Spice_Lib_File"
 F 8 "Volume Pot" H 1800 1650 50  0000 C CNN "Category"
 F 9 "75160-195-08LF" H 1550 1400 50  0001 C CNN "Digi-Key_PN"
-F 10 "" H 1550 1400 50  0001 C CNN "MPN"
+F 10 "0901200160" H 1550 1400 50  0001 C CNN "MPN"
 	1    1550 1400
 	1    0    0    1   
 $EndComp

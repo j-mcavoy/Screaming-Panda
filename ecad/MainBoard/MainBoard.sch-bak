@@ -310,13 +310,13 @@ L Device:LED D4
 U 1 1 6005DA24
 P 1650 3300
 F 0 "D4" H 1643 3517 50  0000 C CNN
-F 1 "QBL8XX60D" H 1643 3426 50  0000 C CNN
+F 1 "LED_BLUE" H 1643 3426 50  0000 C CNN
 F 2 "digikey-footprints:LED_5mm_Radial" H 1650 3300 50  0001 C CNN
-F 3 "http://www.qt-brightek.com/datasheet/QBL8XX60D.pdf" H 1650 3300 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/HLMP-DB25-B0000-Broadcom-datasheet-65931945.pdf" H 1650 3300 50  0001 C CNN
 F 4 "D" H 1650 3300 50  0001 C CNN "Spice_Primitive"
 F 5 "LED" H 1650 3300 50  0001 C CNN "Spice_Model"
 F 6 "N" H 1650 3300 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "QBL8XX60D" H 1650 3300 50  0001 C CNN "MPN"
+F 7 "HLMP-DB25-B0000" H 1650 3300 50  0001 C CNN "MPN"
 F 8 "1516-1359-ND" H 1650 3300 50  0001 C CNN "Digi-Key_PN"
 	1    1650 3300
 	1    0    0    -1  
@@ -327,13 +327,13 @@ U 1 1 60060421
 P 1950 3100
 F 0 "R23" H 2020 3146 50  0000 L CNN
 F 1 "1k" V 1950 3050 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1880 3100 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 1950 3100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1880 3100 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/ERA6AEB102V-Panasonic-datasheet-62287448.pdf" H 1950 3100 50  0001 C CNN
 F 4 "R" H 1950 3100 50  0001 C CNN "Spice_Primitive"
 F 5 "1k" H 1950 3100 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 1950 3100 50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "A130048TR-ND" H 1950 3100 50  0001 C CNN "Digi-Key_PN"
-F 8 "CRGCQ0402J1K0" H 1950 3100 50  0001 C CNN "MPN"
+F 8 "ERA6AEB102V" H 1950 3100 50  0001 C CNN "MPN"
 	1    1950 3100
 	1    0    0    -1  
 $EndComp
@@ -366,8 +366,8 @@ U 1 1 60168AFB
 P 1325 1000
 F 0 "D5" V 1225 1000 50  0000 L CNN
 F 1 "1N914" H 1225 900 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" H 1325 825 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 1325 1000 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1325 825 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/1N914-ON-Semiconductor-datasheet-42765246.pdf" H 1325 1000 50  0001 C CNN
 F 4 "../lib/spice_models/1N914.lib" H 1325 1000 50  0001 C CNN "Spice_Lib_File"
 F 5 "D" H 1325 1000 50  0001 C CNN "Spice_Primitive"
 F 6 "D1N914" H 1325 1000 50  0001 C CNN "Spice_Model"
@@ -384,9 +384,9 @@ U 1 1 6013C2A9
 P 1525 1000
 F 0 "C12" H 1525 1100 50  0000 L CNN
 F 1 "100u" H 1525 900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder" H 1563 850 50  0001 C CNN
-F 3 "https://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf" H 1525 1000 50  0001 C CNN
-F 4 "LMK325ABJ107MM-T" H 1525 1000 50  0001 C CNN "MPN"
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm" H 1563 850 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/ECA-1VM101-Panasonic-datasheet-68071800.pdf" H 1525 1000 50  0001 C CNN
+F 4 "ECA-1VM101" H 1525 1000 50  0001 C CNN "MPN"
 F 5 "587-6152-6-ND" H 1525 1000 50  0001 C CNN "Digi-Key_PN"
 	1    1525 1000
 	1    0    0    -1  
@@ -398,9 +398,9 @@ P 1975 950
 F 0 "R9" H 2045 996 50  0000 L CNN
 F 1 "10k" V 1975 875 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1905 950 50  0001 C CNN
-F 3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf" H 1975 950 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/ERJ-6GEYJ103V-Panasonic-datasheet-13266872.pdf" H 1975 950 50  0001 C CNN
 F 4 "RG2012N-474-W-T1" H 1975 950 50  0001 C CNN "Digi-Key_PN"
-F 5 "RG20N470KWTR-ND" H 1975 950 50  0001 C CNN "MPN"
+F 5 "ERJ-6GEYJ103V" H 1975 950 50  0001 C CNN "MPN"
 	1    1975 950 
 	1    0    0    -1  
 $EndComp
@@ -411,9 +411,9 @@ P 1975 1350
 F 0 "R10" H 2045 1396 50  0000 L CNN
 F 1 "10k" V 1975 1275 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1905 1350 50  0001 C CNN
-F 3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf" H 1975 1350 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/ERJ-6GEYJ103V-Panasonic-datasheet-13266872.pdf" H 1975 1350 50  0001 C CNN
 F 4 "RG2012N-474-W-T1" H 1975 1350 50  0001 C CNN "Digi-Key_PN"
-F 5 "RG20N470KWTR-ND" H 1975 1350 50  0001 C CNN "MPN"
+F 5 "ERJ-6GEYJ103V" H 1975 1350 50  0001 C CNN "MPN"
 	1    1975 1350
 	1    0    0    -1  
 $EndComp
@@ -423,15 +423,15 @@ U 1 1 6013C2B0
 P 2325 1350
 F 0 "C7" H 2443 1396 50  0000 L CNN
 F 1 "47u" H 2443 1305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2363 1200 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31A476MPHNNNE_Spec.pdf" H 2325 1350 50  0001 C CNN
-F 4 "CL31A476MPHNNNE" H 2325 1350 50  0001 C CNN "MPN"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2363 1200 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/C0805C476M9PACTU-KEMET-datasheet-149524433.pdf" H 2325 1350 50  0001 C CNN
+F 4 "C0805C476M9PACTU" H 2325 1350 50  0001 C CNN "MPN"
 F 5 "1276-3063-6-ND" H 2325 1350 50  0001 C CNN "Digi-Key_PN"
 	1    2325 1350
 	1    0    0    -1  
 $EndComp
 $Comp
-L screaming-panda:FS57003PLT2B2M2QE SW1
+L MainBoard-rescue:FS57003PLT2B2M2QE-screaming-panda SW1
 U 3 1 60050ED4
 P 5450 2750
 F 0 "SW1" H 5400 2600 50  0000 C CNN
@@ -447,7 +447,7 @@ F 8 "FS57003PLT2B2M2QE" H 5450 2750 50  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L screaming-panda:FS57003PLT2B2M2QE SW1
+L MainBoard-rescue:FS57003PLT2B2M2QE-screaming-panda SW1
 U 1 1 60050042
 P 1550 2650
 F 0 "SW1" H 1500 2500 50  0000 C CNN
@@ -463,7 +463,7 @@ F 8 "FS57003PLT2B2M2QE" H 1550 2650 50  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L screaming-panda:FS57003PLT2B2M2QE SW1
+L MainBoard-rescue:FS57003PLT2B2M2QE-screaming-panda SW1
 U 2 1 600517EE
 P 1500 3500
 F 0 "SW1" H 1450 3350 50  0000 C CNN

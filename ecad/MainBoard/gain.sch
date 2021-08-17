@@ -21,13 +21,13 @@ AR Path="/6030F08B" Ref="R?"  Part="1"
 AR Path="/60306390/6030F08B" Ref="R22"  Part="1" 
 F 0 "R22" H 820 1346 50  0000 L CNN
 F 1 "1M5" V 750 1225 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 680 1300 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf" H 750 1300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 680 1300 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/ERJ-6ENF1004V-Panasonic-datasheet-5313456.pdf" H 750 1300 50  0001 C CNN
 F 4 "R" H 750 1300 50  0001 C CNN "Spice_Primitive"
 F 5 "1.5Meg" H 750 1300 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 750 1300 50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "10-ERJ-U02J155XTR-ND" H 750 1300 50  0001 C CNN "Digi-Key_PN"
-F 8 "ERJ-U02J155X" H 750 1300 50  0001 C CNN "MPN"
+F 8 "ERJ-6ENF1004V" H 750 1300 50  0001 C CNN "MPN"
 	1    750  1300
 	1    0    0    -1  
 $EndComp
@@ -58,10 +58,10 @@ AR Path="/6030F09B" Ref="C?"  Part="1"
 AR Path="/60306390/6030F09B" Ref="C1"  Part="1" 
 F 0 "C1" V 748 1100 50  0000 C CNN
 F 1 "20n" V 839 1100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 1038 950 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0402C224M8RACTU.pdf" H 1000 1100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1038 950 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/GRM21B5C1H203JA01L-Murata-datasheet-14402255.pdf" H 1000 1100 50  0001 C CNN
 F 4 "399-C0402C224M8RACTUTR-ND" H 1000 1100 50  0001 C CNN "Digi-Key_PN"
-F 5 "399-C0402C224M8RACTUTR-ND" H 1000 1100 50  0001 C CNN "MPN"
+F 5 "GRM21B5C1H203JA01L" H 1000 1100 50  0001 C CNN "MPN"
 	1    1000 1100
 	0    1    1    0   
 $EndComp
@@ -76,10 +76,10 @@ AR Path="/6030F0A3" Ref="R?"  Part="1"
 AR Path="/60306390/6030F0A3" Ref="R1"  Part="1" 
 F 0 "R1" V 1250 1100 50  0000 C CNN
 F 1 "1k" V 1350 1100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1280 1100 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 1350 1100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1280 1100 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/ERA6AEB102V-Panasonic-datasheet-62287448.pdf" H 1350 1100 50  0001 C CNN
 F 4 "A130048TR-ND" H 1350 1100 50  0001 C CNN "Digi-Key_PN"
-F 5 "CRGCQ0402J1K0" H 1350 1100 50  0001 C CNN "MPN"
+F 5 "ERA6AEB102V" H 1350 1100 50  0001 C CNN "MPN"
 	1    1350 1100
 	0    1    1    0   
 $EndComp
@@ -92,9 +92,9 @@ AR Path="/60306390/6030F0A9" Ref="R2"  Part="1"
 F 0 "R2" H 1620 946 50  0000 L CNN
 F 1 "505k" V 1550 800 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1480 900 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/KOA%20Speer/RN73R_Type_DS.pdf" H 1550 900 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/ERJ-6ENF5103V-Panasonic-datasheet-13266541.pdf" H 1550 900 50  0001 C CNN
 F 4 "2019-RN73R2ATTD5053F100TR-ND" H 1550 900 50  0001 C CNN "Digi-Key_PN"
-F 5 "RN73R2ATTD5053F100" H 1550 900 50  0001 C CNN "MPN"
+F 5 "ERJ-6ENF5103V" H 1550 900 50  0001 C CNN "MPN"
 	1    1550 900 
 	1    0    0    -1  
 $EndComp
@@ -126,11 +126,11 @@ P 1850 1100
 AR Path="/6030F0C2" Ref="Q?"  Part="1" 
 AR Path="/60306390/6030F0C2" Ref="Q1"  Part="1" 
 F 0 "Q1" H 1950 1450 60  0000 L CNN
-F 1 "2N4401BU" H 1950 1350 60  0000 L CNN
+F 1 "2N4424" H 1950 1350 60  0000 L CNN
 F 2 "digikey-footprints:TO-92-3" H 2050 1300 60  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/MMBT4401-D.PDF" H 2050 1400 60  0001 L CNN
+F 3 "" H 2050 1400 60  0001 L CNN
 F 4 "2N4401-ND" H 2050 1500 60  0001 L CNN "Digi-Key_PN"
-F 5 "2N4401-ND" H 2050 1600 60  0001 L CNN "MPN"
+F 5 "2N4424" H 2050 1600 60  0001 L CNN "MPN"
 F 6 "Discrete Semiconductor Products" H 2050 1700 60  0001 L CNN "Category"
 F 7 "Transistors - Bipolar (BJT) - Single" H 2050 1800 60  0001 L CNN "Family"
 F 8 "https://www.onsemi.com/pub/Collateral/MMBT4401-D.PDF" H 2050 1900 60  0001 L CNN "DK_Datasheet_Link"
@@ -139,9 +139,9 @@ F 10 "TRANS NPN 40V 0.6A TO-92" H 2050 2100 60  0001 L CNN "Description"
 F 11 "ON Semiconductor" H 2050 2200 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 2050 2300 60  0001 L CNN "Status"
 F 13 "Q" H 1850 1100 50  0001 C CNN "Spice_Primitive"
-F 14 "2N4401" H 1850 1100 50  0001 C CNN "Spice_Model"
+F 14 "2N4424" H 1850 1100 50  0001 C CNN "Spice_Model"
 F 15 "Y" H 1850 1100 50  0001 C CNN "Spice_Netlist_Enabled"
-F 16 "../lib/spice_models/2N4401.lib" H 1850 1100 50  0001 C CNN "Spice_Lib_File"
+F 16 "../lib/spice_models/2N4424.lib" H 1850 1100 50  0001 C CNN "Spice_Lib_File"
 F 17 "3 2 1" H 1850 1100 50  0001 C CNN "Spice_Node_Sequence"
 	1    1850 1100
 	1    0    0    -1  
@@ -173,9 +173,9 @@ AR Path="/60306390/6030F0D1" Ref="R3"  Part="1"
 F 0 "R3" H 2020 1596 50  0000 L CNN
 F 1 "10k" V 1950 1475 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1880 1550 50  0001 C CNN
-F 3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf" H 1950 1550 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/ERJ-6GEYJ103V-Panasonic-datasheet-13266872.pdf" H 1950 1550 50  0001 C CNN
 F 4 "RG2012N-474-W-T1" H 1950 1550 50  0001 C CNN "Digi-Key_PN"
-F 5 "RG20N470KWTR-ND" H 1950 1550 50  0001 C CNN "MPN"
+F 5 "ERJ-6GEYJ103V" H 1950 1550 50  0001 C CNN "MPN"
 	1    1950 1550
 	1    0    0    -1  
 $EndComp

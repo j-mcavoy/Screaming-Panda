@@ -1,0 +1,34 @@
+Refs,Category,DK_Datasheet_Link,DK_Detail_Page,Description,Digi-Key_PN,Family,MPN,Manufacturer,Spice_Lib_File,Spice_Model,Spice_Netlist_Enabled,Spice_Node_Sequence,Spice_Primitive,Status,datasheet,footprint,value
+C1,,,,,399-C0402C224M8RACTUTR-ND,,capacitor smd 0603,,,,,,,,,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,20n
+C10,,,,,1276-1321-6-ND,,capacitor smd 0603,,,0.1u,Y,,C,,,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,0u1
+C11,,,,,478-10766-6-ND,,capacitor smd 0603,,,,,,,,,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,10u
+C12,,,,,587-6152-6-ND,,capacitor smd 0603,,,,,,,,,Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,100u
+C2,,,,,0603ZD106KAT2A,,capacitor smd 0603,,,1u,Y,,C,,,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1u
+"C3, C4",,,,,490-1256-6-ND,,capacitor smd 0603,,,50p,Y,,C,,,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,50p
+C5,,,,,732-7488-6-ND,,capacitor smd 0603,,,0.22uF,Y,,C,,,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,0u22
+C7,,,,,1276-3063-6-ND,,capacitor smd 0603,,,,,,,,,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,47u
+C8,,,,,0603ZD106KAT2A,,capacitor smd 0603,,,,,,,,,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1u
+C9,,,,,478-12065C204KAT4ADKR-ND,,capacitor smd 0603,,,,,,,,,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,220n
+"D1, D2, D5",,,,,1N914MS-ND,,1N914,,../lib/spice_models/1N914.lib,D1N914,Y,2 1,D,,http://www.vishay.com/docs/85622/1n914.pdf,Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp,1N914
+D4,led tht blue,,,,1516-1359-ND,,,,,LED,N,,D,,http://www.qt-brightek.com/datasheet/QBL8XX60D.pdf,digikey-footprints:LED_5mm_Radial,QBL8XX60D
+"IC1, U2",,,,,296-9650-5-ND,,RC4558D,,../lib/spice_models/RC4558.301.lib,RC4558,Y,,X,,http://www.ti.com/lit/ds/symlink/rc4558.pdf,DigiKey:SOIC-8_W3.9mm,RC4558
+J1,,,,,889-ACJM-HHDR-ND,,ACJM-HHDR,,,dc 0 ac 1 sin(200m 1 100),N,,I,,http://www.amphenolaudio.com/wp-content/uploads/2015/07/TD_m-jack.pdf,screaming-panda:ACJM-HHDR,ACJM-HHDR
+J2,,,,,889-ACJM-HHDR-ND,,ACJM-HHDR,,,ACJM-HHDR,N,,J,,http://www.amphenolaudio.com/wp-content/uploads/2015/07/TD_m-jack.pdf,screaming-panda:ACJM-HHDR,ACJM-HHDR
+J3,"Connectors, Interconnects",https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf,/product-detail/en/cui-inc/PJ-102A/CP-102A-ND/275425,CONN PWR JACK 2X5.5MM SOLDER,CP-102A-ND,Barrel - Power Connectors,CP-102A-ND,CUI Inc.,,dc 9,N,,V,Active,https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf,screaming-panda:Barrel_Jack_5.5mmODx2.1mmID_PJ-102A,PJ-102A
+Q1,Discrete Semiconductor Products,https://www.onsemi.com/pub/Collateral/MMBT4401-D.PDF,/product-detail/en/on-semiconductor/2N4401BU/2N4401-ND/1417,TRANS NPN 40V 0.6A TO-92,2N4401-ND,Transistors - Bipolar (BJT) - Single,2N4401-ND,ON Semiconductor,../lib/spice_models/2N4401.lib,2N4401,Y,3 2 1,Q,Active,https://www.onsemi.com/pub/Collateral/MMBT4401-D.PDF,digikey-footprints:TO-92-3,2N4401B*
+Q2,Discrete Semiconductor Products,https://www.onsemi.com/pub/Collateral/MMBT4401-D.PDF,/product-detail/en/on-semiconductor/2N4401BU/2N4401-ND/1417,TRANS NPN 40V 0.6A TO-92,2N4401-ND,Transistors - Bipolar (BJT) - Single,2N4401-ND,ON Semiconductor,/home/john/dox/cad/screaming-panda/ecad/lib/spice_models/2N4401BU.lib,2N4401,Y,3 2 1,Q,Active,https://www.onsemi.com/pub/Collateral/MMBT4401-D.PDF,digikey-footprints:TO-92-3,2N4401B*
+"R1, R8, R17, R18",resistor smd,,,,A130048TR-ND,,,,,,,,,,,Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,1k
+"R3, R5, R9, R10, R13, R14, R16",resistor smd,,,,RG2012N-474-W-T1,,,,,,,,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,10k
+R11,resistor smd,,,,PT220XTR-ND,,,,,,,,,,,Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder,220
+"R2, R12",resistor smd,,,,RNCF0805BTE500K-ND,,,,,,,,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,500k
+R15,resistor smd,,,,541-100ANDKR-ND,,,,,,,,,,,Resistor_SMD:R_1218_3246Metric_Pad1.22x4.75mm_HandSolder,100
+R19,Drive Pot,,,,75160-195-08LF,,75160-195-08LF,,../lib/spice_models/pots.lib,POTDrive,Y,,X,,https://www.bourns.com/docs/Product-Datasheets/PTV09.pdf,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,500ka
+R20,Tone Pot,,,,75160-195-08LF,,75160-195-08LF,,../lib/spice_models/pots.lib,POTTone,Y,,X,,https://www.bourns.com/docs/Product-Datasheets/PTV09.pdf,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,20kb
+R21,Volume Pot,,,,75160-195-08LF,,75160-195-08LF,,../lib/spice_models/pots.lib,POTVolume,Y,,X,,https://www.bourns.com/docs/Product-Datasheets/PTV09.pdf,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,20ka
+R22,resistor smd,,,,10-ERJ-U02J155XTR-ND,,,,,1.5Meg,Y,,R,,,Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,1M5
+R23,resistor smd,,,,A130048TR-ND,,,,,1k,Y,,R,,,Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,1k
+R6,resistor smd,,,,A129546TR-ND,,,,,4.7k,Y,,R,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,4k7
+R7,resistor smd,,,,RMCF1206FT51K0TR-ND,,,,,,,,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,51k
+SW1,,,,,EG5492-ND,,FS57003PLT2B2M2QE,,,1,N,,R,,https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/226/FS5700.pdf,screaming-panda:SW_PUSH_E-Switch_FS57003PLT_3PDT,FS57003PLT2B2M2QE
+V1,,,,,,,,,,ac 500m sin(0 500m 200),Y,,V,,~,,VSOURCE
+V2,,,,,,,,,,dc 9,Y,,V,,~,,VSOURCE

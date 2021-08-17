@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/john/dox/cad/screaming-panda/ecad/PotBoard/PotBoard.sch</source>
-    <date>Sun 08 Aug 2021 10:47:09 AM PDT</date>
+    <source>/home/john/dox/cad/ecad/screaming-panda/ecad/PotBoard/PotBoard.sch</source>
+    <date>Sun 15 Aug 2021 06:40:58 PM PDT</date>
     <tool>Eeschema 5.1.10</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -22,7 +22,11 @@
     <comp ref="RV1">
       <value>500ka</value>
       <footprint>screaming-panda:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/PTV09.pdf</datasheet>
+      <fields>
+        <field name="MPN">PTV09A-4020F-A504</field>
+        <field name="manf#">PTV09A-4020F-A504</field>
+      </fields>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60172AD1</tstamp>
@@ -30,7 +34,11 @@
     <comp ref="RV2">
       <value>20kb</value>
       <footprint>screaming-panda:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/PTV09.pdf</datasheet>
+      <fields>
+        <field name="MPN">PTV09A-4020F-B203</field>
+        <field name="manf#">PTV09A-4020F-B203</field>
+      </fields>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>601741E4</tstamp>
@@ -38,7 +46,11 @@
     <comp ref="RV3">
       <value>20ka</value>
       <footprint>screaming-panda:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/PTV09.pdf</datasheet>
+      <fields>
+        <field name="MPN">PTV09A-4020F-A203</field>
+        <field name="manf#">PTV09A-4020F-A203</field>
+      </fields>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6017449C</tstamp>
@@ -46,7 +58,11 @@
     <comp ref="J1">
       <value>DrivePot</value>
       <footprint>Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Vertical</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf</datasheet>
+      <fields>
+        <field name="MPN">C031LFBN-RC</field>
+        <field name="manf#">C031LFBN-RC</field>
+      </fields>
       <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60174D24</tstamp>
@@ -54,7 +70,11 @@
     <comp ref="J2">
       <value>TonePot</value>
       <footprint>Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Vertical</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf</datasheet>
+      <fields>
+        <field name="MPN">C031LFBN-RC</field>
+        <field name="manf#">C031LFBN-RC</field>
+      </fields>
       <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60175BA1</tstamp>
@@ -62,7 +82,11 @@
     <comp ref="J3">
       <value>VolumePot</value>
       <footprint>Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Vertical</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf</datasheet>
+      <fields>
+        <field name="MPN">C031LFBN-RC</field>
+        <field name="manf#">C031LFBN-RC</field>
+      </fields>
       <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60176058</tstamp>
