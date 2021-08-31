@@ -1,4 +1,4 @@
-update=Sun 08 Aug 2021 10:18:46 AM PDT
+update=Thu 26 Aug 2021 10:32:31 AM PDT
 version=1
 last_client=kicad
 [general]
@@ -18,7 +18,7 @@ PageLayoutDescrFile=/home/john/dox/cad/screaming-panda/ecad/lib/j-mcavoy.kicad_w
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=Spice
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=1
 LabSize=50
 ERC_TestSimilarLabels=1
@@ -44,6 +44,8 @@ TrackWidth3=0.75
 TrackWidth4=1
 TrackWidth5=1.25
 TrackWidth6=1.5
+TrackWidth7=1.75
+TrackWidth8=2
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2

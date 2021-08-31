@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Screaming Panda - Pot Board"
+Date "2021-08-24"
+Rev "1.0"
+Comp "John McAvoy"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -58,7 +58,7 @@ U 1 1 60174D24
 P 750 1300
 F 0 "J1" V 700 1550 50  0000 R CNN
 F 1 "DrivePot" V 800 1450 50  0000 R CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Vertical" H 750 1300 50  0001 C CNN
+F 2 "screaming-panda:C031LFBN-RC" H 750 1300 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf" H 750 1300 50  0001 C CNN
 F 4 "C031LFBN-RC" H 750 1300 50  0001 C CNN "manf#"
 F 5 "C031LFBN-RC" H 750 1300 50  0001 C CNN "MPN"
@@ -71,7 +71,7 @@ U 1 1 60175BA1
 P 1250 1300
 F 0 "J2" V 1200 1500 50  0000 R CNN
 F 1 "TonePot" V 1300 1450 50  0000 R CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Vertical" H 1250 1300 50  0001 C CNN
+F 2 "screaming-panda:C031LFBN-RC" H 1250 1300 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf" H 1250 1300 50  0001 C CNN
 F 4 "C031LFBN-RC" H 1250 1300 50  0001 C CNN "manf#"
 F 5 "C031LFBN-RC" H 1250 1300 50  0001 C CNN "MPN"
@@ -84,7 +84,7 @@ U 1 1 60176058
 P 1750 1300
 F 0 "J3" V 1700 1500 50  0000 R CNN
 F 1 "VolumePot" V 1800 1500 50  0000 R CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Vertical" H 1750 1300 50  0001 C CNN
+F 2 "screaming-panda:C031LFBN-RC" H 1750 1300 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf" H 1750 1300 50  0001 C CNN
 F 4 "C031LFBN-RC" H 1750 1300 50  0001 C CNN "manf#"
 F 5 "C031LFBN-RC" H 1750 1300 50  0001 C CNN "MPN"
