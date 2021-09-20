@@ -127,7 +127,7 @@ AR Path="/6030F0C2" Ref="Q?"  Part="1"
 AR Path="/60306390/6030F0C2" Ref="Q1"  Part="1" 
 F 0 "Q1" H 1950 1450 60  0000 L CNN
 F 1 "2N4424" H 1950 1350 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 2050 1300 60  0001 L CNN
+F 2 "digikey-footprints:TO-92-3_Formed_Leads" H 2050 1300 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/MMBT4401-D.PDF" H 2050 1400 60  0001 L CNN
 F 4 "2N4401-ND" H 2050 1500 60  0001 L CNN "Digi-Key_PN"
 F 5 "2N4401BU" H 2050 1600 60  0001 L CNN "MPN"

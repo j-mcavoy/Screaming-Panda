@@ -226,7 +226,7 @@ AR Path="/60332485" Ref="Q?"  Part="1"
 AR Path="/6030769F/60332485" Ref="Q2"  Part="1" 
 F 0 "Q2" H 2538 1453 60  0000 L CNN
 F 1 "2N4424" H 2538 1347 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 2550 1600 60  0001 L CNN
+F 2 "digikey-footprints:TO-92-3_Formed_Leads" H 2550 1600 60  0001 L CNN
 F 3 "https://my.centralsemi.com/datasheets/2N4424.PDF" H 2550 1700 60  0001 L CNN
 F 4 "2N4401-ND" H 2550 1800 60  0001 L CNN "Digi-Key_PN"
 F 5 "2N4424" H 2550 1900 60  0001 L CNN "MPN"
