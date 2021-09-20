@@ -74,7 +74,7 @@ AR Path="/6027E369" Ref="U?"  Part="2"
 AR Path="/60307048/6027E369" Ref="IC1"  Part="2" 
 F 0 "IC1" H 1550 1150 50  0000 C CNN
 F 1 "RC4558" H 1600 1050 50  0000 C CNN
-F 2 "DigiKey:SOIC-8_W3.9mm" H 1550 850 50  0001 C CNN
+F 2 "digikey-footprints:SOIC-8_W5.6mm" H 1550 850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/rc4558.pdf" H 1550 850 50  0001 C CNN
 F 4 "X" H 1550 850 50  0001 C CNN "Spice_Primitive"
 F 5 "RC4558" H 1550 850 50  0001 C CNN "Spice_Model"
@@ -96,7 +96,7 @@ U 1 1 6018247E
 P 900 1200
 F 0 "R20" V 800 1250 50  0000 R CNN
 F 1 "20kb" V 900 1300 50  0000 R CNN
-F 2 "DigiKey:PinHeader_1x3_P2.54_Drill1.1mm" H 900 1200 50  0001 C CNN
+F 2 "screaming-panda:75160-195-03LF" H 900 1200 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/901200160_sd.pdf" H 900 1200 50  0001 C CNN
 F 4 "X" H 900 1200 50  0001 C CNN "Spice_Primitive"
 F 5 "POTTone" H 900 1200 50  0001 C CNN "Spice_Model"

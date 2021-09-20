@@ -1,4 +1,4 @@
-19492850238424363
+19480438919661126
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -53682,6 +53682,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ECA-1VM101
+CAPPRD250W55D655H1220
+CASE CODE 6.3X11.2_a
+Capacitor Polarised
+0
+2
+2
 Fiducial
 Fiducial_0.5mm_Mask1.5mm
 Circular Fiducial, 0.5mm bare copper, 1.5mm soldermask opening
@@ -84167,66 +84174,3 @@ varistor SIOV
 0
 2
 2
-screaming-panda
-ACJM-HHDR
-
-
-0
-4
-4
-screaming-panda
-Barrel_Jack_5.5mmODx2.1mmID_PJ-102A
-
-
-0
-3
-3
-screaming-panda
-C031LFBN-RC
-
-
-0
-3
-3
-screaming-panda
-NRJ6HM-1
-
-
-0
-6
-5
-screaming-panda
-Panda_Logo
-
-
-0
-0
-0
-screaming-panda
-Potentiometer_Bourns_PTV09A-1_Single_Vertical
-Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf
-Potentiometer vertical Bourns PTV09A-1 Single
-0
-3
-3
-screaming-panda
-SW_PUSH_E-Switch_FS57003PLT_3PDT
-
-
-0
-9
-9
-screaming-panda
-Switchcraft_SN37A12A
-1/4" Audio Jack
-
-0
-6
-3
-screaming-panda
-Switchcraft_SN37A12B
-1/4" Audio Jack
-
-0
-6
-3

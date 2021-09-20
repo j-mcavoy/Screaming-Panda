@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name screaming-panda)(type KiCad)(uri /home/john/dox/cad/screaming-panda/ecad/lib/screaming-panda.pretty)(options "")(descr ""))
+  (lib (name ecad_import)(type KiCad)(uri ${KIPRJMOD}/../lib/ecad_import)(options "")(descr ""))
+  (lib (name ECA-1VM101)(type KiCad)(uri ${KIPRJMOD/../lib/ecad_import/ECA-1VM101)(options "")(descr ""))
 )

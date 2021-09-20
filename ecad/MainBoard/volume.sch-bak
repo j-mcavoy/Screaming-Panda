@@ -226,8 +226,8 @@ AR Path="/60332485" Ref="Q?"  Part="1"
 AR Path="/6030769F/60332485" Ref="Q2"  Part="1" 
 F 0 "Q2" H 2538 1453 60  0000 L CNN
 F 1 "2N4424" H 2538 1347 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 2550 1600 60  0001 L CNN
-F 3 "" H 2550 1700 60  0001 L CNN
+F 2 "screaming-panda:TO-92-3_Formed_Leads" H 2550 1600 60  0001 L CNN
+F 3 "https://my.centralsemi.com/datasheets/2N4424.PDF" H 2550 1700 60  0001 L CNN
 F 4 "2N4401-ND" H 2550 1800 60  0001 L CNN "Digi-Key_PN"
 F 5 "2N4424" H 2550 1900 60  0001 L CNN "MPN"
 F 6 "Discrete Semiconductor Products" H 2550 2000 60  0001 L CNN "Category"
@@ -271,7 +271,7 @@ U 1 1 60197A22
 P 1550 1400
 F 0 "R21" H 1650 1550 50  0000 C CNN
 F 1 "20ka" V 1550 1400 50  0000 C CNN
-F 2 "DigiKey:PinHeader_1x3_P2.54_Drill1.1mm" H 1550 1400 50  0001 C CNN
+F 2 "screaming-panda:75160-195-03LF" H 1550 1400 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/901200160_sd.pdf" H 1550 1400 50  0001 C CNN
 F 4 "X" H 1550 1400 50  0001 C CNN "Spice_Primitive"
 F 5 "POTVolume" H 1550 1400 50  0001 C CNN "Spice_Model"

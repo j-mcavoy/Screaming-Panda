@@ -192,7 +192,7 @@ AR Path="/603069E8/6032571F" Ref="IC1"  Part="1"
 AR Path="/60307048/6032571F" Ref="U2"  Part="1" 
 F 0 "IC1" H 1750 1650 50  0000 C CNN
 F 1 "RC4558" H 1750 2000 50  0000 C CNN
-F 2 "DigiKey:SOIC-8_W3.9mm" H 1700 1800 50  0001 C CNN
+F 2 "digikey-footprints:SOIC-8_W5.6mm" H 1700 1800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/rc4558.pdf" H 1700 1800 50  0001 C CNN
 F 4 "X" H 1700 1800 50  0001 C CNN "Spice_Primitive"
 F 5 "RC4558" H 1700 1800 50  0001 C CNN "Spice_Model"
@@ -289,7 +289,7 @@ AR Path="/60325731" Ref="D?"  Part="1"
 AR Path="/603069E8/60325731" Ref="D1"  Part="1" 
 F 0 "D1" H 1850 1150 50  0000 C CNN
 F 1 "1N914" H 1500 1150 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1700 925 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_KathodeUp" H 1700 925 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/1N914-ON-Semiconductor-datasheet-42765246.pdf" H 1700 1100 50  0001 C CNN
 F 4 "D" H 1700 1100 50  0001 C CNN "Spice_Primitive"
 F 5 "D1N914" H 1700 1100 50  0001 C CNN "Spice_Model"
@@ -309,7 +309,7 @@ AR Path="/6032572B" Ref="D?"  Part="1"
 AR Path="/603069E8/6032572B" Ref="D2"  Part="1" 
 F 0 "D2" H 1550 1300 50  0000 C CNN
 F 1 "1N914" H 1900 1300 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1700 1075 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_KathodeUp" H 1700 1075 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/1N914-ON-Semiconductor-datasheet-42765246.pdf" H 1700 1250 50  0001 C CNN
 F 4 "../lib/spice_models/1N914.lib" H 1700 1250 50  0001 C CNN "Spice_Lib_File"
 F 5 "D" H 1700 1250 50  0001 C CNN "Spice_Primitive"
@@ -363,7 +363,7 @@ U 1 1 60191FAC
 P 1750 700
 F 0 "R19" V 1800 525 50  0000 R CNN
 F 1 "500ka" V 1650 825 50  0000 R CNN
-F 2 "DigiKey:PinHeader_1x3_P2.54_Drill1.1mm" H 1750 700 50  0001 C CNN
+F 2 "screaming-panda:75160-195-03LF" H 1750 700 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/901200160_sd.pdf" H 1750 700 50  0001 C CNN
 F 4 "X" H 1750 700 50  0001 C CNN "Spice_Primitive"
 F 5 "POTDrive" H 1750 700 50  0001 C CNN "Spice_Model"

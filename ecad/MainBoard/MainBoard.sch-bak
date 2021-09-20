@@ -305,195 +305,6 @@ F1 "gain.sch" 50
 F2 "IN" I L 2150 2650 50 
 F3 "OUT" O R 2700 2650 50 
 $EndSheet
-$Comp
-L Device:LED D4
-U 1 1 6005DA24
-P 1650 3300
-F 0 "D4" H 1643 3517 50  0000 C CNN
-F 1 "LED_BLUE" H 1643 3426 50  0000 C CNN
-F 2 "digikey-footprints:LED_5mm_Radial" H 1650 3300 50  0001 C CNN
-F 3 "https://datasheet.octopart.com/HLMP-DB25-B0000-Broadcom-datasheet-65931945.pdf" H 1650 3300 50  0001 C CNN
-F 4 "D" H 1650 3300 50  0001 C CNN "Spice_Primitive"
-F 5 "LED" H 1650 3300 50  0001 C CNN "Spice_Model"
-F 6 "N" H 1650 3300 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "HLMP-DB25-B0000" H 1650 3300 50  0001 C CNN "MPN"
-F 8 "1516-1359-ND" H 1650 3300 50  0001 C CNN "Digi-Key_PN"
-	1    1650 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R23
-U 1 1 60060421
-P 1950 3100
-F 0 "R23" H 2020 3146 50  0000 L CNN
-F 1 "1k" V 1950 3050 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1880 3100 50  0001 C CNN
-F 3 "https://datasheet.octopart.com/ERA6AEB102V-Panasonic-datasheet-62287448.pdf" H 1950 3100 50  0001 C CNN
-F 4 "R" H 1950 3100 50  0001 C CNN "Spice_Primitive"
-F 5 "1k" H 1950 3100 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 1950 3100 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "A130048TR-ND" H 1950 3100 50  0001 C CNN "Digi-Key_PN"
-F 8 "ERA6AEB102V" H 1950 3100 50  0001 C CNN "MPN"
-	1    1950 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L dk_Barrel-Power-Connectors:PJ-102A J3
-U 1 1 6004D058
-P 825 1000
-F 0 "J3" H 675 600 50  0000 R CNN
-F 1 "PJ-102A" H 925 700 50  0000 R CNN
-F 2 "screaming-panda:Barrel_Jack_5.5mmODx2.1mmID_PJ-102A" H 1025 1200 60  0001 L CNN
-F 3 "https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf" H 1025 1300 60  0001 L CNN
-F 4 "CP-102A-ND" H 1025 1400 60  0001 L CNN "Digi-Key_PN"
-F 5 "CP-102A-ND" H 1025 1500 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 1025 1600 60  0001 L CNN "Category"
-F 7 "Barrel - Power Connectors" H 1025 1700 60  0001 L CNN "Family"
-F 8 "https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf" H 1025 1800 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/cui-inc/PJ-102A/CP-102A-ND/275425" H 1025 1900 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN PWR JACK 2X5.5MM SOLDER" H 1025 2000 60  0001 L CNN "Description"
-F 11 "CUI Inc." H 1025 2100 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 1025 2200 60  0001 L CNN "Status"
-F 13 "V" H 825 1000 50  0001 C CNN "Spice_Primitive"
-F 14 "dc 9" H 825 1000 50  0001 C CNN "Spice_Model"
-F 15 "N" H 825 1000 50  0001 C CNN "Spice_Netlist_Enabled"
-	1    825  1000
-	1    0    0    1   
-$EndComp
-$Comp
-L Diode:1N914 D5
-U 1 1 60168AFB
-P 1325 1000
-F 0 "D5" V 1225 1000 50  0000 L CNN
-F 1 "1N914" H 1225 900 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1325 825 50  0001 C CNN
-F 3 "https://datasheet.octopart.com/1N914-ON-Semiconductor-datasheet-42765246.pdf" H 1325 1000 50  0001 C CNN
-F 4 "../lib/spice_models/1N914.lib" H 1325 1000 50  0001 C CNN "Spice_Lib_File"
-F 5 "D" H 1325 1000 50  0001 C CNN "Spice_Primitive"
-F 6 "D1N914" H 1325 1000 50  0001 C CNN "Spice_Model"
-F 7 "Y" H 1325 1000 50  0001 C CNN "Spice_Netlist_Enabled"
-F 8 "2 1" H 1325 1000 50  0001 C CNN "Spice_Node_Sequence"
-F 9 "1N914MS-ND" H 1325 1000 50  0001 C CNN "Digi-Key_PN"
-F 10 "1N914" H 1325 1000 50  0001 C CNN "MPN"
-	1    1325 1000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:CP C12
-U 1 1 6013C2A9
-P 1525 1000
-F 0 "C12" H 1525 1100 50  0000 L CNN
-F 1 "100u" H 1525 900 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm" H 1563 850 50  0001 C CNN
-F 3 "https://datasheet.octopart.com/ECA-1VM101-Panasonic-datasheet-68071800.pdf" H 1525 1000 50  0001 C CNN
-F 4 "ECA-1VM101" H 1525 1000 50  0001 C CNN "MPN"
-F 5 "587-6152-6-ND" H 1525 1000 50  0001 C CNN "Digi-Key_PN"
-	1    1525 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R9
-U 1 1 6017450F
-P 1975 950
-F 0 "R9" H 2045 996 50  0000 L CNN
-F 1 "10k" V 1975 875 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1905 950 50  0001 C CNN
-F 3 "https://datasheet.octopart.com/ERJ-6GEYJ103V-Panasonic-datasheet-13266872.pdf" H 1975 950 50  0001 C CNN
-F 4 "RG2012N-474-W-T1" H 1975 950 50  0001 C CNN "Digi-Key_PN"
-F 5 "ERJ-6GEYJ103V" H 1975 950 50  0001 C CNN "MPN"
-	1    1975 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R10
-U 1 1 6013C2AD
-P 1975 1350
-F 0 "R10" H 2045 1396 50  0000 L CNN
-F 1 "10k" V 1975 1275 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1905 1350 50  0001 C CNN
-F 3 "https://datasheet.octopart.com/ERJ-6GEYJ103V-Panasonic-datasheet-13266872.pdf" H 1975 1350 50  0001 C CNN
-F 4 "RG2012N-474-W-T1" H 1975 1350 50  0001 C CNN "Digi-Key_PN"
-F 5 "ERJ-6GEYJ103V" H 1975 1350 50  0001 C CNN "MPN"
-	1    1975 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP C7
-U 1 1 6013C2B0
-P 2325 1350
-F 0 "C7" H 2443 1396 50  0000 L CNN
-F 1 "47u" H 2443 1305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2363 1200 50  0001 C CNN
-F 3 "https://datasheet.octopart.com/C0805C476M9PACTU-KEMET-datasheet-149524433.pdf" H 2325 1350 50  0001 C CNN
-F 4 "C0805C476M9PACTU" H 2325 1350 50  0001 C CNN "MPN"
-F 5 "1276-3063-6-ND" H 2325 1350 50  0001 C CNN "Digi-Key_PN"
-	1    2325 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MainBoard-rescue:FS57003PLT2B2M2QE-screaming-panda SW1
-U 3 1 60050ED4
-P 5450 2750
-F 0 "SW1" H 5400 2600 50  0000 C CNN
-F 1 "FS57003PLT2B2M2QE" H 5400 2500 50  0001 C CNN
-F 2 "screaming-panda:SW_PUSH_E-Switch_FS57003PLT_3PDT" H 5450 2900 50  0001 C CNN
-F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/226/FS5700.pdf" H 5450 2900 50  0001 C CNN
-F 4 "R" H 5450 2750 50  0001 C CNN "Spice_Primitive"
-F 5 "1" H 5450 2750 50  0001 C CNN "Spice_Model"
-F 6 "N" H 5450 2750 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "EG5492-ND" H 5450 2750 50  0001 C CNN "Digi-Key_PN"
-F 8 "FS57003PLT2B2M2QE" H 5450 2750 50  0001 C CNN "MPN"
-	3    5450 2750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L MainBoard-rescue:FS57003PLT2B2M2QE-screaming-panda SW1
-U 1 1 60050042
-P 1550 2650
-F 0 "SW1" H 1500 2500 50  0000 C CNN
-F 1 "FS57003PLT2B2M2QE" H 1350 2850 50  0001 C CNN
-F 2 "screaming-panda:SW_PUSH_E-Switch_FS57003PLT_3PDT" H 1550 2800 50  0001 C CNN
-F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/226/FS5700.pdf" H 1550 2800 50  0001 C CNN
-F 4 "R" H 1550 2650 50  0001 C CNN "Spice_Primitive"
-F 5 "1" H 1550 2650 50  0001 C CNN "Spice_Model"
-F 6 "N" H 1550 2650 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "EG5492-ND" H 1550 2650 50  0001 C CNN "Digi-Key_PN"
-F 8 "FS57003PLT2B2M2QE" H 1550 2650 50  0001 C CNN "MPN"
-	1    1550 2650
-	-1   0    0    -1  
-$EndComp
-$Comp
-L MainBoard-rescue:FS57003PLT2B2M2QE-screaming-panda SW1
-U 2 1 600517EE
-P 1500 3500
-F 0 "SW1" H 1450 3350 50  0000 C CNN
-F 1 "FS57003PLT2B2M2QE" H 1700 3150 50  0001 C CNN
-F 2 "screaming-panda:SW_PUSH_E-Switch_FS57003PLT_3PDT" H 1500 3650 50  0001 C CNN
-F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/226/FS5700.pdf" H 1500 3650 50  0001 C CNN
-F 4 "R" H 1500 3500 50  0001 C CNN "Spice_Primitive"
-F 5 "1" H 1500 3500 50  0001 C CNN "Spice_Model"
-F 6 "N" H 1500 3500 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "EG5492-ND" H 1500 3500 50  0001 C CNN "Digi-Key_PN"
-F 8 "FS57003PLT2B2M2QE" H 1500 3500 50  0001 C CNN "MPN"
-	2    1500 3500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:AudioJack2_Switch J1
-U 1 1 6011C92D
-P 750 2550
-F 0 "J1" H 782 2975 50  0000 C CNN
-F 1 "ACJM-HHDR" H 782 2884 50  0000 C CNN
-F 2 "screaming-panda:ACJM-HHDR" H 750 2750 50  0001 C CNN
-F 3 "http://www.amphenolaudio.com/wp-content/uploads/2015/07/TD_m-jack.pdf" H 750 2750 50  0001 C CNN
-F 4 "I" H 750 2550 50  0001 C CNN "Spice_Primitive"
-F 5 "dc 0 ac 1 sin(200m 1 100)" H 750 2550 50  0001 C CNN "Spice_Model"
-F 6 "N" H 750 2550 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "889-ACJM-HHDR-ND" H 750 2550 50  0001 C CNN "Digi-Key_PN"
-F 8 "ACJM-HHDR" H 750 2550 50  0001 C CNN "MPN"
-	1    750  2550
-	1    0    0    -1  
-$EndComp
 Text Label 1000 4250 1    50   ~ 0
 SIG_IN
 Wire Wire Line
@@ -511,20 +322,6 @@ F 3 "" H 1000 5100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1000 5000 1000 5050
-$Comp
-L pspice:VSOURCE V2
-U 1 1 61080DFE
-P 1950 4750
-F 0 "V2" H 2178 4796 50  0000 L CNN
-F 1 "VSOURCE" H 2178 4705 50  0000 L CNN
-F 2 "" H 1950 4750 50  0001 C CNN
-F 3 "~" H 1950 4750 50  0001 C CNN
-F 4 "V" H 1950 4750 50  0001 C CNN "Spice_Primitive"
-F 5 "dc 9" H 1950 4750 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 1950 4750 50  0001 C CNN "Spice_Netlist_Enabled"
-	1    1950 4750
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+9V #PWR0104
 U 1 1 610819C0
@@ -571,41 +368,10 @@ Wire Wire Line
 	1000 5050 1000 5100
 Wire Wire Line
 	2700 2650 2800 2650
-$Comp
-L pspice:VSOURCE V1
-U 1 1 61037A31
-P 1000 4700
-F 0 "V1" H 1228 4746 50  0000 L CNN
-F 1 "VSOURCE" H 1228 4655 50  0000 L CNN
-F 2 "" H 1000 4700 50  0001 C CNN
-F 3 "~" H 1000 4700 50  0001 C CNN
-F 4 "V" H 1000 4700 50  0001 C CNN "Spice_Primitive"
-F 5 "ac 500m sin(0 500m 200)" H 1000 4700 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 1000 4700 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "" H 1000 4700 50  0001 C CNN "Spice_Lib_File"
-	1    1000 4700
-	1    0    0    -1  
-$EndComp
 Text Notes 1800 5625 0    50   ~ 0
 .tran 1u 30m 20m
 Wire Wire Line
 	3350 2650 3450 2650
-$Comp
-L Connector:AudioJack2_Switch J2
-U 1 1 6012A732
-P 6500 2750
-F 0 "J2" H 6320 2850 50  0000 R CNN
-F 1 "ACJM-HHDR" H 6320 2759 50  0000 R CNN
-F 2 "screaming-panda:ACJM-HHDR" H 6500 2950 50  0001 C CNN
-F 3 "http://www.amphenolaudio.com/wp-content/uploads/2015/07/TD_m-jack.pdf" H 6500 2950 50  0001 C CNN
-F 4 "J" H 6500 2750 50  0001 C CNN "Spice_Primitive"
-F 5 "ACJM-HHDR" H 6500 2750 50  0001 C CNN "Spice_Model"
-F 6 "N" H 6500 2750 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "889-ACJM-HHDR-ND" H 6500 2750 50  0001 C CNN "Digi-Key_PN"
-F 8 "ACJM-HHDR" H 6500 2750 50  0001 C CNN "MPN"
-	1    6500 2750
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	6300 2650 6250 2650
 Wire Wire Line
@@ -662,23 +428,6 @@ F 3 "" H 2675 1550 50  0001 C CNN
 	1    2675 1550
 	1    0    0    -1  
 $EndComp
-$Comp
-L Amplifier_Operational:RC4558 IC1
-U 3 1 61064753
-P 2775 1150
-F 0 "IC1" H 2733 1196 50  0000 L CNN
-F 1 "RC4558" H 2733 1105 50  0000 L CNN
-F 2 "DigiKey:SOIC-8_W3.9mm" H 2775 1150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/rc4558.pdf" H 2775 1150 50  0001 C CNN
-F 4 "X" H 2775 1150 50  0001 C CNN "Spice_Primitive"
-F 5 "RC4558" H 2775 1150 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 2775 1150 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "../lib/spice_models/RC4558.301.lib" H 2775 1150 50  0001 C CNN "Spice_Lib_File"
-F 8 "296-9650-5-ND" H 2775 1150 50  0001 C CNN "Digi-Key_PN"
-F 9 "RC4558D" H 2775 1150 50  0001 C CNN "MPN"
-	3    2775 1150
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	3075 1800 550  1800
 Wire Notes Line
@@ -711,4 +460,255 @@ Text Notes 550  5650 0    50   ~ 10
 SPICE Simulation
 Wire Wire Line
 	1800 3300 1950 3300
+$Comp
+L Connector:AudioJack2_Switch J2
+U 1 1 6012A732
+P 6500 2750
+F 0 "J2" H 6320 2850 50  0000 R CNN
+F 1 "ACJM-HHDR" H 6320 2759 50  0000 R CNN
+F 2 "screaming-panda:ACJM-HHDR" H 6500 2950 50  0001 C CNN
+F 3 "http://www.amphenolaudio.com/wp-content/uploads/2015/07/TD_m-jack.pdf" H 6500 2950 50  0001 C CNN
+F 4 "J" H 6500 2750 50  0001 C CNN "Spice_Primitive"
+F 5 "ACJM-HHDR" H 6500 2750 50  0001 C CNN "Spice_Model"
+F 6 "N" H 6500 2750 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "889-ACJM-HHDR-ND" H 6500 2750 50  0001 C CNN "Digi-Key_PN"
+F 8 "ACJM-HHDR" H 6500 2750 50  0001 C CNN "MPN"
+	1    6500 2750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L pspice:VSOURCE V1
+U 1 1 61037A31
+P 1000 4700
+F 0 "V1" H 1228 4746 50  0000 L CNN
+F 1 "VSOURCE" H 1228 4655 50  0000 L CNN
+F 2 "" H 1000 4700 50  0001 C CNN
+F 3 "~" H 1000 4700 50  0001 C CNN
+F 4 "V" H 1000 4700 50  0001 C CNN "Spice_Primitive"
+F 5 "ac 500m sin(0 500m 200)" H 1000 4700 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 1000 4700 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 1000 4700 50  0001 C CNN "Spice_Lib_File"
+	1    1000 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:VSOURCE V2
+U 1 1 61080DFE
+P 1950 4750
+F 0 "V2" H 2178 4796 50  0000 L CNN
+F 1 "VSOURCE" H 2178 4705 50  0000 L CNN
+F 2 "" H 1950 4750 50  0001 C CNN
+F 3 "~" H 1950 4750 50  0001 C CNN
+F 4 "V" H 1950 4750 50  0001 C CNN "Spice_Primitive"
+F 5 "dc 9" H 1950 4750 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 1950 4750 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    1950 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_Switch J1
+U 1 1 6011C92D
+P 750 2550
+F 0 "J1" H 782 2975 50  0000 C CNN
+F 1 "ACJM-HHDR" H 782 2884 50  0000 C CNN
+F 2 "screaming-panda:ACJM-HHDR" H 750 2750 50  0001 C CNN
+F 3 "http://www.amphenolaudio.com/wp-content/uploads/2015/07/TD_m-jack.pdf" H 750 2750 50  0001 C CNN
+F 4 "I" H 750 2550 50  0001 C CNN "Spice_Primitive"
+F 5 "dc 0 ac 1 sin(200m 1 100)" H 750 2550 50  0001 C CNN "Spice_Model"
+F 6 "N" H 750 2550 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "889-ACJM-HHDR-ND" H 750 2550 50  0001 C CNN "Digi-Key_PN"
+F 8 "ACJM-HHDR" H 750 2550 50  0001 C CNN "MPN"
+	1    750  2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MainBoard-rescue:FS57003PLT2B2M2QE-screaming-panda SW1
+U 2 1 600517EE
+P 1500 3500
+F 0 "SW1" H 1450 3350 50  0000 C CNN
+F 1 "FS57003PLT2B2M2QE" H 1700 3150 50  0001 C CNN
+F 2 "screaming-panda:SW_PUSH_E-Switch_FS57003PLT_3PDT" H 1500 3650 50  0001 C CNN
+F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/226/FS5700.pdf" H 1500 3650 50  0001 C CNN
+F 4 "R" H 1500 3500 50  0001 C CNN "Spice_Primitive"
+F 5 "1" H 1500 3500 50  0001 C CNN "Spice_Model"
+F 6 "N" H 1500 3500 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "EG5492-ND" H 1500 3500 50  0001 C CNN "Digi-Key_PN"
+F 8 "FS57003PLT2B2M2QE" H 1500 3500 50  0001 C CNN "MPN"
+	2    1500 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MainBoard-rescue:FS57003PLT2B2M2QE-screaming-panda SW1
+U 1 1 60050042
+P 1550 2650
+F 0 "SW1" H 1500 2500 50  0000 C CNN
+F 1 "FS57003PLT2B2M2QE" H 1350 2850 50  0001 C CNN
+F 2 "screaming-panda:SW_PUSH_E-Switch_FS57003PLT_3PDT" H 1550 2800 50  0001 C CNN
+F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/226/FS5700.pdf" H 1550 2800 50  0001 C CNN
+F 4 "R" H 1550 2650 50  0001 C CNN "Spice_Primitive"
+F 5 "1" H 1550 2650 50  0001 C CNN "Spice_Model"
+F 6 "N" H 1550 2650 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "EG5492-ND" H 1550 2650 50  0001 C CNN "Digi-Key_PN"
+F 8 "FS57003PLT2B2M2QE" H 1550 2650 50  0001 C CNN "MPN"
+	1    1550 2650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MainBoard-rescue:FS57003PLT2B2M2QE-screaming-panda SW1
+U 3 1 60050ED4
+P 5450 2750
+F 0 "SW1" H 5400 2600 50  0000 C CNN
+F 1 "FS57003PLT2B2M2QE" H 5400 2500 50  0001 C CNN
+F 2 "screaming-panda:SW_PUSH_E-Switch_FS57003PLT_3PDT" H 5450 2900 50  0001 C CNN
+F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/226/FS5700.pdf" H 5450 2900 50  0001 C CNN
+F 4 "R" H 5450 2750 50  0001 C CNN "Spice_Primitive"
+F 5 "1" H 5450 2750 50  0001 C CNN "Spice_Model"
+F 6 "N" H 5450 2750 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "EG5492-ND" H 5450 2750 50  0001 C CNN "Digi-Key_PN"
+F 8 "FS57003PLT2B2M2QE" H 5450 2750 50  0001 C CNN "MPN"
+	3    5450 2750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP C7
+U 1 1 6013C2B0
+P 2325 1350
+F 0 "C7" H 2443 1396 50  0000 L CNN
+F 1 "47u" H 2443 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2363 1200 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/C0805C476M9PACTU-KEMET-datasheet-149524433.pdf" H 2325 1350 50  0001 C CNN
+F 4 "C0805C476M9PACTU" H 2325 1350 50  0001 C CNN "MPN"
+F 5 "1276-3063-6-ND" H 2325 1350 50  0001 C CNN "Digi-Key_PN"
+	1    2325 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 6013C2AD
+P 1975 1350
+F 0 "R10" H 2045 1396 50  0000 L CNN
+F 1 "10k" V 1975 1275 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1905 1350 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/ERJ-6GEYJ103V-Panasonic-datasheet-13266872.pdf" H 1975 1350 50  0001 C CNN
+F 4 "RG2012N-474-W-T1" H 1975 1350 50  0001 C CNN "Digi-Key_PN"
+F 5 "ERJ-6GEYJ103V" H 1975 1350 50  0001 C CNN "MPN"
+	1    1975 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 6017450F
+P 1975 950
+F 0 "R9" H 2045 996 50  0000 L CNN
+F 1 "10k" V 1975 875 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1905 950 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/ERJ-6GEYJ103V-Panasonic-datasheet-13266872.pdf" H 1975 950 50  0001 C CNN
+F 4 "RG2012N-474-W-T1" H 1975 950 50  0001 C CNN "Digi-Key_PN"
+F 5 "ERJ-6GEYJ103V" H 1975 950 50  0001 C CNN "MPN"
+	1    1975 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C12
+U 1 1 6013C2A9
+P 1525 1000
+F 0 "C12" H 1525 1100 50  0000 L CNN
+F 1 "100u" H 1525 900 50  0000 L CNN
+F 2 "screaming-panda:CAPPRD250W55D655H1220" H 1563 850 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/ECA-1VM101-Panasonic-datasheet-68071800.pdf" H 1525 1000 50  0001 C CNN
+F 4 "ECA-1VM101" H 1525 1000 50  0001 C CNN "MPN"
+F 5 "587-6152-6-ND" H 1525 1000 50  0001 C CNN "Digi-Key_PN"
+	1    1525 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D5
+U 1 1 60168AFB
+P 1325 1000
+F 0 "D5" V 1225 1000 50  0000 L CNN
+F 1 "1N914" H 1225 900 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1325 825 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/1N914-ON-Semiconductor-datasheet-42765246.pdf" H 1325 1000 50  0001 C CNN
+F 4 "../lib/spice_models/1N914.lib" H 1325 1000 50  0001 C CNN "Spice_Lib_File"
+F 5 "D" H 1325 1000 50  0001 C CNN "Spice_Primitive"
+F 6 "D1N914" H 1325 1000 50  0001 C CNN "Spice_Model"
+F 7 "Y" H 1325 1000 50  0001 C CNN "Spice_Netlist_Enabled"
+F 8 "2 1" H 1325 1000 50  0001 C CNN "Spice_Node_Sequence"
+F 9 "1N914MS-ND" H 1325 1000 50  0001 C CNN "Digi-Key_PN"
+F 10 "1N914" H 1325 1000 50  0001 C CNN "MPN"
+	1    1325 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L dk_Barrel-Power-Connectors:PJ-102A J3
+U 1 1 6004D058
+P 825 1000
+F 0 "J3" H 675 600 50  0000 R CNN
+F 1 "PJ-102A" H 925 700 50  0000 R CNN
+F 2 "screaming-panda:Barrel_Jack_5.5mmODx2.1mmID_PJ-102A" H 1025 1200 60  0001 L CNN
+F 3 "https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf" H 1025 1300 60  0001 L CNN
+F 4 "CP-102A-ND" H 1025 1400 60  0001 L CNN "Digi-Key_PN"
+F 5 "CP-102A-ND" H 1025 1500 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 1025 1600 60  0001 L CNN "Category"
+F 7 "Barrel - Power Connectors" H 1025 1700 60  0001 L CNN "Family"
+F 8 "https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf" H 1025 1800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/cui-inc/PJ-102A/CP-102A-ND/275425" H 1025 1900 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN PWR JACK 2X5.5MM SOLDER" H 1025 2000 60  0001 L CNN "Description"
+F 11 "CUI Inc." H 1025 2100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1025 2200 60  0001 L CNN "Status"
+F 13 "V" H 825 1000 50  0001 C CNN "Spice_Primitive"
+F 14 "dc 9" H 825 1000 50  0001 C CNN "Spice_Model"
+F 15 "N" H 825 1000 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    825  1000
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 60060421
+P 1950 3100
+F 0 "R23" H 2020 3146 50  0000 L CNN
+F 1 "1k" V 1950 3050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1880 3100 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/ERA6AEB102V-Panasonic-datasheet-62287448.pdf" H 1950 3100 50  0001 C CNN
+F 4 "R" H 1950 3100 50  0001 C CNN "Spice_Primitive"
+F 5 "1k" H 1950 3100 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 1950 3100 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "A130048TR-ND" H 1950 3100 50  0001 C CNN "Digi-Key_PN"
+F 8 "ERA6AEB102V" H 1950 3100 50  0001 C CNN "MPN"
+	1    1950 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 6005DA24
+P 1650 3300
+F 0 "D4" H 1643 3517 50  0000 C CNN
+F 1 "LED_BLUE" H 1643 3426 50  0000 C CNN
+F 2 "digikey-footprints:LED_5mm_Radial" H 1650 3300 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/HLMP-DB25-B0000-Broadcom-datasheet-65931945.pdf" H 1650 3300 50  0001 C CNN
+F 4 "D" H 1650 3300 50  0001 C CNN "Spice_Primitive"
+F 5 "LED" H 1650 3300 50  0001 C CNN "Spice_Model"
+F 6 "N" H 1650 3300 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "HLMP-DB25-B0000" H 1650 3300 50  0001 C CNN "MPN"
+F 8 "1516-1359-ND" H 1650 3300 50  0001 C CNN "Digi-Key_PN"
+	1    1650 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:RC4558 IC1
+U 3 1 61064753
+P 2775 1150
+F 0 "IC1" H 2733 1196 50  0000 L CNN
+F 1 "RC4558" H 2733 1105 50  0000 L CNN
+F 2 "digikey-footprints:SOIC-8_W5.6mm" H 2775 1150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/rc4558.pdf" H 2775 1150 50  0001 C CNN
+F 4 "X" H 2775 1150 50  0001 C CNN "Spice_Primitive"
+F 5 "RC4558" H 2775 1150 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 2775 1150 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "../lib/spice_models/RC4558.301.lib" H 2775 1150 50  0001 C CNN "Spice_Lib_File"
+F 8 "296-9650-5-ND" H 2775 1150 50  0001 C CNN "Digi-Key_PN"
+F 9 "RC4558D" H 2775 1150 50  0001 C CNN "MPN"
+	3    2775 1150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
