@@ -485,9 +485,8 @@ F 1 "VSOURCE" H 1228 4655 50  0000 L CNN
 F 2 "" H 1000 4700 50  0001 C CNN
 F 3 "~" H 1000 4700 50  0001 C CNN
 F 4 "V" H 1000 4700 50  0001 C CNN "Spice_Primitive"
-F 5 "ac 500m sin(0 500m 200)" H 1000 4700 50  0001 C CNN "Spice_Model"
+F 5 "dc 1 ac 1 sin(0 1 10k)" H 1000 4700 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 1000 4700 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "" H 1000 4700 50  0001 C CNN "Spice_Lib_File"
 	1    1000 4700
 	1    0    0    -1  
 $EndComp

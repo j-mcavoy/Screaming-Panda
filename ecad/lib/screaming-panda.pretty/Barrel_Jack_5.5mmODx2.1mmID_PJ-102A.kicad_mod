@@ -1,4 +1,4 @@
-(module Barrel_Jack_5.5mmODx2.1mmID_PJ-102A (layer F.Cu) (tedit 601750EF)
+(module Barrel_Jack_5.5mmODx2.1mmID_PJ-102A (layer F.Cu) (tedit 61492D69)
   (fp_text reference REF** (at 0 -12.1) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -27,8 +27,8 @@
   (pad 3 thru_hole rect (at -4.7 0) (size 2 2.6) (drill oval 1 1.6) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at 0 3) (size 2.6 2) (drill oval 1.6 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole rect (at 0 -3) (size 2.6 2) (drill oval 1.6 1) (layers *.Cu *.Mask))
-  (model ${SCREAMING_PANDA}/mcad/step_imports/CUI_DEVICES_PJ-102A.step
-    (offset (xyz -0.15 10.75 6))
+  (model ${ALT3DMOD}/CUI_DEVICES_PJ-102A.step
+    (offset (xyz -0.14986 10.74928 6.50748))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))
   )

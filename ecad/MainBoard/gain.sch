@@ -120,33 +120,6 @@ F 3 "" H 1550 700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dk_Transistors-Bipolar-BJT-Single:2N4401BU Q?
-U 1 1 6030F0C2
-P 1850 1100
-AR Path="/6030F0C2" Ref="Q?"  Part="1" 
-AR Path="/60306390/6030F0C2" Ref="Q1"  Part="1" 
-F 0 "Q1" H 1950 1450 60  0000 L CNN
-F 1 "2N4424" H 1950 1350 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3_Formed_Leads" H 2050 1300 60  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/MMBT4401-D.PDF" H 2050 1400 60  0001 L CNN
-F 4 "2N4401-ND" H 2050 1500 60  0001 L CNN "Digi-Key_PN"
-F 5 "2N4401BU" H 2050 1600 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 2050 1700 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 2050 1800 60  0001 L CNN "Family"
-F 8 "https://www.onsemi.com/pub/Collateral/MMBT4401-D.PDF" H 2050 1900 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/2N4401BU/2N4401-ND/1417" H 2050 2000 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 40V 0.6A TO-92" H 2050 2100 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 2050 2200 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 2050 2300 60  0001 L CNN "Status"
-F 13 "Q" H 1850 1100 50  0001 C CNN "Spice_Primitive"
-F 14 "2N4424" H 1850 1100 50  0001 C CNN "Spice_Model"
-F 15 "Y" H 1850 1100 50  0001 C CNN "Spice_Netlist_Enabled"
-F 16 "../lib/spice_models/2N4424.lib" H 1850 1100 50  0001 C CNN "Spice_Lib_File"
-F 17 "3 2 1" H 1850 1100 50  0001 C CNN "Spice_Node_Sequence"
-	1    1850 1100
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+9V #PWR?
 U 1 1 6030F0C8
 P 1950 700
@@ -205,4 +178,31 @@ Text HLabel 650  1100 0    50   Input ~ 0
 IN
 Text HLabel 2050 1350 2    50   Output ~ 0
 OUT
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:2N4401BU Q?
+U 1 1 6030F0C2
+P 1850 1100
+AR Path="/6030F0C2" Ref="Q?"  Part="1" 
+AR Path="/60306390/6030F0C2" Ref="Q1"  Part="1" 
+F 0 "Q1" H 1950 1450 60  0000 L CNN
+F 1 "2N4424" H 1950 1350 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3_Formed_Leads" H 2050 1300 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/MMBT4401-D.PDF" H 2050 1400 60  0001 L CNN
+F 4 "2N4401-ND" H 2050 1500 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N4401BU" H 2050 1600 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 2050 1700 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 2050 1800 60  0001 L CNN "Family"
+F 8 "https://www.onsemi.com/pub/Collateral/MMBT4401-D.PDF" H 2050 1900 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/2N4401BU/2N4401-ND/1417" H 2050 2000 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 40V 0.6A TO-92" H 2050 2100 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 2050 2200 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2050 2300 60  0001 L CNN "Status"
+F 13 "Q" H 1850 1100 50  0001 C CNN "Spice_Primitive"
+F 14 "2N4424" H 1850 1100 50  0001 C CNN "Spice_Model"
+F 15 "Y" H 1850 1100 50  0001 C CNN "Spice_Netlist_Enabled"
+F 16 "../lib/spice_models/2N4424.lib" H 1850 1100 50  0001 C CNN "Spice_Lib_File"
+F 17 "3 2 1" H 1850 1100 50  0001 C CNN "Spice_Node_Sequence"
+	1    1850 1100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

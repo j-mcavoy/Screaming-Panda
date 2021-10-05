@@ -1,4 +1,4 @@
-(module ACJM-HHDR (layer F.Cu) (tedit 612D8470)
+(module ACJM-HHDR (layer F.Cu) (tedit 61492CA9)
   (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -13,9 +13,9 @@
   (pad TN thru_hole circle (at -6.35 5.7) (size 2.4 2.4) (drill 1.45) (layers *.Cu *.Mask))
   (pad S thru_hole circle (at 6.35 -5.7) (size 2.4 2.4) (drill 1.45) (layers *.Cu *.Mask))
   (pad T thru_hole circle (at -6.35 -5.7) (size 2.4 2.4) (drill 1.45) (layers *.Cu *.Mask))
-  (model ${SCREAMING_PANDA}/mcad/step_imports/ACJM-HHDR.step
-    (offset (xyz 2.49936 0 6.44144))
+  (model ${ALT3DMOD}/ACJM-HHDR.step
+    (offset (xyz 10.541 -7.9756 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 -90))
+    (rotate (xyz 0 0 0))
   )
 )
