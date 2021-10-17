@@ -197,7 +197,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/rc4558.pdf" H 1700 1800 50  0001 C CNN
 F 4 "X" H 1700 1800 50  0001 C CNN "Spice_Primitive"
 F 5 "RC4558" H 1700 1800 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 1700 1800 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "../lib/spice_models/RC4558.301.lib" H 1700 1800 50  0001 C CNN "Spice_Lib_File"
+F 7 "../lib/kicad-library/spice_models/RC4558.301.lib" H 1700 1800 50  0001 C CNN "Spice_Lib_File"
 F 8 "296-9650-5-ND" H 1700 1800 50  0001 C CNN "Digi-Key_PN"
 F 9 "RC4558D" H 1700 1800 50  0001 C CNN "MPN"
 	1    1700 1800
@@ -294,7 +294,7 @@ F 3 "https://datasheet.octopart.com/1N914-ON-Semiconductor-datasheet-42765246.pd
 F 4 "D" H 1700 1100 50  0001 C CNN "Spice_Primitive"
 F 5 "D1N914" H 1700 1100 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 1700 1100 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "../lib/spice_models/1N914.lib" H 1700 1100 50  0001 C CNN "Spice_Lib_File"
+F 7 "../lib/kicad-library/spice_models/1N914.lib" H 1700 1100 50  0001 C CNN "Spice_Lib_File"
 F 8 "2 1" H 1700 1100 50  0001 C CNN "Spice_Node_Sequence"
 F 9 "1N914MS-ND" H 1700 1100 50  0001 C CNN "Digi-Key_PN"
 F 10 "1N914" H 1700 1100 50  0001 C CNN "MPN"
@@ -311,7 +311,7 @@ F 0 "D2" H 1550 1300 50  0000 C CNN
 F 1 "1N914" H 1900 1300 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_KathodeUp" H 1700 1075 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/1N914-ON-Semiconductor-datasheet-42765246.pdf" H 1700 1250 50  0001 C CNN
-F 4 "../lib/spice_models/1N914.lib" H 1700 1250 50  0001 C CNN "Spice_Lib_File"
+F 4 "../lib/kicad-library/spice_models/1N914.lib" H 1700 1250 50  0001 C CNN "Spice_Lib_File"
 F 5 "D" H 1700 1250 50  0001 C CNN "Spice_Primitive"
 F 6 "D1N914" H 1700 1250 50  0001 C CNN "Spice_Model"
 F 7 "Y" H 1700 1250 50  0001 C CNN "Spice_Netlist_Enabled"
@@ -368,7 +368,7 @@ F 3 "https://www.molex.com/pdm_docs/sd/901200160_sd.pdf" H 1750 700 50  0001 C C
 F 4 "X" H 1750 700 50  0001 C CNN "Spice_Primitive"
 F 5 "POTDrive" H 1750 700 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 1750 700 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "../lib/spice_models/pots.lib" H 1750 700 50  0001 C CNN "Spice_Lib_File"
+F 7 "../lib/kicad-library/spice_models/pots.lib" H 1750 700 50  0001 C CNN "Spice_Lib_File"
 F 8 "Drive Pot" V 1575 725 50  0000 C CNN "Category"
 F 9 "75160-195-08LF" H 1750 700 50  0001 C CNN "Digi-Key_PN"
 F 10 "0901200160" H 1750 700 50  0001 C CNN "MPN"

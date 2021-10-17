@@ -200,7 +200,7 @@ F 12 "Active" H 2050 2300 60  0001 L CNN "Status"
 F 13 "Q" H 1850 1100 50  0001 C CNN "Spice_Primitive"
 F 14 "2N4424" H 1850 1100 50  0001 C CNN "Spice_Model"
 F 15 "Y" H 1850 1100 50  0001 C CNN "Spice_Netlist_Enabled"
-F 16 "../lib/spice_models/2N4424.lib" H 1850 1100 50  0001 C CNN "Spice_Lib_File"
+F 16 "../lib/kicad-library/spice_models/2N4424.lib" H 1850 1100 50  0001 C CNN "Spice_Lib_File"
 F 17 "3 2 1" H 1850 1100 50  0001 C CNN "Spice_Node_Sequence"
 	1    1850 1100
 	1    0    0    -1  

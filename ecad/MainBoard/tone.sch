@@ -79,7 +79,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/rc4558.pdf" H 1550 850 50  0001 C CNN
 F 4 "X" H 1550 850 50  0001 C CNN "Spice_Primitive"
 F 5 "RC4558" H 1550 850 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 1550 850 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "../lib/spice_models/RC4558.301.lib" H 1550 850 50  0001 C CNN "Spice_Lib_File"
+F 7 "../lib/kicad-library/spice_models/RC4558.301.lib" H 1550 850 50  0001 C CNN "Spice_Lib_File"
 F 8 "296-9650-5-ND" H 1550 850 50  0001 C CNN "Digi-Key_PN"
 F 9 "RC4558D" H 1550 850 50  0001 C CNN "MPN"
 	2    1550 850 
@@ -101,7 +101,7 @@ F 3 "https://www.molex.com/pdm_docs/sd/901200160_sd.pdf" H 900 1200 50  0001 C C
 F 4 "X" H 900 1200 50  0001 C CNN "Spice_Primitive"
 F 5 "POTTone" H 900 1200 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 900 1200 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "../lib/spice_models/pots.lib" H 900 1200 50  0001 C CNN "Spice_Lib_File"
+F 7 "../lib/kicad-library/spice_models/pots.lib" H 900 1200 50  0001 C CNN "Spice_Lib_File"
 F 8 "Tone Pot" V 1000 1000 50  0000 C CNN "Category"
 F 9 "75160-195-08LF" H 900 1200 50  0001 C CNN "Digi-Key_PN"
 F 10 "0901200160" H 900 1200 50  0001 C CNN "MPN"

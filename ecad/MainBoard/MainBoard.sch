@@ -628,7 +628,7 @@ F 0 "D5" V 1225 1000 50  0000 L CNN
 F 1 "1N914" H 1225 900 50  0000 L CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1325 825 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/1N914-ON-Semiconductor-datasheet-42765246.pdf" H 1325 1000 50  0001 C CNN
-F 4 "../lib/spice_models/1N914.lib" H 1325 1000 50  0001 C CNN "Spice_Lib_File"
+F 4 "../lib/kicad-library/spice_models/1N914.lib" H 1325 1000 50  0001 C CNN "Spice_Lib_File"
 F 5 "D" H 1325 1000 50  0001 C CNN "Spice_Primitive"
 F 6 "D1N914" H 1325 1000 50  0001 C CNN "Spice_Model"
 F 7 "Y" H 1325 1000 50  0001 C CNN "Spice_Netlist_Enabled"
@@ -704,7 +704,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/rc4558.pdf" H 2775 1150 50  0001 C CNN
 F 4 "X" H 2775 1150 50  0001 C CNN "Spice_Primitive"
 F 5 "RC4558" H 2775 1150 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 2775 1150 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "../lib/spice_models/RC4558.301.lib" H 2775 1150 50  0001 C CNN "Spice_Lib_File"
+F 7 "../lib/kicad-library/spice_models/RC4558.301.lib" H 2775 1150 50  0001 C CNN "Spice_Lib_File"
 F 8 "296-9650-5-ND" H 2775 1150 50  0001 C CNN "Digi-Key_PN"
 F 9 "RC4558D" H 2775 1150 50  0001 C CNN "MPN"
 	3    2775 1150
