@@ -1,3 +1,0 @@
-[submodule "ecad/lib"]
-	path = ecad/lib/kicad-library
-	url = git@gitlab.com:j-mcavoy/kicad-library.git

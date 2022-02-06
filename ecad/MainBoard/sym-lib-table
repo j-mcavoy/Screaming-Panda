@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name screaming-panda)(type Legacy)(uri /home/john/dox/cad/screaming-panda/ecad/lib/kicad-library/kicad-library.lib)(options "")(descr ""))
-  (lib (name MainBoard-rescue)(type Legacy)(uri ${KIPRJMOD}/MainBoard-rescue.lib)(options "")(descr ""))
+  (lib (name "MainBoard-rescue")(type "Legacy")(uri "${KIPRJMOD}/MainBoard-rescue.lib")(options "")(descr ""))
 )

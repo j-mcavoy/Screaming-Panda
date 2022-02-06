@@ -180,12 +180,12 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MainBoard-rescue_FS57003PLT2B2M2QE-screaming-panda
+# MainBoard-rescue_FS57003PLT2B2M2QE-j-mcavoy
 #
-DEF MainBoard-rescue_FS57003PLT2B2M2QE-screaming-panda U 0 40 Y Y 3 F N
+DEF MainBoard-rescue_FS57003PLT2B2M2QE-j-mcavoy U 0 40 Y Y 3 F N
 F0 "U" 0 350 50 H V C CNN
-F1 "MainBoard-rescue_FS57003PLT2B2M2QE-screaming-panda" 0 250 50 H V C CNN
-F2 "screaming-panda:SW_PUSH_E-Switch_FS57003PLT_3PDT" 0 150 50 H I C CNN
+F1 "MainBoard-rescue_FS57003PLT2B2M2QE-j-mcavoy" 0 250 50 H V C CNN
+F2 "j-mcavoy:SW_PUSH_E-Switch_FS57003PLT_3PDT" 0 150 50 H I C CNN
 F3 "" 0 150 50 H I C CNN
 DRAW
 C -80 0 20 1 1 0 N
