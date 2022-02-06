@@ -1,3 +1,2 @@
 (fp_lib_table
-  (lib (name screaming-panda)(type KiCad)(uri ${KIPRJMOD}/../lib/kicad-library/kicad-library.lib)(options "")(descr ""))
 )
