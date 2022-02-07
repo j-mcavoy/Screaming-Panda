@@ -26,7 +26,6 @@ bom:
       - ./*.xlsx
 
 3d_exports:
-  image: setsoft/kicad_debian
   before_script:
   - pip install --no-compile kibot
   script:
