@@ -26,9 +26,8 @@ bom:
       - ./*.xlsx
 
 3d_exports:
+  image: setsoft/kicad_debian
   before_script:
-  - apt update -y
-  - apt install -y kicad
   - pip install --no-compile kibot
   script:
     - pwd
