@@ -1,0 +1,39 @@
+name: "KiCad CI/CD for Screaming Panda Main Board"
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    paths:
+      - "ecad/MainBoard/*.sch"
+      - "ecad/MainBoard/*.kicad_pcb"
+      - "ecad/MainBoard/*kibot.yaml"
+      - ".github/workflows/mainboard.yml"
+  pull_request:
+    paths:
+      - "ecad/MainBoard/*.sch"
+      - "ecad/MainBoard/*.kicad_pcb"
+      - "ecad/MainBoard/*kibot.yaml"
+      - ".github/workflows/mainboard.yml"
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  Fabrication:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: INTI-CMNB/KiBot@v1
+        with:
+          # Required - kibot config file
+          config: ecad/MainBoard/kibot.yml
+          dir: ecad/MainBoard/Fabrication
+          schema: "ecad/MainBoard/MainBoard.kicad_sch"
+          board: "ecad/MainBoard/MainBoard.kicad_pcb"
+      - name: Retrieve results
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v2
+        with:
+          name: Fabrication_Main
+          path: |
+            ecad/MainBoard/Fabrication/
+          if-no-files-found: warn
