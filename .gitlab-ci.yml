@@ -30,4 +30,3 @@ bom:
   script:
     - pwd
     - kibot render_3d ./ecad/MainBoard/MainBoard.kicad_pcb
-x
