@@ -7,16 +7,15 @@ cache:
     - venv/
 
 before_script:
-  - apt update -y
-  - apt install -y kicad
-  - python -V  # Print out python version for debugging
   - pip install virtualenv
   - virtualenv venv
-  - source venv/bin/activate
-  - pip install kicost
-  - pip install --no-compile kibot
+  - python -V  # Print out python version for debugging
+
 
 bom:
+  before_script:
+    - pip install kicost
+
   script:
     - pwd
     - ls -la /
@@ -27,6 +26,13 @@ bom:
       - ./*.xlsx
 
 3d_exports:
+  before_script:
+  - apt update -y
+  - apt install -y kicad
+  - pip install --no-compile kibot
   script:
     - pwd
     - kibot render_3d ./ecad/MainBoard/MainBoard.kicad_pcb
+  artifacts:
+    paths:
+      - ./*
